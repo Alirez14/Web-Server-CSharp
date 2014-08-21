@@ -24,5 +24,16 @@ Sie sollten Ihr Repository Ihren KollegInnen freigeben. Mit "git add remote" (ht
 Setup des Projekes
 ------------------
 
+Nachdem das/die Repositories eingerichtet sind, können Sie das Projekt lokal einrichten
+
 cd <Mein Projekte Basis Verzeichnis>
-git clone https://zaczek@inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-SWE1
+git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-WS<<??>>-SWE1
+cd BIF-WS<<??>>-SWE1
+git remote set-url origin https://<<if00x000>>@inf-swe.technikum-wien.at/r/<<if00x000>>/BIF-WS<<??>>-SWE1.git
+git remote add <<if00x000-Ihres-Kollegen/inn>> https://<<if00x000>>@inf-swe.technikum-wien.at/r/<<if00x000-Ihres-Kollegen/inn>>/BIF-WS<<??>>-SWE1.git
+git push all --all
+
+Jenkins
+-------
+
+Unter http://inf-swe.technikum-wien.at:8080/view/SWE1/ können Sie dann das Ergebnis Ihrer Abgabe sehen.
