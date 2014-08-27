@@ -13,11 +13,11 @@ Das Repository is selbst anzulegen:
 * -> my dashboard 
 * -> owned 
 * -> new repository 
-* -> <<if00x000>>/BIF-WS<<??>>-SWE1
+* -> [[if00x000]]/BIF-WS[[??]]-SWE1
 
-Das Repository hat die URL: https://<<if00x000>>@inf-swe.technikum-wien.at/r/<<if00x000>>/BIF-WS<<??>>-SWE1.git
-* <<if00x000>> ist durch Ihre if-Nummer zu ersetzen
-* BIF-WS<<??>>-SWE1 durch das Jahr (WS 14/15 -> BIF-WS14-SWE1)
+Das Repository hat die URL: https://[[if00x000]]@inf-swe.technikum-wien.at/r/[[if00x000]]/BIF-WS[[??]]-SWE1.git
+* [[if00x000]] ist durch Ihre if-Nummer zu ersetzen
+* BIF-WS[[??]]-SWE1 durch das Jahr (WS 14/15 -> BIF-WS14-SWE1)
 
 Sie sollten Ihr Repository Ihren KollegInnen freigeben. Mit "git add remote" (http://git-scm.com/docs/git-remote) können Sie mehrere Remotes angeben und die Abgabe somit vereinfachen.
 
@@ -27,10 +27,10 @@ Setup des Projekes
 Nachdem das/die Repositories eingerichtet sind, können Sie das Projekt lokal einrichten
 
 cd <Mein Projekte Basis Verzeichnis>
-git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-WS<<??>>-SWE1
-cd BIF-WS<<??>>-SWE1
-git remote set-url origin https://<<if00x000>>@inf-swe.technikum-wien.at/r/<<if00x000>>/BIF-WS<<??>>-SWE1.git
-git remote add <<if00x000-Ihres-Kollegen/inn>> https://<<if00x000>>@inf-swe.technikum-wien.at/r/<<if00x000-Ihres-Kollegen/inn>>/BIF-WS<<??>>-SWE1.git
+git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-WS[[??]]-SWE1
+cd BIF-WS[[??]]-SWE1
+git remote set-url origin https://[[if00x000]]@inf-swe.technikum-wien.at/r/[[if00x000]]/BIF-WS[[??]]-SWE1.git
+git remote add [[if00x000-Ihres-Kollegen/inn]] https://[[if00x000]]@inf-swe.technikum-wien.at/r/[[if00x000-Ihres-Kollegen/inn]]/BIF-WS[[??]]-SWE1.git
 git push all --all
 
 Jenkins
