@@ -1,10 +1,12 @@
-﻿BIF/SWE 1 My Webserver
+﻿BIF/SWE 1 My WebServer
 ======================
 
-Template für das Übungsbeispiel "WebServer". Damit die Übung erfolgreich abgegeben werden kann müssen folgende Kriterien erfüllt sein:
+C# Template für das Übungsbeispiel "WebServer". Damit die Übung erfolgreich abgegeben werden kann müssen folgende Kriterien erfüllt sein:
 
 * Die Solution muss BIF-SWE1.sln heißen
 * JEDE/R in der Gruppe muss in SEIN Repository hochladen (git push)
+
+Benutzen Sie bitte die Vorlage. Sie ist so vorbereitet, dass sie am Jenkins verwendet werden kann.
 
 Repository
 ----------
@@ -21,8 +23,8 @@ Das Repository hat die URL: https://if00x000@inf-swe.technikum-wien.at/r/if00x00
 
 Sie sollten Ihr Repository Ihren KollegInnen freigeben. Mit "git add remote" (http://git-scm.com/docs/git-remote) können Sie mehrere Remotes angeben und die Abgabe somit vereinfachen.
 
-Setup des Projekes
-------------------
+Setup des Projektes
+-------------------
 
 Nachdem das/die Repositories eingerichtet sind, können Sie das Projekt lokal einrichten
 
