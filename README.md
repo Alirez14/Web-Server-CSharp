@@ -8,6 +8,8 @@ C# Template für das Übungsbeispiel "WebServer". Damit die Übung erfolgreich a
 
 Benutzen Sie bitte die Vorlage. Sie ist so vorbereitet, dass sie am Jenkins verwendet werden kann.
 
+Diese Vorlage wurde für Visual Studio 2013 erstellt. Sie können aber jede andere Entwicklungsumgebung benutzen, solange BIF-SWE1.sln am Jenkins kompilierbar bleibt.
+
 Repository
 ----------
 Das Repository is selbst anzulegen: 
