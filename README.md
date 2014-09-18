@@ -61,7 +61,7 @@ In diesem Projekt ist auch dokumentiert, welche Interfaces Ihre Klassen implemen
 
 Jenkins
 -------
-http://inf-swe.technikum-wien.at:8080/view/SWE1/
+http://inf-swe.technikum-wien.at:8080/view/BIF-SWE1/
 
 Am Jenkins können Sie dann das Ergebnis Ihrer Abgabe sehen.
 
