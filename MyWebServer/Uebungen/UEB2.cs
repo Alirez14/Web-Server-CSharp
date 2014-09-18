@@ -17,5 +17,15 @@ namespace MyCRM.Uebungen
         {
             return new Url(path);
         }
+
+        public IRequest GetRequest(System.IO.Stream network)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResponse GetResponse()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

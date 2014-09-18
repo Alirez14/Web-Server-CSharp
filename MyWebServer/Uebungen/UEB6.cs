@@ -11,5 +11,15 @@ namespace MyCRM.Uebungen
         public void HelloWorld()
         {
         }
+
+        public IPluginManager GetPluginManager()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IRequest GetRequest(System.IO.Stream network)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

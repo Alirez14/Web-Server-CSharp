@@ -32,5 +32,25 @@ namespace ueb1
         {
             get { throw new NotImplementedException(); }
         }
+
+        public string Extension
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public string FileName
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public string Fragment
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public string[] Segments
+        {
+            get { throw new NotImplementedException(); }
+        }
     }
 }
