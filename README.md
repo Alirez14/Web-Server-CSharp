@@ -21,7 +21,7 @@ Das Repository ist selbst anzulegen:
 * new repository 
 * if00x000/BIF-WS??-SWE1
 
-Das Repository hat die URL: https://if00x000@inf-swe.technikum-wien.at/r/if00x000/BIF-WS??-SWE1.git
+Das Repository hat die URL: https://if00x000@inf-swe.technikum-wien.at/r/~if00x000/BIF-WS??-SWE1.git
 
 * if00x000 ist durch Ihre if-Nummer zu ersetzen
 * BIF-WS??-SWE1 durch das Jahr (WS 14/15 -> BIF-WS14-SWE1)
@@ -35,8 +35,8 @@ Nachdem das/die Repositories eingerichtet sind, können Sie das Projekt lokal ei
     cd <Mein Projekte Basis Verzeichnis>
     git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-WS??-SWE1
     cd BIF-WS??-SWE1
-    git remote set-url origin https://if00x000@inf-swe.technikum-wien.at/r/if00x000/BIF-WS??-SWE1.git
-    git remote add if00x000-Ihres-Kollegen/inn https://if00x000@inf-swe.technikum-wien.at/r/if00x000-Ihres-Kollegen/inn/BIF-WS??-SWE1.git
+    git remote set-url origin https://if00x000@inf-swe.technikum-wien.at/r/~if00x000/BIF-WS??-SWE1.git
+    git remote add if00x000-Ihres-Kollegen/inn https://if00x000@inf-swe.technikum-wien.at/r/~if00x000-Ihres-Kollegen_inn/BIF-WS??-SWE1.git
     git push all --all
 
 Mit den Anweisungen kopieren Sie das Template in Ihr lokales Projekt.
