@@ -13,4 +13,4 @@ echo "================"
 git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git "$repoName"
 cd "$repoName"
 chmod +x *.sh
-./setup-remotes.sh $repoName $mainRepoUserName $secondaryRepoUserName $myUserName
+./setup-remotes.sh $@
