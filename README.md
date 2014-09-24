@@ -30,18 +30,25 @@ Sie sollten Ihr Repository Ihren KollegInnen freigeben. Mit "git add remote" (ht
 
 Setup des Projektes
 -------------------
-Nachdem das/die Repositories eingerichtet sind, können Sie das Projekt lokal einrichten
+https://inf-swe.technikum-wien.at/summary/BIF%2FSWE1-CS.git
 
-    cd <Mein Projekte Basis Verzeichnis>
-    git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git BIF-WS??-SWE1
-    cd BIF-WS??-SWE1
-    git remote set-url origin https://if00x000@inf-swe.technikum-wien.at/r/~if00x000/BIF-WS??-SWE1.git
-    git remote add if00x000-Ihres-Kollegen/inn https://if00x000@inf-swe.technikum-wien.at/r/~if00x000-Ihres-Kollegen_inn/BIF-WS??-SWE1.git
-    git push all --all
+Laden Sie aus dem Template die Datei clone-bif-swe1-cs-tempate.{ps1|sh} herunter 
+
+* Windows: https://inf-swe.technikum-wien.at/blob/BIF%2FSWE1-CS.git/master/clone-bif-swe1-cs-tempate.ps1
+* Linux: https://inf-swe.technikum-wien.at/blob/BIF%2FSWE1-CS.git/master/clone-bif-swe1-cs-tempate.sh
+
+Starten Sie das Script mit folgenden Parametern
+
+    .\clone-bif-swe1-cs-tempate.ps1 BIF-WS??-SWE1 <if-nummer hauptrepository> <if-nummer zweitrepository> <if-nummer ihres Benutzers>
+    ./clone-bif-swe1-cs-tempate.sh BIF-WS??-SWE1 <if-nummer hauptrepository> <if-nummer zweitrepository> <if-nummer ihres Benutzers>
 
 Mit den Anweisungen kopieren Sie das Template in Ihr lokales Projekt.
 
-https://inf-swe.technikum-wien.at/summary/BIF%2FSWE1-CS.git
+Achten Sie bitte darauf, dass immer BEIDE abgeben:
+
+    git push all --all
+	.\git-push-all.ps1
+	./git-push-all.sh
 
 Implementierung
 ---------------
