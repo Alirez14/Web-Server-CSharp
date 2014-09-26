@@ -8,6 +8,6 @@ param (
 "Cloning template" | out-host
 "================" | out-host
 
-git clone https://inf-swe.technikum-wien.at/r/BIF/SWE1-CS.git "$repoName"
+git clone https://inf-swe-git.technikum-wien.at/r/BIF/SWE1-CS.git "$repoName"
 cd "$repoName"
 .\setup-remotes $repoName $mainRepoUserName $secondaryRepoUserName $myUserName

@@ -13,14 +13,14 @@ param (
 "Secondary: $secondaryRepoUserName" | out-host
 "Username:  $myUserName" | out-host
 
-git remote set-url origin "https://$myUserName@inf-swe.technikum-wien.at/r/~$mainRepoUserName/$repoName.git"
+git remote set-url origin "https://$myUserName@inf-swe-git.technikum-wien.at/r/~$mainRepoUserName/$repoName.git"
 
 git remote remove $secondaryRepoUserName
 git remote remove all
 
-git remote add $secondaryRepoUserName https://$myUserName@inf-swe.technikum-wien.at/r/~$secondaryRepoUserName/$repoName.git
-git remote add all "https://$myUserName@inf-swe.technikum-wien.at/r/~$mainRepoUserName/$repoName.git"
-git remote set-url --add all "https://$myUserName@inf-swe.technikum-wien.at/r/~$secondaryRepoUserName/$repoName.git"
+git remote add $secondaryRepoUserName https://$myUserName@inf-swe-git.technikum-wien.at/r/~$secondaryRepoUserName/$repoName.git
+git remote add all "https://$myUserName@inf-swe-git.technikum-wien.at/r/~$mainRepoUserName/$repoName.git"
+git remote set-url --add all "https://$myUserName@inf-swe-git.technikum-wien.at/r/~$secondaryRepoUserName/$repoName.git"
 
 "Result:" | out-host
 git remote -v
