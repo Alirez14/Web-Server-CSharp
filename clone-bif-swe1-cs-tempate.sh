@@ -1,16 +1,38 @@
 #!/bin/bash
 
-if [ "$#" -ne 4 ]; then
-  echo "use: ./clone-bif-swe1-cs-tempate.sh BIF-WS??-SWE1 <if-nummer hauptrepository> <if-nummer zweitrepository> <if-nummer ihres Benutzers>"
-  exit 1;
-fi
+cfgCourseName="BIF/SWE1"
+cfgRepoName="BIF-WS$(date +%y)-SWE1"
+cfgRepoTestPattern="BIF-WS[0-9][0-9]-SWE1$"
+cfgTempateUrl="https://inf-swe-git.technikum-wien.at/r/BIF/SWE1-CS.git"
 
 repoName=$1
 
-echo "Cloning template"
-echo "================"
+echo "============================================"
+echo "Cloning $cfgCourseName template"
+echo "============================================"
 
-git clone https://inf-swe-git.technikum-wien.at/r/BIF/SWE1-CS.git "$repoName"
+while [  -z $repoName ]; do
+	echo ""
+    echo "Name of the git-repository. Name must include the current year."
+	echo "Example: $cfgRepoName"
+    echo -n "RepoName (ENTER for $cfgRepoName): "
+    read repoName
+	
+	if [ -z $repoName ]; then 
+		repoName=$cfgRepoName
+	fi
+
+	if [[ ! $repoName =~ $cfgRepoTestPattern ]]; then
+		echo "** ERROR: Parameter is not in a valid format!"
+		repoName=""
+	fi
+done
+
+echo ""
+
+git clone $cfgTempateUrl "$repoName"
 cd "$repoName"
 chmod +x *.sh
-./setup-remotes.sh $@
+
+echo ""
+./setup-remotes.sh "$repoName"

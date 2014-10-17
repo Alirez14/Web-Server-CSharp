@@ -32,22 +32,19 @@ Setup des Projektes
 -------------------
 https://inf-swe-git.technikum-wien.at/summary/?r=BIF/SWE1-CS.git
 
-Laden Sie aus dem Template die Datei clone-bif-swe1-cs-tempate.{ps1|sh} herunter 
+Laden Sie aus dem Template die Datei clone-bif-swe1-cs-tempate.sh herunter 
 
-* Windows: https://inf-swe-git.technikum-wien.at/raw/BIF/SWE1-CS.git/master/clone-bif-swe1-cs-tempate.ps1
-* Linux: https://inf-swe-git.technikum-wien.at/raw/BIF/SWE1-CS.git/master/clone-bif-swe1-cs-tempate.sh
+https://inf-swe-git.technikum-wien.at/raw/BIF/SWE1-CS.git/master/clone-bif-swe1-cs-tempate.sh
 
-Starten Sie das Script mit folgenden Parametern
+Starten Sie das Script mit git-Bash oder Bash und befolgen Sie die Anweisungen
 
-    .\clone-bif-swe1-cs-tempate.ps1 BIF-WS??-SWE1 <if-nummer hauptrepository> <if-nummer zweitrepository> <if-nummer ihres Benutzers>
-    ./clone-bif-swe1-cs-tempate.sh BIF-WS??-SWE1 <if-nummer hauptrepository> <if-nummer zweitrepository> <if-nummer ihres Benutzers>
+    ./clone-bif-swe1-cs-tempate.sh
 
 Mit den Anweisungen kopieren Sie das Template in Ihr lokales Projekt.
 
 Achten Sie bitte darauf, dass immer BEIDE abgeben:
 
     git push all --all
-	.\git-push-all.ps1
 	./git-push-all.sh
 
 Implementierung
