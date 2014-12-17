@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cfgRepoName="BIF-WS$(date +%y)-SWE1"
-cfgRepoTestPattern="BIF-WS[0-9][0-9]-SWE1$"
 cfgName1="if99x999"
 cfgName2="if00x000"
 
@@ -22,11 +21,6 @@ while [  -z $repoName ]; do
 	
 	if [ -z $repoName ]; then 
 		repoName=$cfgRepoName
-	fi
-
-	if [[ ! $repoName =~ $cfgRepoTestPattern ]]; then
-		echo "** ERROR: Parameter is not in a valid format!"
-		repoName=""
 	fi
 done
 
