@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ueb1
+namespace MyWebServer
 {
     class Program
     {

@@ -8,8 +8,8 @@
     <ProjectGuid>{105A430E-499F-4549-99FE-FC6B23C9C976}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ueb1</RootNamespace>
-    <AssemblyName>ueb1</AssemblyName>
+    <RootNamespace>MyWebServer</RootNamespace>
+    <AssemblyName>MyWebServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

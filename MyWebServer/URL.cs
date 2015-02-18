@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using BIF.SWE1.Interfaces;
 
-namespace ueb1
+namespace MyWebServer
 {
     public class Url : IUrl
     {
