@@ -23,29 +23,20 @@ Das Repository ist selbst anzulegen:
 
 Das Repository hat die URL: https://if00x000@inf-swe-git.technikum-wien.at/?r=~if00x000/BIF-WS??-SWE1.git
 
-* if00x000 ist durch Ihre if-Nummer zu ersetzen
-* BIF-WS??-SWE1 durch das Jahr (WS 14/15 -> BIF-WS14-SWE1)
+* if00x000 ist durch Ihre uid-Nummer zu ersetzen
+* BIF-WS??-SWE1 durch das Jahr (WS 2015/16 -> BIF-WS15-SWE1)
 
-Sie sollten Ihr Repository Ihren KollegInnen freigeben. Mit "git add remote" (http://git-scm.com/docs/git-remote) können Sie mehrere Remotes angeben und die Abgabe somit vereinfachen.
 
 Setup des Projektes
 -------------------
 https://inf-swe-git.technikum-wien.at/summary/?r=BIF/SWE1-CS.git
 
-Laden Sie aus dem Template die Datei clone-bif-swe1-cs-tempate.sh herunter 
-
-https://inf-swe-git.technikum-wien.at/raw/BIF/SWE1-CS.git/master/clone-bif-swe1-cs-tempate.sh
-
-Starten Sie das Script mit git-Bash oder Bash und befolgen Sie die Anweisungen
-
-    ./clone-bif-swe1-cs-tempate.sh
-
-Mit den Anweisungen kopieren Sie das Template in Ihr lokales Projekt.
-
-Achten Sie bitte darauf, dass immer BEIDE abgeben:
-
-    git push all --all
-	./git-push-all.sh
+Clonen Sie das Template in ein Verzeichnis Ihrer Wahl und ändern Sie anschließend den remote/origin auf Ihr Repository
+	
+	git clone https://inf-swe-git.technikum-wien.at/r/BIF/SWE1-CS.git
+	cd SWE1-CS
+	git remote set-url origin https://if00x000@inf-swe-git.technikum-wien.at/r/~if00x000/BIF-WS??-SWE1.git
+    git push origin master
 
 Implementierung
 ---------------
