@@ -27,5 +27,15 @@ namespace Uebungen
         {
             throw new NotImplementedException();
         }
+
+        public string GetStaticFileUrl(string fileName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetStatiFileFolder(string folder)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

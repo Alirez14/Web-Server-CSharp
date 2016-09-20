@@ -23,6 +23,11 @@ namespace MyWebServer
             get { throw new NotImplementedException(); }
         }
 
+        public int ParameterCount
+        {
+            get { throw new NotImplementedException(); }
+        }
+
         public string Path
         {
             get { throw new NotImplementedException(); }

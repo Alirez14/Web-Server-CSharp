@@ -1,4 +1,4 @@
-﻿BIF/SWE 1 My WebServer
+BIF/SWE 1 My WebServer
 ======================
 
 C# Template für das Übungsbeispiel "WebServer". Damit die Übung erfolgreich abgegeben werden kann müssen folgende Kriterien erfüllt sein:
@@ -62,6 +62,19 @@ https://inf-swe-git.technikum-wien.at/tree/?f=BIF-SWE1/CS&r=SYSTEM/unit-tests.gi
 Am Jenkins wird Ihre Abgabe mit diesen Unit-Tests getestet. Diese Tests stehen Ihnen zur Verfügung. Sie können daher lokal, vorab überprüfen, ob Sie die Unit-Tests bestehen oder nicht.
 
 In diesem Projekt ist auch dokumentiert, welche Interfaces Ihre Klassen implementieren müssen um die Unit-Tests zu bestehen.
+
+## Setup der Tests in Visual Studio
+
+Die Tests müssen im `deploy` Ordner ausgeführt werden. Um den Visual Studio Test Runner zu konfigurieren, muss eine Datei `.runsettings` (z.B. `my.runsettings`) zum eigenen Projekt hinzugefügt werden (nicht zum Unit Test Projekt!):
+
+    <?xml version="1.0" encoding="utf-8" ?>
+    <RunSettings>
+      <TestRunParameters>
+        <Parameter name="targetpath" value="path\to\your\deploy\folder" />
+      </TestRunParameters>
+    </RunSettings>
+
+In Visual Studio wird dann diese Datei als "Test Settings" ausgewählt.
 
 Jenkins
 -------

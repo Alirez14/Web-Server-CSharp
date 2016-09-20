@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <!-- uncomment this setting
+    <Parameter name="targetpath" value="path\to\your\deploy\folder" />
+    -->
+  </TestRunParameters>
+</RunSettings>
