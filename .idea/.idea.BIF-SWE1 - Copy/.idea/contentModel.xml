@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Alirez\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alirez\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_BIF-SWE1 - Copy.-1315206703.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alirez\OneDrive\FH\PR\C#\SWE1-CS" t="IncludeFlat">
+      <e p="BIF-SWE1 - Copy.sln" t="IncludeFlat" />
+      <e p="deploy" t="ExcludeRecursive" />
+      <e p="MyWebServer" t="IncludeRecursive">
+        <e p="my.runsettings" t="Include" />
+        <e p="MyWebServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Uebungen" t="Include">
+          <e p="UEB1.cs" t="Include" />
+          <e p="UEB2.cs" t="Include" />
+          <e p="UEB3.cs" t="Include" />
+          <e p="UEB4.cs" t="Include" />
+          <e p="UEB5.cs" t="Include" />
+          <e p="UEB6.cs" t="Include" />
+        </e>
+        <e p="Url.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Alirez\OneDrive\FH\PR\C#\unit-tests\BIF-SWE1" t="ExcludeRecursive">
+      <e p="CS\BIF-SWE1.Interfaces" t="IncludeRecursive">
+        <e p="BIF-SWE1.Interfaces.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IPlugin.cs" t="Include" />
+        <e p="IPluginManager.cs" t="Include" />
+        <e p="IRequest.cs" t="Include" />
+        <e p="IResponse.cs" t="Include" />
+        <e p="IUebungen.cs" t="Include" />
+        <e p="IUrl.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CS\BIF-SWE1.UnitTests" t="IncludeRecursive">
+        <e p="AbstractTestFixture.cs" t="Include" />
+        <e p="BIF-SWE1.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="RequestHelper.cs" t="Include" />
+        <e p="UEB1.cs" t="Include" />
+        <e p="UEB2.cs" t="Include" />
+        <e p="UEB3.cs" t="Include" />
+        <e p="UEB4.cs" t="Include" />
+        <e p="UEB5.cs" t="Include" />
+        <e p="UEB6.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

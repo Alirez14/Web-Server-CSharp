@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46dfdf63-5bfb-42eb-89f0-2300506b8a30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BIF-SWE1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BIF-SWE1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/MyWebServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/MyWebServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/my.runsettings" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/my.runsettings" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="24197776">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="2" />
+          <entry key="cs" value="15" />
+          <entry key="csproj" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="15" />
+          <entry key="Config" value="2" />
+          <entry key="Csproj" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.kubernetes.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyWebServer/URL.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1537974449655" expanded="false" signature="6:112" ph="..." />
+                <marker date="1537974449655" expanded="true" signature="135:1168" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="165:1166" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="192:213" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="245:266" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="320:397" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="432:509" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="537:614" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="644:721" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="754:831" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="863:940" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="972:1049" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="1083:1160" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1537974449655" expanded="false" signature="6:85" ph="..." />
+                <marker date="1537974449655" expanded="true" signature="108:343" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="128:341" ph="{...}" />
+                <marker date="1537974449655" expanded="true" signature="174:335" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPluginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/URL.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPlugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB5.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyWebServer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/deploy/MyWebServer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deploy" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyWebServer/MyWebServer.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.0,Profile=Client" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46dfdf63-5bfb-42eb-89f0-2300506b8a30" name="Default Changelist" comment="" />
+      <created>1537975283842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537975283842</updated>
+      <workItem from="1537975286273" duration="233000" />
+      <workItem from="1537975539158" duration="632000" />
+      <workItem from="1537976301609" duration="233000" />
+      <workItem from="1537987659925" duration="790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1888000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38402626" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="TeamCity" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.33296824" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyWebServer/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB5.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974712642" expanded="false" signature="6:85" ph="..." />
+            <marker date="1537974712642" expanded="true" signature="116:760" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="147:758" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="162:458" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
+            <marker date="1537974712642" expanded="true" signature="507:712" ph="/// Called by the server when the plugin should handle the request. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPluginManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974712642" expanded="false" signature="6:85" ph="..." />
+            <marker date="1537974712642" expanded="true" signature="116:951" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="154:949" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="169:268" ph="/// Returns a list of all plugins. Never returns null. ... " />
+            <marker date="1537974712642" expanded="true" signature="324:487" ph="/// Adds a new plugin. If the plugin was already added, nothing will happen. ... " />
+            <marker date="1537974712642" expanded="true" signature="531:811" ph="/// Adds a new plugin by type name. If the plugin was already added, nothing will happen. ... " />
+            <marker date="1537974712642" expanded="true" signature="854:921" ph="/// Clears all plugins ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974712642" expanded="false" signature="6:102" ph="..." />
+            <marker date="1537974712642" expanded="true" signature="133:1983" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="165:1981" ph="{...}" />
+            <marker date="1537974712642" expanded="true" signature="180:348" ph="/// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not  ... " />
+            <marker date="1537974712642" expanded="true" signature="388:489" ph="/// Returns the request method in UPPERCASE. get -&gt; GET. ... " />
+            <marker date="1537974712642" expanded="true" signature="530:635" ph="/// Returns a URL object of the request. Never returns null. ... " />
+            <marker date="1537974712642" expanded="true" signature="679:804" ph="/// Returns the request header. Never returns null. All keys must be lower case. ... " />
+            <marker date="1537974712642" expanded="true" signature="867:962" ph="/// Returns the user agent from the request header ... " />
+            <marker date="1537974712642" expanded="true" signature="1006:1115" ph="/// Returns the number of header or 0, if no header where found. ... " />
+            <marker date="1537974712642" expanded="true" signature="1158:1256" ph="/// Returns the parsed content length request header. ... " />
+            <marker date="1537974712642" expanded="true" signature="1301:1417" ph="/// Returns the parsed content type request header. Never returns null. ... " />
+            <marker date="1537974712642" expanded="true" signature="1463:1592" ph="/// Returns the request content (body) stream or null if there is no content stream. ... " />
+            <marker date="1537974712642" expanded="true" signature="1640:1765" ph="/// Returns the request content (body) as string or null if there is no content. ... " />
+            <marker date="1537974712642" expanded="true" signature="1813:1938" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/BIF-SWE1.UnitTests.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974712658" expanded="false" signature="6:135" ph="..." />
+            <marker date="1537974712658" expanded="true" signature="165:4211" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="236:4209" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="290:380" ph="{...}" />
+            <marker date="1537974712658" expanded="false" signature="390:4203" ph="Url" />
+            <marker date="1537974712658" expanded="true" signature="462:675" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="741:969" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1035:1271" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1337:1581" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1647:1873" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1938:2236" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="2306:2736" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="2821:3051" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3116:3334" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3401:3625" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3692:3906" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3977:4184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974712658" expanded="false" signature="6:152" ph="..." />
+            <marker date="1537974712658" expanded="true" signature="182:7965" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="253:7963" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="307:397" ph="{...}" />
+            <marker date="1537974712658" expanded="false" signature="408:1381" ph="Url" />
+            <marker date="1537974712658" expanded="true" signature="493:711" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="775:991" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1055:1362" ph="{...}" />
+            <marker date="1537974712658" expanded="false" signature="1391:4949" ph="Request" />
+            <marker date="1537974712658" expanded="true" signature="1487:1677" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="1748:1985" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="2060:2297" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="2370:2605" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="2675:2983" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3054:3364" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3445:3755" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="3833:4086" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="4149:4491" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="4556:4930" ph="{...}" />
+            <marker date="1537974712658" expanded="false" signature="4959:7957" ph="Response" />
+            <marker date="1537974712658" expanded="true" signature="5056:5208" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="5301:5546" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="5616:5861" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="5933:6189" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="6261:6524" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="6596:6871" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="6937:7312" ph="{...}" />
+            <marker date="1537974712658" expanded="true" signature="7381:7938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1537974449655" expanded="false" signature="6:131" ph="..." />
+            <marker date="1537974449655" expanded="true" signature="151:369" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="183:367" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="222:266" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="307:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974449655" expanded="true" signature="6:131" ph="..." />
+            <marker date="1537974449655" expanded="true" signature="151:585" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="183:583" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="222:242" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="283:337" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="399:468" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="508:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/URL.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974449655" expanded="false" signature="6:112" ph="..." />
+            <marker date="1537974449655" expanded="true" signature="135:1168" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="165:1166" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="192:213" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="245:266" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="320:397" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="432:509" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="537:614" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="644:721" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="754:831" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="863:940" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="972:1049" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="1083:1160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1537974449655" expanded="false" signature="6:85" ph="..." />
+            <marker date="1537974449655" expanded="true" signature="108:343" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="128:341" ph="{...}" />
+            <marker date="1537974449655" expanded="true" signature="174:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
