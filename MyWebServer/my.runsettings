@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RunSettings>
   <TestRunParameters>
-    <!-- uncomment this setting
-    <Parameter name="targetpath" value="path\to\your\deploy\folder" />
-    -->
+    
+    <Parameter name="targetpath" value="C:\Users\Alirez\OneDrive\FH\PR\C#\SWE1-CS\deploy" />
+    
   </TestRunParameters>
 </RunSettings>

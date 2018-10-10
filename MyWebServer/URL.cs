@@ -10,32 +10,77 @@ namespace MyWebServer
     {
         public Url()
         {
-
         }
 
         public Url(string raw)
         {
-
+            RawUrl = raw;
         }
 
+        private Dictionary<string, string> result;
         public IDictionary<string, string> Parameter
         {
-            get { throw new NotImplementedException(); }
+
+            get
+            {
+                //"/test.jpg?x=1&y=2"
+                result = new Dictionary<string, string>();
+                if (RawUrl != null)
+                {
+
+
+                    int index = RawUrl.IndexOf('?');
+                    string sub = RawUrl.Substring(index + 1);
+                    for (int i = 0; i < sub.Length; i++)
+                    {
+                        int parametrs = i - 1;
+                        int value = i + 1;
+                        if (sub[i] == '=')
+                        {
+                            result.Add(sub[parametrs].ToString(), sub[value].ToString());
+
+                        }
+                    }
+                    
+                }
+                return result;
+
+            }
         }
 
         public int ParameterCount
         {
-            get { throw new NotImplementedException(); }
+            get
+            {
+
+                
+                return Parameter.Count;
+            }
         }
 
         public string Path
         {
-            get { throw new NotImplementedException(); }
+            get
+            {
+                if (String.IsNullOrEmpty(RawUrl))
+                {
+                    return null;
+                }
+                else
+                {
+                    string[] noParam = RawUrl.Split('?');
+                    return noParam[0];
+                }
+            }
         }
 
         public string RawUrl
         {
-            get { throw new NotImplementedException(); }
+
+
+
+            get;
+            
         }
 
         public string Extension
@@ -55,7 +100,11 @@ namespace MyWebServer
 
         public string[] Segments
         {
-            get { throw new NotImplementedException(); }
+            get
+            {
+                string[] str = RawUrl.Split('/');
+                return str;
+            }
         }
     }
 }
