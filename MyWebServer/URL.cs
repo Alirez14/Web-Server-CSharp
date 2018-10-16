@@ -17,15 +17,15 @@ namespace MyWebServer
             RawUrl = raw;
         }
 
-
+        private Dictionary<string, string> result;
         public IDictionary<string, string> Parameter
         {
 
             get
             {
-                if (Parameter == null)
+                if (result == null)
                 {
-
+                    result = new Dictionary<string, string>();
                     //"/test.jpg?x=1&y=2"
 
                     if (RawUrl != null)
@@ -40,7 +40,7 @@ namespace MyWebServer
                             int value = i + 1;
                             if (sub[i] == '=')
                             {
-                                Parameter.Add(sub[parametrs].ToString(), sub[value].ToString());
+                                result.Add(sub[parametrs].ToString(), sub[value].ToString());
 
                             }
                         }
@@ -48,7 +48,7 @@ namespace MyWebServer
                     }
 
                 }
-                return Parameter;
+                return result;
 
             }
         }
