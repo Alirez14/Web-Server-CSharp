@@ -17,33 +17,38 @@ namespace MyWebServer
             RawUrl = raw;
         }
 
-        private Dictionary<string, string> result;
+
         public IDictionary<string, string> Parameter
         {
 
             get
             {
-                //"/test.jpg?x=1&y=2"
-                result = new Dictionary<string, string>();
-                if (RawUrl != null)
+                if (Parameter == null)
                 {
 
+                    //"/test.jpg?x=1&y=2"
 
-                    int index = RawUrl.IndexOf('?');
-                    string sub = RawUrl.Substring(index + 1);
-                    for (int i = 0; i < sub.Length; i++)
+                    if (RawUrl != null)
                     {
-                        int parametrs = i - 1;
-                        int value = i + 1;
-                        if (sub[i] == '=')
-                        {
-                            result.Add(sub[parametrs].ToString(), sub[value].ToString());
 
+
+                        int index = RawUrl.IndexOf('?');
+                        string sub = RawUrl.Substring(index + 1);
+                        for (int i = 0; i < sub.Length; i++)
+                        {
+                            int parametrs = i - 1;
+                            int value = i + 1;
+                            if (sub[i] == '=')
+                            {
+                                Parameter.Add(sub[parametrs].ToString(), sub[value].ToString());
+
+                            }
                         }
+
                     }
-                    
+
                 }
-                return result;
+                return Parameter;
 
             }
         }
@@ -54,7 +59,8 @@ namespace MyWebServer
             {
 
                 
-                return Parameter.Count;
+                return Parameter.Count();
+                
             }
         }
 
