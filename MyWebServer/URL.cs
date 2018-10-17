@@ -17,38 +17,43 @@ namespace MyWebServer
             RawUrl = raw;
         }
 
-        private Dictionary<string, string> result;
+        private Dictionary<string, string> result = null;
         public IDictionary<string, string> Parameter
         {
 
             get
             {
-                if (result == null)
+                ensureprameter();
+                return result;
+
+            }
+        }
+
+        private void ensureprameter()
+        {
+            if (result == null)
+            {
+                result = new Dictionary<string, string>();
+                //"/test.jpg?x=1&y=2"
+
+                if (RawUrl != null)
                 {
-                    result = new Dictionary<string, string>();
-                    //"/test.jpg?x=1&y=2"
 
-                    if (RawUrl != null)
+
+                    int index = RawUrl.IndexOf('?');
+                    string sub = RawUrl.Substring(index + 1);
+                    for (int i = 0; i < sub.Length; i++)
                     {
-
-
-                        int index = RawUrl.IndexOf('?');
-                        string sub = RawUrl.Substring(index + 1);
-                        for (int i = 0; i < sub.Length; i++)
+                        int parametrs = i - 1;
+                        int value = i + 1;
+                        if (sub[i] == '=')
                         {
-                            int parametrs = i - 1;
-                            int value = i + 1;
-                            if (sub[i] == '=')
-                            {
-                                result.Add(sub[parametrs].ToString(), sub[value].ToString());
+                            result.Add(sub[parametrs].ToString(), sub[value].ToString());
 
-                            }
                         }
-
                     }
 
                 }
-                return result;
 
             }
         }
@@ -58,8 +63,8 @@ namespace MyWebServer
             get
             {
 
-                
-                return Parameter.Count();
+                ensureprameter();
+                return result.Count();
                 
             }
         }
