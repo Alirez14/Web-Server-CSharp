@@ -122,8 +122,9 @@ public class Url : IUrl
     {
         get
             {
-                return noParam[1];
-
+                int index = RawUrl.IndexOf("#");
+                string sub = RawUrl.Substring(index + 1);
+                return sub;
             }
     }
 
