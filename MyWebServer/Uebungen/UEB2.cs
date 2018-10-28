@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using BIF.SWE1.Interfaces;
 using MyWebServer;
+using System.IO;
 
 namespace Uebungen
 {
@@ -11,6 +12,7 @@ namespace Uebungen
     {
         public void HelloWorld()
         {
+
         }
 
         public IUrl GetUrl(string path)
@@ -18,14 +20,14 @@ namespace Uebungen
             return new Url(path);
         }
 
-        public IRequest GetRequest(System.IO.Stream network)
+        public IRequest GetRequest(Stream network)
         {
-            throw new NotImplementedException();
+            return new Request(network);
         }
 
         public IResponse GetResponse()
         {
-            throw new NotImplementedException();
+            return new Response();
         }
     }
 }
