@@ -11,10 +11,13 @@
         <e p="MyWebServer.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
+        <e p="Plugin.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="Request.cs" t="Include" />
+        <e p="Response.cs" t="Include" />
         <e p="Uebungen" t="Include">
           <e p="UEB1.cs" t="Include" />
           <e p="UEB2.cs" t="Include" />
