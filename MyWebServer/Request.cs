@@ -20,7 +20,7 @@ namespace MyWebServer
     public class Request : IRequest
     {
         private string curl;
-        private string[] url = new string[10];
+        private string[] url = new string[100];
 
 
         public Request(Stream input)
@@ -164,27 +164,41 @@ namespace MyWebServer
         /// <summary>
         /// Returns the parsed content length request header.
         /// </summary>
-        public int ContentLength { get; }
+        
+        public int ContentLength {
+            get { return url[10].Length; } }
 
         /// <summary>
         /// Returns the parsed content type request header. Never returns null.
         /// </summary>
-        public string ContentType { get; }
+        public string ContentType {
+            get { return url[8].Substring(14); } }
 
         /// <summary>
         /// Returns the request content (body) stream or null if there is no content stream.
         /// </summary>
 
-        public Stream ContentStream { get; }
+        public Stream ContentStream { get{// convert string to stream
+            byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
+//byte[] byteArray = Encoding.ASCII.GetBytes(contents);
+            Stream stream = new MemoryStream(byteArray);
+            return stream;
+        } }
 
         /// <summary>
         /// Returns the request content (body) as string or null if there is no content.
         /// </summary>
-        public string ContentString { get; }
+        public string ContentString {
+            get { return url[10]; } }
 
         /// <summary>
         /// Returns the request content (body) as byte[] or null if there is no content.
         /// </summary>
-        public byte[] ContentBytes { get; }
+        public byte[] ContentBytes {
+            get
+            {
+                byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
+                return byteArray;
+            } }
     }
 }

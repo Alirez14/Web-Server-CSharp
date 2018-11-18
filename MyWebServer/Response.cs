@@ -156,6 +156,9 @@ namespace BIF.SWE1.Interfaces
         /// <param name="content"></param>
         public void SetContent(byte[] content)
         {
+            icontent = System.Text.Encoding.Default.GetString(content);
+            
+
         }
 
         /// <summary>
