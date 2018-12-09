@@ -37,6 +37,16 @@ namespace MyWebServer
             }
         }
 
+        public string filename
+        {
+            get
+            {
+             string [] file=   url[0].Split(' ');
+                return file[1];
+
+            }
+        }
+
 
         /// <summary>
         /// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not necessary.
@@ -89,7 +99,7 @@ namespace MyWebServer
         /// <summary>
         /// Returns a URL object of the request. Never returns null.
         /// </summary>
-        public Url raw;
+        public IUrl raw;
 
         public IUrl Url
         {
@@ -98,17 +108,24 @@ namespace MyWebServer
                 string[] link = url[0].Split('/');
                 string linkdone;
 
-                if (link[1] == " HTTP" || link[1]=="test")
+                if (link[1] == " HTTP" || link[1] == "test")
                 {
                     linkdone = "/";
                 }
 
                 else
                 {
-                    linkdone = "/" + link[1].Substring(0, link[1].IndexOf(' '));
+                    if (link[1].Contains(" "))
+                    {
+                        linkdone = "/" + link[1].Substring(0, link[1].IndexOf(' '));
+                    }
+                    else
+                    {
+                        linkdone = link[1];
+                    }
                 }
 
-                Console.WriteLine(link);
+                
                 raw = new Url(linkdone);
 
                 return raw;
@@ -164,41 +181,54 @@ namespace MyWebServer
         /// <summary>
         /// Returns the parsed content length request header.
         /// </summary>
-        
-        public int ContentLength {
-            get { return url[10].Length; } }
+
+        public int ContentLength
+        {
+            get { return url[10].Length; }
+        }
 
         /// <summary>
         /// Returns the parsed content type request header. Never returns null.
         /// </summary>
-        public string ContentType {
-            get { return url[8].Substring(14); } }
+        public string ContentType
+        {
+            get { return url[8].Substring(14); }
+        }
 
         /// <summary>
         /// Returns the request content (body) stream or null if there is no content stream.
         /// </summary>
 
-        public Stream ContentStream { get{// convert string to stream
-            byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
+        public Stream ContentStream
+        {
+            get
+            {
+                // convert string to stream
+                byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
 //byte[] byteArray = Encoding.ASCII.GetBytes(contents);
-            Stream stream = new MemoryStream(byteArray);
-            return stream;
-        } }
+                Stream stream = new MemoryStream(byteArray);
+                return stream;
+            }
+        }
 
         /// <summary>
         /// Returns the request content (body) as string or null if there is no content.
         /// </summary>
-        public string ContentString {
-            get { return url[10]; } }
+        public string ContentString
+        {
+            get { return url[10]; }
+        }
 
         /// <summary>
         /// Returns the request content (body) as byte[] or null if there is no content.
         /// </summary>
-        public byte[] ContentBytes {
+        public byte[] ContentBytes
+        {
             get
             {
                 byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
                 return byteArray;
-            } }
+            }
+        }
     }
 }

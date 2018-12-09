@@ -1,28 +1,40 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 using BIF.SWE1.Interfaces;
+
 namespace MyWebServer
 {
     public class PluginManager : IPluginManager
     {
-        private List<IPlugin> plugins = new List<IPlugin>();
-       public PluginManager()
-       {
-           
-            IPlugin plug =new Plugin();
-            plugins.Add(plug);
+        private IList<IPlugin> plugins = new List<IPlugin>();
+
+        public PluginManager()
+        {
+            Assembly a =   typeof(PluginManager).Assembly;
+
+
+
+            foreach (var type in a.GetTypes())
+            {
+                if (typeof(IPlugin).IsAssignableFrom(type))
+                {
+                    plugins.Add((IPlugin) Activator.CreateInstance(type));
+                }
+            }
         }
 
-        
-        
 
         /// <summary>
-            /// Returns a list of all plugins. Never returns null.
-            /// </summary>
-           public IEnumerable<IPlugin> Plugins {
-            get { return plugins; } }
+        /// Returns a list of all plugins. Never returns null.
+        /// </summary>
+        public IEnumerable<IPlugin> Plugins
+        {
+            get { return plugins; }
+        }
 
         /// <summary>
         /// Adds a new plugin. If the plugin was already added, nothing will happen.
@@ -34,11 +46,6 @@ namespace MyWebServer
             {
                 plugins.Add(plugin);
             }
-         
-               
-            
-           
-            
         }
 
         /// <summary>
@@ -48,6 +55,8 @@ namespace MyWebServer
         /// <param name="plugin"></param>
         public void Add(string plugin)
         {
+            Type t = Type.GetType(plugin);
+            plugins.Add((IPlugin)Activator.CreateInstance(t));  
         }
 
         /// <summary>
@@ -58,8 +67,4 @@ namespace MyWebServer
             plugins.Clear();
         }
     }
-
-    
-        
-    
 }
