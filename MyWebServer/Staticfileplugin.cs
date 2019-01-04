@@ -15,13 +15,13 @@ namespace MyWebServer
         public float CanHandle(IRequest req)
         {
             float handel=0;
-            Request newreq = (Request) req;
+            
             
 
-            if (newreq.filename.Contains("\\"))
+            if (File.Exists(req.Url.Path))
             {
                 handel += 1f;
-                if (newreq.filename.Contains("missing-"))
+                if (req.Url.FileName.Contains("missing-"))
                 {
                     handel -= 0.5f;
                 }
@@ -46,12 +46,12 @@ namespace MyWebServer
             if (CanHandle(req) != 0.0f)
 
             {
-                Request newreq = (Request) req;
+               
                 var resp = new Response();
                 try
                 {
                     resp.StatusCode = 200;
-                    using (FileStream fs = new FileStream(newreq.filename, FileMode.Open))
+                    using (FileStream fs = new FileStream(req.Url.Path, FileMode.Open))
                     {
                         string content = string.Empty;
                         StreamReader read = new StreamReader(fs);

@@ -12,19 +12,11 @@ namespace MyWebServer
         {
             var url = req.Url;
             string rawurl = url.RawUrl;
-            string[] week = {"Samstag", "Sonntag", "Montag", "Dienstag", "Mitwoch", "Donnerstag", "Freitag"};
-            string[] week1 = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday"};
+            string[] week = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday"};
+
             foreach (var item in week)
             {
                 if (rawurl.Contains(item))
-                {
-                    return 0.4f;
-                }
-            }
-
-            foreach (var var in week1)
-            {
-                if (rawurl.Contains(var))
                 {
                     return 0.4f;
                 }
@@ -33,10 +25,9 @@ namespace MyWebServer
             {
                 return 0.5f;
             }
-
             return 0f;
         }
-
+       
         public IResponse Handle(IRequest req)
         {
             var resp = new Response();
@@ -51,8 +42,7 @@ namespace MyWebServer
                     resp.SetContent(rawurl);
                     resp.ContentType = "text/html";
                 }
-
-                if (CanHandle(req) == 0.5f)
+                if(CanHandle(req) == 0.5f)
                 {
                     var url = req.Url;
                     string rawurl = url.RawUrl;
@@ -60,12 +50,13 @@ namespace MyWebServer
                     resp.SetContent(rawurl);
                     resp.ContentType = "text/xml";
                 }
-
                 return resp;
             }
 
             resp.StatusCode = 404;
             return resp;
+
         }
     }
 }
+

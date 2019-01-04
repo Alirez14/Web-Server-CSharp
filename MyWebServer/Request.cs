@@ -19,13 +19,10 @@ namespace MyWebServer
 {
     public class Request : IRequest
     {
-        private string curl;
-        private string[] url = new string[100];
+        public string reqheader;
+        public string[] url = new string[100];
 
-        public string reqheader
-        {
-            get { return curl; }
-        }
+
 
         public Request(Stream input)
         {
@@ -35,22 +32,19 @@ namespace MyWebServer
 
             while (!read.EndOfStream)
             {
+                if (read.Equals(null))
+                {
+                    break;
+                }
                 url[i] = read.ReadLine();
-                curl += url[i] + "\n";
+                reqheader += url[i] + "\n";
 
-                if ((Method == "GET") && (string.IsNullOrEmpty(url[i]))) break;
+                if  (string.IsNullOrEmpty(url[i])) break;
                 i++;
             }
         }
 
-        public string filename
-        {
-            get
-            {
-                string[] file = url[0].Split(' ');
-                return file[1];
-            }
-        }
+
 
 
         /// <summary>
@@ -62,18 +56,16 @@ namespace MyWebServer
         {
             get
             {
-                if (curl.Contains('/') == false)
+                
+                if (url[0].Contains("GET /") ||url[0].Contains("get /") ||url[0].Contains("post /") || url[0].Contains("POST /"))
                 {
-                    return false;
+                    return true;
                 }
                 else
                 {
-                    if (Method == "error")
-                    {
+                    
                         return false;
-                    }
-
-                    return true;
+                   
                 }
             }
         }
@@ -86,11 +78,11 @@ namespace MyWebServer
         {
             get
             {
-                if (curl.Contains("GET") || curl.Contains("get"))
+                if (reqheader.Contains("GET") || reqheader.Contains("get"))
                 {
                     return "GET";
                 }
-                else if (curl.Contains("POST") || curl.Contains("post"))
+                else if (reqheader.Contains("POST") || reqheader.Contains("post"))
                 {
                     return "POST";
                 }
@@ -110,53 +102,8 @@ namespace MyWebServer
         {
             get
             {
-                if (url[0] != null)
-                {
-                    string linkdone;
-                    string[] link = url[0].Split('/');
-
-                    if (url[0].Equals("POST  HTTP/1.1")||url[0].Equals("GET  HTTP/1.1"))
-                    {
-                        int index = url[10].IndexOf("=");
-                        linkdone = url[10].Substring(index + 1);
-                    }
-                    else if (url[0].Contains(":"))
-                    {
-                       int _indexOf = url[0].IndexOf(" ");
-                      int  _lastIndexOf = url[0].LastIndexOf(" ");
-                        linkdone = url[0].Substring(_indexOf, _lastIndexOf - _indexOf);
-                    }
-                    
-                    
-
-                   else if (link[1] == " HTTP" || link[1] == "test")
-                    {
-                        
-                        linkdone = "/";
-                    }
-
-                    else
-                    {
-                        if (link[1].Contains(" "))
-                        {
-                            linkdone = "/" + link[1].Substring(0, link[1].IndexOf(' '));
-                        }
-                        else
-                        {
-                            linkdone = link[1];
-                        }
-                    }
-
-
-                    raw = new Url(linkdone);
-
-                    return raw;
-                }
-                else
-                {
-                    raw = null;
-                    return raw;
-                }
+                raw=new Url(url[0]);
+                return raw;
             }
         }
 
