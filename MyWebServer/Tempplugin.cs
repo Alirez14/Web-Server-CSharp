@@ -12,7 +12,7 @@ namespace MyWebServer
         {
             var url = req.Url;
             string rawurl = url.RawUrl;
-            string[] week = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday"};
+            string[] week = {"Samstag", "Sonntag", "Montag", "Dienstag", "Mitwoch", "Donnerstag", "Freitag"};
 
             foreach (var item in week)
             {
