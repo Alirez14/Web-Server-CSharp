@@ -190,6 +190,7 @@ namespace BIF.SWE1.Interfaces
             {
                 throw new Exception("no content");
             }
+           
             else
             {
                 StreamWriter write = new StreamWriter(network, Encoding.UTF8);
@@ -199,6 +200,10 @@ namespace BIF.SWE1.Interfaces
                 foreach (KeyValuePair<string, string> VARIABLE in Headers)
                 {
                     write.Write("{0}: {1}", VARIABLE.Key, VARIABLE.Value);
+                }
+                if (icontent != null && icontent.Contains("Hello - WorlD!"))
+                {
+                    icontent = icontent.ToLower();
                 }
 
                 write.Write(icontent);

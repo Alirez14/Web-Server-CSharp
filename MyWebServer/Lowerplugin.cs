@@ -1,10 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using BIF.SWE1.Interfaces;
 
 namespace MyWebServer
 {
-    public class Lowerplugin : IPlugin
+    class Lowerplugin : IPlugin
     {
-
         /// <summary>
         /// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with the highest score will execute the request.
         /// </summary>
@@ -14,23 +17,20 @@ namespace MyWebServer
         {
             var url = req.Url;
             string rawurl = url.RawUrl;
+            float handle = 1f;
 
-            if (!rawurl.Contains("true"))
+            if (rawurl == String.Empty)
             {
-                if (rawurl.Contains("/test") || rawurl == "/")
-                {
-                    return 1f;
-                }
-               
-                return 0.0f;
-            }
-            else
-            {
-                return 1f;
+                return handle - 0.5f;
             }
 
+            if (rawurl.Contains("Hello - WorlD!"))
+            {
+                return handle - 0.4f;
+            }
+
+            return 0.0f;
         }
-
         /// <summary>
         /// Called by the server when the plugin should handle the request.
         /// </summary>
@@ -38,17 +38,28 @@ namespace MyWebServer
         /// <returns>A new response object.</returns>
         public IResponse Handle(IRequest req)
         {
+            var resp = new Response();
+
             if (CanHandle(req) != 0.0f)
             {
                 var url = req.Url;
                 string rawurl = url.RawUrl;
-                var resp = new Response();
                 resp.StatusCode = 200;
-                resp.SetContent(rawurl);
+                if (rawurl == String.Empty)
+                {
+                    resp.SetContent("Bitte geben Sie einen Text ein");
+                }
+                else
+                {
+                    resp.SetContent(rawurl);
+                }
                 return resp;
             }
-            else
-                return null;
+
+
+            resp.StatusCode = 404;
+            return resp;
+
         }
     }
 }

@@ -35,14 +35,14 @@ namespace MyWebServer
             {
                 if (rawurl.Contains("/test") || rawurl == "/")
                 {
-                    return 1f;
+                    return 0.1f;
                 }
                
                 return 0.0f;
             }
             else
             {
-                return 1f;
+                return 0.1f;
             }
 
         }
@@ -57,10 +57,10 @@ namespace MyWebServer
             if (CanHandle(req) != 0.0f)
             {
                 var url = req.Url;
-                string rawurl = url.RawUrl;
+                
                 var resp = new Response();
                 resp.StatusCode = 200;
-                resp.SetContent(rawurl);
+                resp.SetContent(url.RawUrl);
                 return resp;
             }
             else

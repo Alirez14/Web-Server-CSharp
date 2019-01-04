@@ -22,6 +22,10 @@ namespace MyWebServer
         private string curl;
         private string[] url = new string[100];
 
+        public string reqheader
+        {
+            get { return curl; }
+        }
 
         public Request(Stream input)
         {
@@ -33,6 +37,8 @@ namespace MyWebServer
             {
                 url[i] = read.ReadLine();
                 curl += url[i] + "\n";
+
+                if ((Method == "GET") && (string.IsNullOrEmpty(url[i]))) break;
                 i++;
             }
         }
@@ -41,9 +47,8 @@ namespace MyWebServer
         {
             get
             {
-             string [] file=   url[0].Split(' ');
+                string[] file = url[0].Split(' ');
                 return file[1];
-
             }
         }
 
@@ -105,30 +110,53 @@ namespace MyWebServer
         {
             get
             {
-                string[] link = url[0].Split('/');
-                string linkdone;
-
-                if (link[1] == " HTTP" || link[1] == "test")
+                if (url[0] != null)
                 {
-                    linkdone = "/";
-                }
+                    string linkdone;
+                    string[] link = url[0].Split('/');
 
-                else
-                {
-                    if (link[1].Contains(" "))
+                    if (url[0].Equals("POST  HTTP/1.1")||url[0].Equals("GET  HTTP/1.1"))
                     {
-                        linkdone = "/" + link[1].Substring(0, link[1].IndexOf(' '));
+                        int index = url[10].IndexOf("=");
+                        linkdone = url[10].Substring(index + 1);
                     }
+                    else if (url[0].Contains(":"))
+                    {
+                       int _indexOf = url[0].IndexOf(" ");
+                      int  _lastIndexOf = url[0].LastIndexOf(" ");
+                        linkdone = url[0].Substring(_indexOf, _lastIndexOf - _indexOf);
+                    }
+                    
+                    
+
+                   else if (link[1] == " HTTP" || link[1] == "test")
+                    {
+                        
+                        linkdone = "/";
+                    }
+
                     else
                     {
-                        linkdone = link[1];
+                        if (link[1].Contains(" "))
+                        {
+                            linkdone = "/" + link[1].Substring(0, link[1].IndexOf(' '));
+                        }
+                        else
+                        {
+                            linkdone = link[1];
+                        }
                     }
+
+
+                    raw = new Url(linkdone);
+
+                    return raw;
                 }
-
-                
-                raw = new Url(linkdone);
-
-                return raw;
+                else
+                {
+                    raw = null;
+                    return raw;
+                }
             }
         }
 

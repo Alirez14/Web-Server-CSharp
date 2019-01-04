@@ -27,37 +27,39 @@ namespace Uebungen
 
         public string GetNaviUrl()
         {
-            throw new NotImplementedException();
+            return String.Empty;
         }
 
         public IPlugin GetNavigationPlugin()
         {
-            throw new NotImplementedException();
+           return new Naviplugin();
         }
 
         public IPlugin GetTemperaturePlugin()
         {
-            throw new NotImplementedException();
+            return new Tempplugin();
         }
 
         public string GetTemperatureRestUrl(DateTime from, DateTime until)
         {
-            throw new NotImplementedException();
+            string date = from.ToString() + " " + until.ToString();
+            return date;
         }
 
         public string GetTemperatureUrl(DateTime from, DateTime until)
         {
-            throw new NotImplementedException();
+            string date = from.ToString("F") + " " + until.ToString();
+            return date;
         }
 
         public IPlugin GetToLowerPlugin()
         {
-            throw new NotImplementedException();
+            return new Lowerplugin();
         }
 
         public string GetToLowerUrl()
         {
-            throw new NotImplementedException();
+            return string.Empty;
         }
     }
 }

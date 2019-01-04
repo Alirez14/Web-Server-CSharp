@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Alirez\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Alirez\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_BIF-SWE1 - Copy.-1315206703.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alirez\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alirez\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BIF-SWE1 - Copy.-1315206703.00" t="ExcludeRecursive" />
     <e p="C:\Users\Alirez\OneDrive\FH\PR\C#\SWE1-CS" t="IncludeFlat">
       <e p="BIF-SWE1 - Copy.sln" t="IncludeFlat" />
       <e p="deploy" t="ExcludeRecursive" />
       <e p="MyWebServer" t="IncludeRecursive">
+        <e p="Lowerplugin.cs" t="Include" />
         <e p="my.runsettings" t="Include" />
         <e p="MyWebServer.csproj" t="IncludeRecursive" />
+        <e p="Naviplugin.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Plugin.cs" t="Include" />
@@ -19,6 +21,8 @@
         </e>
         <e p="Request.cs" t="Include" />
         <e p="Response.cs" t="Include" />
+        <e p="Staticfileplugin.cs" t="Include" />
+        <e p="Tempplugin.cs" t="Include" />
         <e p="Uebungen" t="Include">
           <e p="UEB1.cs" t="Include" />
           <e p="UEB2.cs" t="Include" />

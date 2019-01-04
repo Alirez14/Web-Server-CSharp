@@ -1,54 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using BIF.SWE1.Interfaces;
 
 namespace MyWebServer
 {
-    public class Tempplugin : IPlugin
+    class Tempplugin : IPlugin
     {
-      
-        /// <summary>
-        /// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with the highest score will execute the request.
-        /// </summary>
-        /// <param name="req"></param>
-        /// <returns>A score between 0 and 1</returns>
         public float CanHandle(IRequest req)
         {
             var url = req.Url;
             string rawurl = url.RawUrl;
+            string[] week = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday"};
 
-            if (!rawurl.Contains("true"))
+            foreach (var item in week)
             {
-                if (rawurl.Contains("/test") || rawurl == "/")
+                if (rawurl.Contains(item))
                 {
-                    return 1f;
+                    return 0.4f;
                 }
-               
-                return 0.0f;
             }
-            else
+            if (rawurl.Contains(":"))
             {
-                return 1f;
+                return 0.5f;
             }
-
+            return 0f;
         }
-
-        /// <summary>
-        /// Called by the server when the plugin should handle the request.
-        /// </summary>
-        /// <param name="req"></param>
-        /// <returns>A new response object.</returns>
+       
         public IResponse Handle(IRequest req)
         {
+            var resp = new Response();
+
             if (CanHandle(req) != 0.0f)
             {
-                var url = req.Url;
-                string rawurl = url.RawUrl;
-                var resp = new Response();
-                resp.StatusCode = 200;
-                resp.SetContent(rawurl);
+                if (CanHandle(req) == 0.4f)
+                {
+                    var url = req.Url;
+                    string rawurl = url.RawUrl;
+                    resp.StatusCode = 200;
+                    resp.SetContent(rawurl);
+                    resp.ContentType = "text/html";
+                }
+                if(CanHandle(req) == 0.5f)
+                {
+                    var url = req.Url;
+                    string rawurl = url.RawUrl;
+                    resp.StatusCode = 200;
+                    resp.SetContent(rawurl);
+                    resp.ContentType = "text/xml";
+                }
                 return resp;
             }
-            else
-                return null;
+
+            resp.StatusCode = 404;
+            return resp;
+
         }
     }
 }
+
