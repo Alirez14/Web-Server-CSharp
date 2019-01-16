@@ -59,7 +59,7 @@ namespace MyWebServer
                     {
                         StatusCode = 404,
                         ContentType = "text/html",
-                        icontent = "error",
+                        
                         
 
                     };

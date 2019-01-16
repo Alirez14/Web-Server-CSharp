@@ -14,7 +14,19 @@ namespace MyWebServer
 
         public Url(string raw)
         {
-            RawUrl = raw;
+            if (string.IsNullOrEmpty(raw))
+            {
+                RawUrl = String.Empty;
+            }
+            else if (raw.Contains("GET") || raw.Contains("POST"))
+            {
+                string[] completeurl = raw.Split(' ');
+                RawUrl = completeurl[1];
+            }
+            else
+            {
+                RawUrl = raw;
+            }
         }
 
         private Dictionary<string, string> result = null;
@@ -37,15 +49,15 @@ namespace MyWebServer
 
                 if (RawUrl != null)
                 {
-                    int index = RawUrl.IndexOf('?');
-                    string sub = RawUrl.Substring(index + 1);
-                    for (int i = 0; i < sub.Length; i++)
+                    if (RawUrl.Contains('?'))
                     {
-                        int parametrs = i - 1;
-                        int value = i + 1;
-                        if (sub[i] == '=')
+                        int index = RawUrl.IndexOf('?');
+                        string sub = RawUrl.Substring(index + 1);
+                        string[] prams = sub.Split('&');
+                        for (int i = 0; i < prams.Length; i++)
                         {
-                            result.Add(sub[parametrs].ToString(), sub[value].ToString());
+                            string[] pairs = prams[i].Split('=');
+                            result.Add(pairs[0], pairs[1]);
                         }
                     }
                 }
@@ -75,13 +87,33 @@ namespace MyWebServer
                 {
                     if (RawUrl.Contains('#'))
                     {
-                        noParam = RawUrl.Split('#');
-                        return noParam[0];
+                        string[] path = RawUrl.Split('#');
+                        
+                        if (ParameterCount == 0)
+                        {
+                            return path[0];
+                        }
+                        else
+                        {
+                            int i = path[0].IndexOf('?');
+                            string path2 = path[0].Substring(0, i);
+                            return path2;
+                        }
                     }
                     else
                     {
-                        noParam = RawUrl.Split('?');
-                        return noParam[0];
+                        
+                        if (ParameterCount == 0)
+                        {
+                            return RawUrl;
+                        }
+                        else
+                        {
+                            int i = RawUrl.IndexOf('?');
+                            string path = RawUrl.Substring(0, i);
+                            return path;
+                        }
+                        
                     }
                 }
             }
@@ -96,7 +128,19 @@ namespace MyWebServer
 
         public string FileName
         {
-            get { throw new NotImplementedException(); }
+            get
+            {
+                string file = Segments.Last();
+                if (file.Contains('.'))
+
+                {
+                    return file;
+                }
+                else
+                {
+                    return String.Empty;
+                }
+            }
         }
 
         public string Fragment
@@ -113,10 +157,15 @@ namespace MyWebServer
         {
             get
             {
-                string[] str = RawUrl.Split('/');
-                str = str.Where(w => w != str[0]).ToArray();
+               
+                char[] delimiters = new char[] { '/' };
+            string []    _segment = RawUrl.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
 
-                return str;
+                return _segment;
+
+
+
+
             }
         }
     }

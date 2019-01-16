@@ -9,36 +9,17 @@ namespace BIF.SWE1.Interfaces
 {
     public class Response : IResponse
     {
-        private string content;
-
-        public string icontent
-        {
-            get { return content; }
-            set { content = value; }
-        }
-
-        public Response()
-        {
-        }
+        public string content;
+        public string contenttype;
 
         /// <summary>
         /// Returns a writable dictionary of the response headers. Never returns null.
         /// </summary>
-        public Dictionary<string, string> head = new Dictionary<string, string>();
+        public IDictionary<string, string> headers = new Dictionary<string, string>();
 
         public IDictionary<string, string> Headers
         {
-            get
-            {
-                if (head == null)
-                {
-                    return null;
-                }
-                else
-                {
-                    return head;
-                }
-            }
+            get { return headers; }
         }
 
         /// <summary>
@@ -46,34 +27,37 @@ namespace BIF.SWE1.Interfaces
         /// </summary>
         public int ContentLength
         {
-            get { return icontent == null ? 0 : Encoding.UTF8.GetByteCount(icontent); }
+            get { return content.Length; }
         }
 
         /// <summary>
         /// Gets or sets the content type of the response.
         /// </summary>
         /// <exception cref="InvalidOperationException">A specialized implementation may throw a InvalidOperationException when the content type is set by the implementation.</exception>
-        public string ContentType { get; set; }
+        public string ContentType {
+            get { return contenttype; }
+            set { contenttype = value; }
+        }
 
         /// <summary>
         /// Gets or sets the current status code. An Exceptions is thrown, if no status code was set.
         /// </summary>
-        public int code;
+        public int statusCode = 0;
 
         public int StatusCode
         {
             get
             {
-                if (code == 0)
+                if (statusCode == 0)
                 {
-                    
-                    throw new Exception("Error");
+                    throw new NotImplementedException();
                 }
-
-                return code;
+                else
+                {
+                    return statusCode;
+                }
             }
-
-            set { code = value; }
+            set { statusCode = value; }
         }
 
         /// <summary>
@@ -83,31 +67,21 @@ namespace BIF.SWE1.Interfaces
         {
             get
             {
-                string mass;
-                Exception mas;
-
-                switch (StatusCode)
+                if (statusCode == 200)
                 {
-                    case 200:
-                    {
-                        mass = "200 OK";
-                        return mass;
-                    }
-                    case 404:
-                    {
-                        mas = new Exception("404 Not Found");
-                        return mas.Message;
-                    }
-                    case 500:
-                    {
-                        mas = new Exception("500 INTERNAL SERVER ERROR");
-                        return mas.Message;
-                    }
-                    default:
-                    {
-                        mas = new Exception("ERROR");
-                        return mas.Message;
-                    }
+                    return "200 OK";
+                }
+                else if (statusCode == 404)
+                {
+                    return "404 NOT FOUND";
+                }
+                else if (statusCode == 500)
+                {
+                    return "500 INTERNAL SERVER ERROR";
+                }
+                else
+                {
+                    throw new NotImplementedException();
                 }
             }
         }
@@ -119,22 +93,15 @@ namespace BIF.SWE1.Interfaces
         /// <param name="value"></param>
         public void AddHeader(string header, string value)
         {
-            try
+            if (!Headers.ContainsKey(header))
             {
-                head.Add(header, value);
+                Headers.Add(header, value);
             }
-            catch 
+            else
             {
-               
-                head.Clear();
-                head.Add(header, value);
+                Headers[header] = value;
             }
-            
-            
-            
-            
         }
-
 
         /// <summary>
         /// Gets or sets the Server response header. Defaults to "BIF-SWE1-Server".
@@ -147,7 +114,7 @@ namespace BIF.SWE1.Interfaces
         /// <param name="content"></param>
         public void SetContent(string content)
         {
-            this.icontent = content;
+            this.content = content;
         }
 
         /// <summary>
@@ -156,9 +123,6 @@ namespace BIF.SWE1.Interfaces
         /// <param name="content"></param>
         public void SetContent(byte[] content)
         {
-            icontent = System.Text.Encoding.Default.GetString(content);
-            
-
         }
 
         /// <summary>
@@ -167,17 +131,6 @@ namespace BIF.SWE1.Interfaces
         /// <param name="stream"></param>
         public void SetContent(Stream stream)
         {
-            string[] url = new string[10];
-            StreamReader read;
-            int i = 0;
-            read = new StreamReader(stream);
-
-            while (!read.EndOfStream)
-            {
-                url[i] = read.ReadLine();
-                icontent += url[i] + "\n";
-                i++;
-            }
         }
 
         /// <summary>
@@ -186,32 +139,6 @@ namespace BIF.SWE1.Interfaces
         /// <param name="network"></param>
         public void Send(Stream network)
         {
-            if (ContentLength == 0 && ContentType == "text/html")
-            {
-                throw new Exception("no content");
-            }
-           
-            else
-            {
-                StreamWriter write = new StreamWriter(network, Encoding.UTF8);
-                write.WriteLine("HTTP/1.1 {0}", Status);
-                write.WriteLine("Server: {0}", ServerHeader);
-                write.WriteLine("");
-                foreach (KeyValuePair<string, string> VARIABLE in Headers)
-                {
-                    write.Write("{0}: {1}", VARIABLE.Key, VARIABLE.Value);
-                }
-                if (icontent != null && icontent.Contains("Hello - WorlD!"))
-                {
-                    icontent = icontent.ToLower();
-                }
-
-                write.Write(icontent);
-                
-
-
-                write.Flush();
-            }
         }
     }
 }

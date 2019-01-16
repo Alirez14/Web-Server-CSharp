@@ -20,14 +20,13 @@ namespace MyWebServer
     public class Request : IRequest
     {
         public string reqheader;
-        public string[] url = new string[100];
-
+        public List<string> url = new List<string>();
 
 
         public Request(Stream input)
         {
             StreamReader read;
-            int i = 0;
+
             read = new StreamReader(input);
 
             while (!read.EndOfStream)
@@ -36,15 +35,13 @@ namespace MyWebServer
                 {
                     break;
                 }
-                url[i] = read.ReadLine();
-                reqheader += url[i] + "\n";
-
-                if  (string.IsNullOrEmpty(url[i])) break;
-                i++;
+                else
+                {
+                    url.Add(read.ReadLine());
+                    reqheader += url.Last() + "\n";
+                }
             }
         }
-
-
 
 
         /// <summary>
@@ -56,16 +53,14 @@ namespace MyWebServer
         {
             get
             {
-                
-                if (url[0].Contains("GET /") ||url[0].Contains("get /") ||url[0].Contains("post /") || url[0].Contains("POST /"))
+                if (url[0].Contains("GET /") || url[0].Contains("get /") || url[0].Contains("post /") ||
+                    url[0].Contains("POST /"))
                 {
                     return true;
                 }
                 else
                 {
-                    
-                        return false;
-                   
+                    return false;
                 }
             }
         }
@@ -78,11 +73,11 @@ namespace MyWebServer
         {
             get
             {
-                if (reqheader.Contains("GET") || reqheader.Contains("get"))
+                if (url.First().Contains("GET") || url.First().Contains("get"))
                 {
                     return "GET";
                 }
-                else if (reqheader.Contains("POST") || reqheader.Contains("post"))
+                else if (url.First().Contains("POST") || url.First().Contains("post"))
                 {
                     return "POST";
                 }
@@ -102,7 +97,7 @@ namespace MyWebServer
         {
             get
             {
-                raw=new Url(url[0]);
+                raw = new Url(url[0]);
                 return raw;
             }
         }
@@ -117,19 +112,11 @@ namespace MyWebServer
             get
             {
                 head1 = new Dictionary<string, string>();
-                for (int i = 0; i < 10; i++)
+                foreach (var VARIABLE in url)
                 {
-                    if ((url[i] != null) && (url[i].Contains(':')))
+                    if (VARIABLE.Contains(':'))
                     {
-                        string[] url1 = url[i].Split(':');
-                        url1[1] = url1[1].Trim();
-
-
-                        head1.Add(url1[0].ToLower(), url1[1]);
-                    }
-                    else
-                    {
-                        continue;
+                        head1.Add(VARIABLE.Split(':').First().Trim().ToLower(), VARIABLE.Split(':').Last().Trim());
                     }
                 }
 
@@ -159,7 +146,7 @@ namespace MyWebServer
 
         public int ContentLength
         {
-            get { return url[10].Length; }
+            get { return url.LastOrDefault().Length; }
         }
 
         /// <summary>
@@ -167,7 +154,7 @@ namespace MyWebServer
         /// </summary>
         public string ContentType
         {
-            get { return url[8].Substring(14); }
+            get { return Headers["content-type"]; }
         }
 
         /// <summary>
@@ -178,11 +165,16 @@ namespace MyWebServer
         {
             get
             {
-                // convert string to stream
-                byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
-//byte[] byteArray = Encoding.ASCII.GetBytes(contents);
-                Stream stream = new MemoryStream(byteArray);
-                return stream;
+                if (Method == "POST")
+                {
+                    byte[] s = UTF8Encoding.UTF8.GetBytes(url.Last());
+                    Stream b = new MemoryStream(s);
+                    return b;
+                }
+                else
+                {
+                    return null;
+                }
             }
         }
 
@@ -191,7 +183,7 @@ namespace MyWebServer
         /// </summary>
         public string ContentString
         {
-            get { return url[10]; }
+            get { return url.LastOrDefault(); }
         }
 
         /// <summary>
@@ -201,7 +193,7 @@ namespace MyWebServer
         {
             get
             {
-                byte[] byteArray = Encoding.UTF8.GetBytes(url[10]);
+                byte[] byteArray = UTF8Encoding.UTF8.GetBytes(url.LastOrDefault());
                 return byteArray;
             }
         }
