@@ -100,6 +100,7 @@ namespace BIF.SWE1.Interfaces
             else
             {
                 Headers[header] = value;
+
             }
         }
 
@@ -131,6 +132,7 @@ namespace BIF.SWE1.Interfaces
         /// <param name="stream"></param>
         public void SetContent(Stream stream)
         {
+            
         }
 
         /// <summary>
