@@ -10,21 +10,7 @@ namespace MyWebServer
     {
         public float CanHandle(IRequest req)
         {
-            var url = req.Url;
-            string rawurl = url.RawUrl;
-            string[] week = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday"};
-
-            foreach (var item in week)
-            {
-                if (rawurl.Contains(item))
-                {
-                    return 0.4f;
-                }
-            }
-            if (rawurl.Contains(":"))
-            {
-                return 0.5f;
-            }
+ 
             return 0f;
         }
        

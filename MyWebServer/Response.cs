@@ -27,7 +27,18 @@ namespace BIF.SWE1.Interfaces
         /// </summary>
         public int ContentLength
         {
-            get { return Encoding.UTF8.GetByteCount(content); }
+            get
+            {
+                if (string.IsNullOrEmpty(content))
+                {
+                    return 0;
+                }
+                else
+                {
+                    return Encoding.UTF8.GetByteCount(content);
+                }
+                
+            }
         }
 
         /// <summary>
@@ -143,7 +154,7 @@ namespace BIF.SWE1.Interfaces
         /// <param name="network"></param>
         public void Send(Stream network)
         {
-            if ( StatusCode==200 && ContentLength==0  )
+            if ( StatusCode==200 && ContentLength== 0  )
             {
                 throw new NotImplementedException();
             }

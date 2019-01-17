@@ -85,10 +85,10 @@ namespace MyWebServer
                 }
                 else
                 {
-                    if (RawUrl.Contains('#'))
+                    if (RawUrl.Contains('#') && !RawUrl.Contains('.'))
                     {
                         string[] path = RawUrl.Split('#');
-                        
+
                         if (ParameterCount == 0)
                         {
                             return path[0];
@@ -100,9 +100,41 @@ namespace MyWebServer
                             return path2;
                         }
                     }
+                    else if (RawUrl.Contains('#') && RawUrl.Contains('.'))
+                    {
+                        if (RawUrl.IndexOf('.') > RawUrl.IndexOf('#'))
+                        {
+                            string path = RawUrl;
+
+                            if (ParameterCount == 0)
+                            {
+                                return path;
+                            }
+                            else
+                            {
+                                int i = path.IndexOf('?');
+                                string path2 = path.Substring(0, i);
+                                return path2;
+                            }
+                        }
+                        else
+                        {
+                            string[] path = RawUrl.Split('#');
+
+                            if (ParameterCount == 0)
+                            {
+                                return path[0];
+                            }
+                            else
+                            {
+                                int i = path[0].IndexOf('?');
+                                string path2 = path[0].Substring(0, i);
+                                return path2;
+                            }
+                        }
+                    }
                     else
                     {
-                        
                         if (ParameterCount == 0)
                         {
                             return RawUrl;
@@ -113,7 +145,6 @@ namespace MyWebServer
                             string path = RawUrl.Substring(0, i);
                             return path;
                         }
-                        
                     }
                 }
             }
@@ -157,15 +188,10 @@ namespace MyWebServer
         {
             get
             {
-               
-                char[] delimiters = new char[] { '/' };
-            string []    _segment = RawUrl.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+                char[] delimiters = new char[] {'/'};
+                string[] _segment = RawUrl.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
 
                 return _segment;
-
-
-
-
             }
         }
     }

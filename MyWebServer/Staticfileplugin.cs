@@ -19,7 +19,7 @@ namespace MyWebServer
 
             if (req.Url.Path.Contains('.'))
             {
-                handel += 1f;
+                handel = 1f;
             }
             else
             {
@@ -39,14 +39,16 @@ namespace MyWebServer
             if (CanHandle(req) != 0.0f)
 
             {
+                string path = req.Url.Path;
+                path = path.Replace("/", "\\");
+                path = path.Substring(1);
                 var resp = new Response();
-                if (File.Exists(req.Url.Path))
+                if (File.Exists(path))
                 {
-                   
                     try
                     {
                         resp.StatusCode = 200;
-                        using (FileStream fs = new FileStream(req.Url.Path, FileMode.Open))
+                        using (FileStream fs = new FileStream(path, FileMode.Open))
                         {
                             string content = string.Empty;
                             StreamReader read = new StreamReader(fs);
@@ -72,7 +74,7 @@ namespace MyWebServer
                     try
                     {
                         resp.StatusCode = 404;
-                        
+
                         return resp;
                     }
                     catch

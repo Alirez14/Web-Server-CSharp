@@ -25,21 +25,16 @@ namespace MyWebServer
 
         public Request(Stream input)
         {
+            
             StreamReader read;
 
             read = new StreamReader(input);
 
             while (!read.EndOfStream)
             {
-                if (read.Equals(null))
-                {
-                    break;
-                }
-                else
-                {
-                    url.Add(read.ReadLine());
-                    reqheader += url.Last() + "\n";
-                }
+                url.Add(read.ReadLine());
+                reqheader += url.Last() + "\n";
+                if ((Method == "GET") && (string.IsNullOrEmpty(url.Last()))) break;
             }
         }
 
@@ -53,8 +48,8 @@ namespace MyWebServer
         {
             get
             {
-                if (url[0].Contains("GET /") || url[0].Contains("get /") || url[0].Contains("post /") ||
-                    url[0].Contains("POST /"))
+                if (url.First().Contains("GET /") || url.First().Contains("get /") || url.First().Contains("post /") ||
+                    url.First().Contains("POST /"))
                 {
                     return true;
                 }
@@ -97,7 +92,7 @@ namespace MyWebServer
         {
             get
             {
-                raw = new Url(url[0]);
+                raw = new Url(url.First());
                 return raw;
             }
         }

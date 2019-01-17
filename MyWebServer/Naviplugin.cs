@@ -15,19 +15,7 @@ namespace MyWebServer
         /// <returns>A score between 0 and 1</returns>
         public float CanHandle(IRequest req)
         {
-            var url = req.Url;
-            string rawurl = url.RawUrl;
-            float handler = 1f;
 
-            if (rawurl.Contains("Hauptplatz"))
-            {
-                return handler - 0.5f;
-            }
-
-            if (rawurl == String.Empty)
-            {
-                return handler - 0.4f;
-            }
 
 
             return 0.0f;

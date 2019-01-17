@@ -27,25 +27,25 @@ namespace MyWebServer
 
             return plugin;
         }
+
         private static void Listen()
         {
-            TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"),8080);
+            TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 8080);
             listener.Start();
             while (true)
             {
                 Console.Write("Waiting for a connection... ");
                 TcpClient s = listener.AcceptTcpClient();
                 Console.WriteLine("Connected!");
-             
+
 
                 // Get a stream object for reading and writing
                 NetworkStream stream = s.GetStream();
 
-              
-                
+
                 Request req = new Request(stream);
                 Console.WriteLine(req.reqheader);
-                PluginManager ipm =new PluginManager();
+                PluginManager ipm = new PluginManager();
                 IPlugin plug = SelectPlugin(ipm, req);
 
                 if (plug != null)
@@ -59,25 +59,17 @@ namespace MyWebServer
                     {
                         StatusCode = 404,
                         ContentType = "text/html",
-                        
-                        
-
                     };
                     resp.Send(stream);
-
                 }
-                
+
                 s.Close();
-
             }
-            
-            
-
         }
 
         static void Main(string[] args)
         {
-           Listen();
+            Listen();
         }
     }
 }
