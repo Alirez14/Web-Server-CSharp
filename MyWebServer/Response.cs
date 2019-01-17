@@ -27,14 +27,15 @@ namespace BIF.SWE1.Interfaces
         /// </summary>
         public int ContentLength
         {
-            get { return content.Length; }
+            get { return Encoding.UTF8.GetByteCount(content); }
         }
 
         /// <summary>
         /// Gets or sets the content type of the response.
         /// </summary>
         /// <exception cref="InvalidOperationException">A specialized implementation may throw a InvalidOperationException when the content type is set by the implementation.</exception>
-        public string ContentType {
+        public string ContentType
+        {
             get { return contenttype; }
             set { contenttype = value; }
         }
@@ -73,7 +74,7 @@ namespace BIF.SWE1.Interfaces
                 }
                 else if (statusCode == 404)
                 {
-                    return "404 NOT FOUND";
+                    return "404 Not Found";
                 }
                 else if (statusCode == 500)
                 {
@@ -100,7 +101,6 @@ namespace BIF.SWE1.Interfaces
             else
             {
                 Headers[header] = value;
-
             }
         }
 
@@ -124,6 +124,7 @@ namespace BIF.SWE1.Interfaces
         /// <param name="content"></param>
         public void SetContent(byte[] content)
         {
+            this.content = UTF8Encoding.UTF8.GetString(content);
         }
 
         /// <summary>
@@ -132,7 +133,8 @@ namespace BIF.SWE1.Interfaces
         /// <param name="stream"></param>
         public void SetContent(Stream stream)
         {
-            
+            StreamReader read = new StreamReader(stream);
+            this.content = read.ReadToEnd();
         }
 
         /// <summary>
@@ -141,6 +143,29 @@ namespace BIF.SWE1.Interfaces
         /// <param name="network"></param>
         public void Send(Stream network)
         {
+            if ( StatusCode==200 && ContentLength==0  )
+            {
+                throw new NotImplementedException();
+            }
+
+            else
+            {
+                StreamWriter write = new StreamWriter(network,Encoding.UTF8);
+                
+                write.WriteLine($"HTTP/1.1 {Status}");
+                write.WriteLine("Server: {0}", ServerHeader);
+                foreach (var VARIABLE in Headers)
+                {
+                    write.WriteLine($"{VARIABLE.Key}: {VARIABLE.Value}"); 
+                }
+                    
+                write.Write($"\n{this.content}");
+                write.Flush();
+            }
+            
+              
+                
+            
         }
     }
 }

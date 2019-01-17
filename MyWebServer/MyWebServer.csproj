@@ -57,7 +57,6 @@
   <ItemGroup>
     <Compile Include="Lowerplugin.cs" />
     <Compile Include="Naviplugin.cs" />
-    <Compile Include="Plugin.cs" />
     <Compile Include="PluginManager.cs" />
     <Compile Include="Request.cs" />
     <Compile Include="Program.cs" />

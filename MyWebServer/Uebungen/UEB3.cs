@@ -25,7 +25,7 @@ namespace Uebungen
 
         public IPlugin GetTestPlugin()
         {
-            return new Plugin();
+            return new Staticfileplugin();
         }
     }
 }

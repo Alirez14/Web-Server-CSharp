@@ -14,23 +14,16 @@ namespace MyWebServer
         /// <returns>A score between 0 and 1</returns>
         public float CanHandle(IRequest req)
         {
-            float handel=0;
-            
-            
+            float handel = 0;
 
-            if (File.Exists(req.Url.Path))
+
+            if (req.Url.Path.Contains('.'))
             {
                 handel += 1f;
-                if (req.Url.FileName.Contains("missing-"))
-                {
-                    handel -= 0.5f;
-                }
-
             }
             else
             {
                 handel = 0;
-
             }
 
             return handel;
@@ -46,35 +39,53 @@ namespace MyWebServer
             if (CanHandle(req) != 0.0f)
 
             {
-               
                 var resp = new Response();
-                try
+                if (File.Exists(req.Url.Path))
                 {
-                    resp.StatusCode = 200;
-                    using (FileStream fs = new FileStream(req.Url.Path, FileMode.Open))
+                   
+                    try
                     {
-                        string content = string.Empty;
-                        StreamReader read = new StreamReader(fs);
-                        while (!read.EndOfStream)
+                        resp.StatusCode = 200;
+                        using (FileStream fs = new FileStream(req.Url.Path, FileMode.Open))
                         {
-                            content += read.ReadLine();
+                            string content = string.Empty;
+                            StreamReader read = new StreamReader(fs);
+                            while (!read.EndOfStream)
+                            {
+                                content += read.ReadLine();
+                            }
+
+                            resp.SetContent(content);
                         }
 
-                        resp.SetContent(content);
+
+                        return resp;
                     }
-
-
-                    return resp;
+                    catch
+                    {
+                        resp.StatusCode = 500;
+                        return resp;
+                    }
                 }
-                catch
+                else
                 {
-                    resp.StatusCode = 404;
-                    return resp;
+                    try
+                    {
+                        resp.StatusCode = 404;
+                        
+                        return resp;
+                    }
+                    catch
+                    {
+                        resp.StatusCode = 500;
+                        return resp;
+                    }
                 }
-
             }
             else
+            {
                 return null;
+            }
         }
     }
 }
