@@ -5,6 +5,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using BIF.SWE1.Interfaces;
 
 namespace MyWebServer
@@ -28,48 +30,86 @@ namespace MyWebServer
             return plugin;
         }
 
-        private static void Listen()
+        public static void RequestHandler(TcpClient myClient)
         {
-            TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 8080);
-            listener.Start();
-            while (true)
+            MyWebServer.Request myRequest = new Request(myClient.GetStream());
+            if (myRequest.IsValid)
             {
-                Console.Write("Waiting for a connection... ");
-                TcpClient s = listener.AcceptTcpClient();
-                Console.WriteLine("Connected!");
+        
+                IPlugin currentPlugin = new Staticfileplugin();
+                PluginManager myPluginManager = new PluginManager();
 
+                currentPlugin = SelectPlugin(myPluginManager, myRequest);
 
-                // Get a stream object for reading and writing
-                NetworkStream stream = s.GetStream();
-
-
-                Request req = new Request(stream);
-                Console.WriteLine(req.reqheader);
-                PluginManager ipm = new PluginManager();
-                IPlugin plug = SelectPlugin(ipm, req);
-
-                if (plug != null)
+                IResponse myResponse = currentPlugin.Handle(myRequest);
+                try
                 {
-                    IResponse rep = plug.Handle(req);
-                    rep.Send(stream);
+                    myResponse.Send(myClient.GetStream()); //Antwort senden
                 }
-                else
+                catch (InvalidOperationException e)
                 {
-                    IResponse resp = new Response()
-                    {
-                        StatusCode = 404,
-                        ContentType = "text/html",
-                    };
-                    resp.Send(stream);
+                    Console.WriteLine("Error sending Response to Client: " + e.Message);
                 }
-
-                s.Close();
+            }
+            else
+            {
+                Console.WriteLine("No valid request");
             }
         }
 
+        private static async Task Listen(TcpClient myClient)
+        {
+            try
+            {
+               await  Task.Run(() => RequestHandler(myClient));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Responsehandler: " + e);
+            }
+
+            //await macht hier aus der asynchronen Funktion Task.Run() wieder eine synchrone Funktion (Request snychron empfangen)
+            myClient.Close();
+        }
+
+        public static async Task ListeningAsync(TcpListener myListener)
+        {
+            while (true)
+            {
+                TcpClient myClient = await myListener.AcceptTcpClientAsync(); //asynchron akzeptieren für Multithreading
+                Console.WriteLine("Client connected"+myClient.Client.RemoteEndPoint);
+                Listen(myClient);
+            }
+        }
+
+
         static void Main(string[] args)
         {
-            Listen();
+            TcpListener myServer = null;
+            try
+            {
+                Thread t = new Thread(()=> ListeningAsync(myServer));
+                t.Start();
+
+                Int32 myPort = 8080;
+                IPAddress myIPAddress = IPAddress.Parse("127.0.0.1");
+                myServer = new TcpListener(myIPAddress, myPort); //Unser Socket
+
+                myServer.Start(); //Server starten
+                Console.WriteLine("Server is running...");
+
+                ListeningAsync(myServer);
+            }
+            catch (SocketException e)
+            {
+                Console.WriteLine($"SocketException: {e}");
+            }
+
+            //Wenn man Enter drückt, bekommt man eine schöne Trennzeile
+            while (Console.Read() != -1)
+            {
+                Console.WriteLine("----------------------------------------------");
+            }
         }
     }
 }
