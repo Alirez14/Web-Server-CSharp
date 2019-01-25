@@ -55,7 +55,7 @@ namespace MyWebServer
                     {
                         return true;
                     }
-                    else if (url.First()==null)
+                    else if (url.First() == null)
                     {
                         return false;
                     }
@@ -66,8 +66,10 @@ namespace MyWebServer
                 }
                 catch (Exception e)
                 {
+                    Console.WriteLine(e.Message);
                     return false;
                 }
+
 
             }
         }

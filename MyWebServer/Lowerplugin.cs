@@ -12,7 +12,7 @@ namespace MyWebServer
     {
         public float CanHandle(IRequest req)
         {
-            if (req.Method == "POST" && req.ContentString.Contains("TO LOWER:"))
+            if (req.Method == "POST" && req.ContentString.Contains("message="))
             {
                 return 1f;
             }
@@ -34,7 +34,7 @@ namespace MyWebServer
                     {
                         StatusCode = 200,
                         ContentType = Response.Typepmap[".html"],
-                        content = "<body>"+tolow+"</body>"
+                        content = "<!DOCTYPE html> <html> <head><title>Test</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><script type=\"text/javascript\">function codeAddress() { alert('"+tolow+"');}window.onload = codeAddress; </script></head><body> </body></html>"
 
                     };
                     
