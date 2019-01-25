@@ -25,7 +25,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3cb6797-dcdf-48ef-ad94-e15bd6af2e88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyWebServer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Request.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Request.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Response.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,29 +60,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="-123">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
-                <marker date="1548257590698" expanded="false" signature="6:227" ph="..." />
-                <marker date="1548257590698" expanded="true" signature="250:3459" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="270:3457" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="354:729" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="469:691" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="572:677" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="792:1653" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="916:1543" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1240:1352" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1404:1529" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1560:1643" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1715:2125" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1741:1833" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="1865:1953" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="2198:2512" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="2233:2502" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="2554:3451" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="2621:3088" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="3126:3214" ph="{...}" />
-                <marker date="1548257590698" expanded="true" signature="3328:3441" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="6:173" ph="..." />
+                <marker date="1548421701114" expanded="true" signature="196:2257" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="216:2255" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="300:675" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="415:637" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="518:623" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="713:2165" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="866:2155" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="1276:2023" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="1507:1651" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="1676:1973" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="1779:1907" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="2044:2141" ph="{...}" />
+                <marker date="1548421701114" expanded="true" signature="2207:2249" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-104">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <marker date="1548363178889" expanded="false" signature="6:152" ph="..." />
+                <marker date="1548363178889" expanded="true" signature="175:1269" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="211:1267" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="262:444" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="353:408" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="491:1261" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="554:1177" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="588:1022" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="738:929" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="1058:1163" ph="{...}" />
+                <marker date="1548363178889" expanded="true" signature="1194:1251" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,52 +107,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="137">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
-                <marker date="1547761364189" expanded="false" signature="6:129" ph="..." />
-                <marker date="1547761364189" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
-                <marker date="1547761364189" expanded="true" signature="382:5129" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="420:5127" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="552:902" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="690:892" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="913:1093" ph="/// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not  ... " />
-                <marker date="1547761364189" expanded="true" signature="1122:1518" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1148:1508" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1334:1403" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1424:1494" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1529:1630" ph="/// Returns the request method in UPPERCASE. get -&gt; GET. ... " />
-                <marker date="1547761364189" expanded="true" signature="1659:2124" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1685:2114" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1779:1849" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="1936:2007" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2028:2100" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2134:2239" ph="/// Returns a URL object of the request. Never returns null. ... " />
-                <marker date="1547761364189" expanded="true" signature="2289:2425" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2315:2415" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2435:2560" ph="/// Returns the request header. Never returns null. All keys must be lower case. ... " />
-                <marker date="1547761364189" expanded="true" signature="2662:3105" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2688:3095" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2806:3050" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="2872:3032" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="3115:3210" ph="/// Returns the user agent from the request header ... " />
-                <marker date="1547761364189" expanded="true" signature="3242:3312" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="3322:3431" ph="/// Returns the number of header or 0, if no header where found. ... " />
-                <marker date="1547761364189" expanded="true" signature="3462:3524" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="3534:3632" ph="/// Returns the parsed content length request header. ... " />
-                <marker date="1547761364189" expanded="true" signature="3666:3741" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="3751:3867" ph="/// Returns the parsed content type request header. Never returns null. ... " />
-                <marker date="1547761364189" expanded="true" signature="3901:3973" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="3983:4112" ph="/// Returns the request content (body) stream or null if there is no content stream. ... " />
-                <marker date="1547761364189" expanded="true" signature="4149:4530" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4175:4520" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4227:4416" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4437:4506" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4540:4665" ph="/// Returns the request content (body) as string or null if there is no content. ... " />
-                <marker date="1547761364189" expanded="true" signature="4701:4769" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4779:4904" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
-                <marker date="1547761364189" expanded="true" signature="4939:5121" ph="{...}" />
-                <marker date="1547761364189" expanded="true" signature="4965:5111" ph="{...}" />
+                <marker date="1548421380072" expanded="false" signature="6:129" ph="..." />
+                <marker date="1548421380072" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
+                <marker date="1548421380072" expanded="true" signature="382:5365" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="420:5363" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="552:817" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="688:807" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="828:1008" ph="/// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not  ... " />
+                <marker date="1548421380072" expanded="true" signature="1037:1754" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1063:1744" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1097:1623" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1287:1368" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1416:1498" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1523:1605" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1659:1729" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1765:1866" ph="/// Returns the request method in UPPERCASE. get -&gt; GET. ... " />
+                <marker date="1548421380072" expanded="true" signature="1895:2360" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="1921:2350" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2015:2085" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2172:2243" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2264:2336" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2370:2475" ph="/// Returns a URL object of the request. Never returns null. ... " />
+                <marker date="1548421380072" expanded="true" signature="2525:2661" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2551:2651" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2671:2796" ph="/// Returns the request header. Never returns null. All keys must be lower case. ... " />
+                <marker date="1548421380072" expanded="true" signature="2898:3341" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="2924:3331" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3042:3286" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3108:3268" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3351:3446" ph="/// Returns the user agent from the request header ... " />
+                <marker date="1548421380072" expanded="true" signature="3478:3548" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3558:3667" ph="/// Returns the number of header or 0, if no header where found. ... " />
+                <marker date="1548421380072" expanded="true" signature="3698:3760" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3770:3868" ph="/// Returns the parsed content length request header. ... " />
+                <marker date="1548421380072" expanded="true" signature="3902:3977" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="3987:4103" ph="/// Returns the parsed content type request header. Never returns null. ... " />
+                <marker date="1548421380072" expanded="true" signature="4137:4209" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="4219:4348" ph="/// Returns the request content (body) stream or null if there is no content stream. ... " />
+                <marker date="1548421380072" expanded="true" signature="4385:4766" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="4411:4756" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="4463:4652" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="4673:4742" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="4776:4901" ph="/// Returns the request content (body) as string or null if there is no content. ... " />
+                <marker date="1548421380072" expanded="true" signature="4937:5005" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="5015:5140" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
+                <marker date="1548421380072" expanded="true" signature="5175:5357" ph="{...}" />
+                <marker date="1548421380072" expanded="true" signature="5201:5347" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -140,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Url.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2496">
+            <state relative-caret-position="491">
               <caret line="107" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <marker date="1547760668002" expanded="false" signature="6:112" ph="..." />
@@ -216,49 +240,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Response.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+            <state relative-caret-position="3484">
+              <caret line="224" column="42" selection-start-line="224" selection-start-column="42" selection-end-line="224" selection-end-column="42" />
               <folding>
-                <marker date="1547759971348" expanded="false" signature="6:128" ph="..." />
-                <marker date="1547759971348" expanded="true" signature="159:5155" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="199:5153" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="281:404" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
-                <marker date="1547759971348" expanded="true" signature="543:599" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="609:715" ph="/// Returns the content length or 0 if no content is set yet. ... " />
-                <marker date="1547759971348" expanded="true" signature="748:1067" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="774:1057" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="839:905" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="926:1026" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="1077:1359" ph="/// Gets or sets the content type of the response. ... " />
-                <marker date="1547759971348" expanded="true" signature="1393:1494" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="1504:1642" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
-                <marker date="1547759971348" expanded="true" signature="1708:2038" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="1734:1988" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="1785:1878" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="1899:1974" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2048:2140" ph="/// Returns the status code as string. (200 OK) ... " />
-                <marker date="1547759971348" expanded="true" signature="2169:2719" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2195:2709" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2248:2321" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2365:2445" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2489:2581" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2602:2695" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="2729:2922" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
-                <marker date="1547759971348" expanded="true" signature="2981:3205" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="3037:3109" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="3126:3195" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="3215:3335" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
-                <marker date="1547759971348" expanded="true" signature="3415:3567" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
-                <marker date="1547759971348" expanded="true" signature="3614:3670" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="3680:3797" ph="/// Sets a byte[] as content. ... " />
-                <marker date="1547759971348" expanded="true" signature="3844:3929" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="3939:4057" ph="/// Sets the stream as content. ... " />
-                <marker date="1547759971348" expanded="true" signature="4103:4226" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="4236:4369" ph="/// Sends the response to the network stream. ... " />
-                <marker date="1547759971348" expanded="true" signature="4410:5147" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="4477:4558" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="4576:5079" ph="{...}" />
-                <marker date="1547759971348" expanded="true" signature="4852:4963" ph="{...}" />
+                <marker date="1548355683156" expanded="false" signature="6:128" ph="..." />
+                <marker date="1548355683156" expanded="true" signature="159:7935" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="204:7933" ph="{...}" />
+                <marker date="1548355683156" expanded="false" signature="219:2985" ph="Types" />
+                <marker date="1548355683156" expanded="true" signature="368:2965" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
+                <marker date="1548355683156" expanded="true" signature="3323:3379" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
+                <marker date="1548355683156" expanded="true" signature="3528:3847" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3554:3837" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3619:3685" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3706:3806" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
+                <marker date="1548355683156" expanded="true" signature="4173:4274" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
+                <marker date="1548355683156" expanded="true" signature="4488:4818" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4514:4768" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4565:4658" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4679:4754" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
+                <marker date="1548355683156" expanded="true" signature="4949:5499" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="4975:5489" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5028:5101" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5145:5225" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5269:5361" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5382:5475" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
+                <marker date="1548355683156" expanded="true" signature="5761:5985" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5817:5889" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5906:5975" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
+                <marker date="1548355683156" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
+                <marker date="1548355683156" expanded="true" signature="6394:6450" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
+                <marker date="1548355683156" expanded="true" signature="6624:6709" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
+                <marker date="1548355683156" expanded="true" signature="6883:7006" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
+                <marker date="1548355683156" expanded="true" signature="7190:7927" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="7257:7338" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="7356:7859" ph="{...}" />
+                <marker date="1548355683156" expanded="true" signature="7632:7743" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -267,28 +293,714 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="267">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <marker date="1547763610497" expanded="false" signature="6:76" ph="..." />
-                <marker date="1547763610497" expanded="true" signature="99:2605" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="145:2603" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
-                <marker date="1547763610497" expanded="true" signature="501:755" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="587:644" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="661:717" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
-                <marker date="1547763610497" expanded="true" signature="1016:2597" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1067:2513" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1297:2135" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1339:1963" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1492:1902" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1701:1821" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="1989:2117" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="2156:2499" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="2198:2327" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="2353:2481" ph="{...}" />
-                <marker date="1547763610497" expanded="true" signature="2530:2587" ph="{...}" />
+                <marker date="1548355683170" expanded="false" signature="6:76" ph="..." />
+                <marker date="1548355683170" expanded="true" signature="99:2738" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="145:2736" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
+                <marker date="1548355683170" expanded="true" signature="501:755" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="587:644" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="661:717" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
+                <marker date="1548355683170" expanded="true" signature="1016:2730" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="1067:2646" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="1362:2268" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="1404:2096" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="1557:1967" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="1766:1886" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="2122:2250" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="2289:2632" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="2331:2460" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="2486:2614" ph="{...}" />
+                <marker date="1548355683170" expanded="true" signature="2663:2720" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/547928F2-4D1A-44B5-82A9-E85182625217/f9/71eb7f5c/Enumerable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="1673" column="6" selection-start-line="1673" selection-start-column="6" selection-end-line="1673" selection-end-column="6" />
+              <folding>
+                <marker date="1547755838218" expanded="true" signature="0:333" ph="/* Decompiled with JetBrains decompiler ... */" />
+                <marker date="1547755838218" expanded="false" signature="341:418" ph="..." />
+                <marker date="1547755838218" expanded="true" signature="441:260349" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="719:260347" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="728:1430" ph="///Filters a sequence of values based on a predicate. ... " />
+                <marker date="1547755838218" expanded="true" signature="1591:2285" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="2291:3150" ph="///Filters a sequence of values based on a predicate. Each element's index is used in the logic of the predicate  ... " />
+                <marker date="1547755838218" expanded="true" signature="3316:3555" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="3697:3889" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="3767:3883" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="3895:4726" ph="///Projects each element of a sequence into a new form. ... " />
+                <marker date="1547755838218" expanded="true" signature="4899:5726" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="5732:6688" ph="///Projects each element of a sequence into a new form by incorporating the element's index. ... " />
+                <marker date="1547755838218" expanded="true" signature="6866:7112" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7266:7434" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7336:7428" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7578:7730" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7625:7722" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7898:7980" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="7986:8920" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt; and flatte ... " />
+                <marker date="1547755838218" expanded="true" signature="9110:9360" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="9526:9681" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="9574:9675" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="9687:10789" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, and flatt ... " />
+                <marker date="1547755838218" expanded="true" signature="10984:11234" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="11405:11618" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="11475:11612" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="11624:13244" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, flattens  ... " />
+                <marker date="1547755838218" expanded="true" signature="13524:13926" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="14182:14514" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="14252:14508" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="14520:15981" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, flattens  ... " />
+                <marker date="1547755838218" expanded="true" signature="16256:16658" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="16909:17183" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="16957:17177" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="17189:17844" ph="///Returns a specified number of contiguous elements from the start of a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="17984:18135" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="18251:18443" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="18278:18437" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="18330:18429" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="18449:19181" ph="///Returns elements from a sequence as long as a specified condition is true. ... " />
+                <marker date="1547755838218" expanded="true" signature="19346:19589" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="19730:19894" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="19778:19888" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="19900:20786" ph="///Returns elements from a sequence as long as a specified condition is true. The element's index is used in the  ... " />
+                <marker date="1547755838218" expanded="true" signature="20956:21199" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="21345:21567" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="21415:21561" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="21573:22331" ph="///Bypasses a specified number of elements in a sequence and then returns the remaining elements. ... " />
+                <marker date="1547755838218" expanded="true" signature="22471:22622" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="22738:23000" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="22806:22994" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="22899:22986" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="23006:23884" ph="///Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elemen ... " />
+                <marker date="1547755838218" expanded="true" signature="24049:24292" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="24433:24659" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="24510:24653" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="24665:25699" ph="///Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elemen ... " />
+                <marker date="1547755838218" expanded="true" signature="25869:26112" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="26258:26542" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="26357:26536" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="26548:28047" ph="///Correlates the elements of two sequences based on matching keys. The default equality comparer is used to comp ... " />
+                <marker date="1547755838218" expanded="true" signature="28361:28977" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="28983:30660" ph="///Correlates the elements of two sequences based on matching keys. A specified &lt;see cref=&quot;T:System.Collections.G ... " />
+                <marker date="1547755838218" expanded="true" signature="31014:31608" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="31938:32467" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="32090:32461" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="32244:32370" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="32473:34080" ph="///Correlates the elements of two sequences based on equality of keys and groups the results. The default equalit ... " />
+                <marker date="1547755838218" expanded="true" signature="34412:35033" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="35039:36820" ph="///Correlates the elements of two sequences based on key equality and groups the results. A specified &lt;see cref=&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="37192:37791" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="38139:38376" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="38382:39135" ph="///Sorts the elements of a sequence in ascending order according to a key. ... " />
+                <marker date="1547755838218" expanded="true" signature="39313:39458" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="39464:40343" ph="///Sorts the elements of a sequence in ascending order by using a specified comparer. ... " />
+                <marker date="1547755838218" expanded="true" signature="40553:40684" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="40690:41464" ph="///Sorts the elements of a sequence in descending order according to a key. ... " />
+                <marker date="1547755838218" expanded="true" signature="41652:41796" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="41802:42702" ph="///Sorts the elements of a sequence in descending order by using a specified comparer. ... " />
+                <marker date="1547755838218" expanded="true" signature="42922:43052" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="43058:43895" ph="///Performs a subsequent ordering of the elements in a sequence in ascending order according to a key. ... " />
+                <marker date="1547755838218" expanded="true" signature="44079:44263" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="44269:45232" ph="///Performs a subsequent ordering of the elements in a sequence in ascending order by using a specified comparer. ... " />
+                <marker date="1547755838218" expanded="true" signature="45448:45618" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="45624:46483" ph="///Performs a subsequent ordering of the elements in a sequence in descending order, according to a key. ... " />
+                <marker date="1547755838218" expanded="true" signature="46677:46860" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="46866:47850" ph="///Performs a subsequent ordering of the elements in a sequence in descending order by using a specified comparer ... " />
+                <marker date="1547755838218" expanded="true" signature="48076:48245" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="48251:49196" ph="///Groups the elements of a sequence according to a specified key selector function. ... " />
+                <marker date="1547755838218" expanded="true" signature="49384:49585" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="49591:50713" ph="///Groups the elements of a sequence according to a specified key selector function and compares the keys by usin ... " />
+                <marker date="1547755838218" expanded="true" signature="50941:51120" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="51126:52490" ph="///Groups the elements of a sequence according to a specified key selector function and projects the elements for ... " />
+                <marker date="1547755838218" expanded="true" signature="52736:52920" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="52926:54444" ph="///Groups the elements of a sequence according to a key selector function. The keys are compared by using a compa ... " />
+                <marker date="1547755838218" expanded="true" signature="54730:54892" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="54898:55858" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
+                <marker date="1547755838218" expanded="true" signature="56102:56311" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="56317:57617" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
+                <marker date="1547755838218" expanded="true" signature="57919:58110" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="58116:59257" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
+                <marker date="1547755838218" expanded="true" signature="59541:59728" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="59734:61221" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
+                <marker date="1547755838218" expanded="true" signature="61563:61732" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="61738:62360" ph="///Concatenates two sequences. ... " />
+                <marker date="1547755838218" expanded="true" signature="62519:62747" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="62882:63033" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="63039:64027" ph="///Applies a specified function to the corresponding elements of two sequences, producing a sequence of the resul ... " />
+                <marker date="1547755838218" expanded="true" signature="64252:64603" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="64804:65092" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="64871:65086" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="64944:65078" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="65098:65686" ph="///Returns distinct elements from a sequence by using the default equality comparer to compare values. ... " />
+                <marker date="1547755838218" expanded="true" signature="65806:65989" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="65995:66754" ph="///Returns distinct elements from a sequence by using a specified &lt;see cref=&quot;T:System.Collections.Generic.IEquali ... " />
+                <marker date="1547755838218" expanded="true" signature="66924:67082" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="67228:67413" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="67329:67407" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="67419:68254" ph="///Produces the set union of two sequences by using the default equality comparer. ... " />
+                <marker date="1547755838218" expanded="true" signature="68412:68674" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="68680:69687" ph="///Produces the set union of two sequences by using a specified &lt;see cref=&quot;T:System.Collections.Generic.IEquality ... " />
+                <marker date="1547755838218" expanded="true" signature="69888:70125" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="70302:70600" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="70401:70477" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="70518:70594" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="70606:71469" ph="///Produces the set intersection of two sequences by using the default equality comparer to compare values. ... " />
+                <marker date="1547755838218" expanded="true" signature="71631:71897" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="71903:72939" ph="///Produces the set intersection of two sequences by using the specified &lt;see cref=&quot;T:System.Collections.Generic. ... " />
+                <marker date="1547755838218" expanded="true" signature="73144:73385" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="73566:73816" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="73731:73810" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="73822:74706" ph="///Produces the set difference of two sequences by using the default equality comparer to compare values. ... " />
+                <marker date="1547755838218" expanded="true" signature="74865:75128" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="75134:76191" ph="///Produces the set difference of two sequences by using the specified &lt;see cref=&quot;T:System.Collections.Generic.IE ... " />
+                <marker date="1547755838218" expanded="true" signature="76393:76631" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="76809:77056" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="76974:77050" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="77062:77551" ph="///Inverts the order of the elements in a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="77670:77817" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="77919:78079" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="78085:79006" ph="///Determines whether two sequences are equal by comparing the elements by using the default equality comparer fo ... " />
+                <marker date="1547755838218" expanded="true" signature="79156:79254" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="79260:80336" ph="///Determines whether two sequences are equal by comparing their elements by using a specified &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="80529:81264" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="80869:81239" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="80951:81231" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="81002:81157" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="81270:81714" ph="///Returns the input typed as &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;. ... " />
+                <marker date="1547755838218" expanded="true" signature="81845:81878" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="81884:82435" ph="///Creates an array from a &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;. ... " />
+                <marker date="1547755838218" expanded="true" signature="82543:82684" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="82690:83371" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.I ... " />
+                <marker date="1547755838218" expanded="true" signature="83482:83611" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="83617:84817" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
+                <marker date="1547755838218" expanded="true" signature="84998:85149" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="85155:86496" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
+                <marker date="1547755838218" expanded="true" signature="86717:86846" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="86852:88410" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
+                <marker date="1547755838218" expanded="true" signature="88649:88782" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="88788:90495" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
+                <marker date="1547755838218" expanded="true" signature="90774:91272" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="91278:92182" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="92356:92534" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="92540:93584" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="93798:93954" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="93960:95222" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="95454:95615" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="95621:97031" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="97303:97442" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="97448:98047" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.HashSet`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generi ... " />
+                <marker date="1547755838218" expanded="true" signature="98135:98222" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="98228:99003" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.HashSet`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generi ... " />
+                <marker date="1547755838218" expanded="true" signature="99141:99283" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="99289:100026" ph="///Returns the elements of the specified sequence or the type parameter's default value in a singleton collection ... " />
+                <marker date="1547755838218" expanded="true" signature="100159:100235" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="100241:100890" ph="///Returns the elements of the specified sequence or the specified value in a singleton collection if the sequenc ... " />
+                <marker date="1547755838218" expanded="true" signature="101051:101219" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="101356:101647" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="101424:101641" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="101458:101583" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="101653:102295" ph="///Filters the elements of an &lt;see cref=&quot;T:System.Collections.IEnumerable&quot; /&gt; based on a specified type. ... " />
+                <marker date="1547755838218" expanded="true" signature="102404:102550" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="102635:102766" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="102678:102760" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="102772:103610" ph="///Casts the elements of an &lt;see cref=&quot;T:System.Collections.IEnumerable&quot; /&gt; to the specified type. ... " />
+                <marker date="1547755838218" expanded="true" signature="103717:103981" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="104064:104146" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="104152:104756" ph="///Returns the first element of a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="104860:105349" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="105033:105115" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="105126:105311" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="105207:105303" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="105355:106231" ph="///Returns the first element in a sequence that satisfies a specified condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="106379:106696" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="106587:106661" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="106702:107380" ph="///Returns the first element of a sequence, or a default value if the sequence contains no elements. ... " />
+                <marker date="1547755838218" expanded="true" signature="107493:107982" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="107666:107748" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="107759:107944" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="107840:107936" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="107988:108941" ph="///Returns the first element of the sequence that satisfies a condition or a default value if no such element is  ... " />
+                <marker date="1547755838218" expanded="true" signature="109098:109418" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="109306:109380" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="109424:110035" ph="///Returns the last element of a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="110138:110834" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="110311:110428" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="110439:110796" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="110520:110788" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="110567:110778" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="110840:111714" ph="///Returns the last element of a sequence that satisfies a specified condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="111861:112332" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="112137:112257" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="112177:112249" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="112338:113040" ph="///Returns the last element of a sequence, or a default value if the sequence contains no elements. ... " />
+                <marker date="1547755838218" expanded="true" signature="113152:113848" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="113325:113442" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="113453:113810" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="113534:113802" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="113581:113792" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="113854:114724" ph="///Returns the last element of a sequence that satisfies a condition or a default value if no such element is fou ... " />
+                <marker date="1547755838218" expanded="true" signature="114880:115236" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="115131:115208" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="115242:115972" ph="///Returns the only element of a sequence, and throws an exception if there is not exactly one element in the seq ... " />
+                <marker date="1547755838218" expanded="true" signature="116077:116784" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="116250:116428" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="116292:116420" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="116439:116738" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="116520:116730" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="116790:117791" ph="///Returns the only element of a sequence that satisfies a specified condition, and throws an exception if more t ... " />
+                <marker date="1547755838218" expanded="true" signature="117940:118478" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="118211:118337" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="118251:118329" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="118484:119330" ph="///Returns the only element of a sequence, or a default value if the sequence is empty; this method throws an exc ... " />
+                <marker date="1547755838218" expanded="true" signature="119444:120151" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="119617:119795" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="119659:119787" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="119806:120105" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="119887:120097" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="120157:121055" ph="///Returns the only element of a sequence that satisfies a specified condition or a default value if no such elem ... " />
+                <marker date="1547755838218" expanded="true" signature="121213:121754" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="121484:121610" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="121524:121602" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="121760:122579" ph="///Returns the element at a specified index in a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="122698:123273" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="123053:123267" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="123099:123203" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="123279:124074" ph="///Returns the element at a specified index in a sequence or a default value if the index is out of range. ... " />
+                <marker date="1547755838218" expanded="true" signature="124202:124735" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="124307:124697" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="124409:124507" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="124520:124689" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="124576:124679" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="124741:125403" ph="///Generates a sequence of integral numbers within a specified range. ... " />
+                <marker date="1547755838218" expanded="true" signature="125495:125717" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="125790:125872" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="125878:126475" ph="///Generates a sequence that contains one repeated value. ... " />
+                <marker date="1547755838218" expanded="true" signature="126587:126741" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="126847:126927" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="126933:127384" ph="///Returns an empty &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt; that has the specified type argumen ... " />
+                <marker date="1547755838218" expanded="true" signature="127469:127552" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="127558:128134" ph="///Determines whether a sequence contains any elements. ... " />
+                <marker date="1547755838218" expanded="true" signature="128233:128487" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="128387:128461" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="128493:129258" ph="///Determines whether any element of a sequence satisfies a condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="129388:129693" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="129596:129667" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="129699:130507" ph="///Determines whether all elements of a sequence satisfy a condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="130637:130943" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="130845:130918" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="130949:131584" ph="///Returns the number of elements in a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="131684:132207" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="132100:132183" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="132213:133095" ph="///Returns a number that represents how many elements in the specified sequence satisfy a condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="133239:133567" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="133466:133543" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="133573:134281" ph="///Returns an &lt;see cref=&quot;T:System.Int64&quot; /&gt; that represents the total number of elements in a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="134386:134667" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="134560:134643" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="134673:135582" ph="///Returns an &lt;see cref=&quot;T:System.Int64&quot; /&gt; that represents how many elements in a sequence satisfy a condition. ... " />
+                <marker date="1547755838218" expanded="true" signature="135731:136060" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="135959:136036" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="136066:136741" ph="///Determines whether a sequence contains a specified element by using the default equality comparer. ... " />
+                <marker date="1547755838218" expanded="true" signature="136860:137089" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="137095:137895" ph="///Determines whether a sequence contains a specified element by using a specified &lt;see cref=&quot;T:System.Collection ... " />
+                <marker date="1547755838218" expanded="true" signature="138070:138404" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="138300:138378" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="138410:139138" ph="///Applies an accumulator function over a sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="139297:139781" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="139524:139775" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="139787:140602" ph="///Applies an accumulator function over a sequence. The specified seed value is used as the initial accumulator v ... " />
+                <marker date="1547755838218" expanded="true" signature="140810:141124" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="141130:142257" ph="///Applies an accumulator function over a sequence. The specified seed value is used as the initial accumulator v ... " />
+                <marker date="1547755838218" expanded="true" signature="142519:142942" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="142948:143482" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="143567:143764" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="143770:144322" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="144409:144691" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="144551:144657" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="144697:145231" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="145318:145517" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="145523:146075" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="146164:146449" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="146308:146414" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="146455:146863" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="146952:147161" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="147167:147593" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="147684:147980" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="147833:147936" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="147986:148394" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="148485:148678" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="148684:149110" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="149203:149484" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="149353:149447" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="149490:150030" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="150123:150328" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="150334:150892" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="150987:151281" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="151149:151243" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="151287:152105" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invoking a trans ... " />
+                <marker date="1547755838218" expanded="true" signature="152232:152302" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="152308:153135" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invokin ... " />
+                <marker date="1547755838218" expanded="true" signature="153264:153335" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="153341:154159" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invoking a trans ... " />
+                <marker date="1547755838218" expanded="true" signature="154288:154359" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="154365:155192" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invokin ... " />
+                <marker date="1547755838218" expanded="true" signature="155336:155408" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="155414:156105" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoking a tran ... " />
+                <marker date="1547755838218" expanded="true" signature="156249:156321" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="156327:157027" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoki ... " />
+                <marker date="1547755838218" expanded="true" signature="157173:157246" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="157252:157943" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoking a tran ... " />
+                <marker date="1547755838218" expanded="true" signature="158089:158162" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="158168:158868" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoki ... " />
+                <marker date="1547755838218" expanded="true" signature="159016:159090" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="159096:159918" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invoking a tra ... " />
+                <marker date="1547755838218" expanded="true" signature="160066:160140" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="160146:160977" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invok ... " />
+                <marker date="1547755838218" expanded="true" signature="161127:161202" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="161208:161760" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="161845:162268" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="162008:162193" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="162034:162106" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="162119:162185" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="162274:162815" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="162902:163428" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="163061:163398" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="163101:163359" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="163434:163986" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="164073:164498" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="164238:164423" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="164264:164336" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="164349:164415" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="164504:165045" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="165134:165665" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="165296:165635" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="165336:165596" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="165671:166225" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="166314:166763" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="166480:166689" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="166506:166606" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="166619:166681" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="166769:167314" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="167405:168060" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="167570:168030" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="167610:168022" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="167654:167979" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="168066:168620" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="168711:169144" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="168878:169070" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="168904:168987" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="169000:169062" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="169150:169695" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="169788:170431" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="169956:170401" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="169996:170393" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="170040:170350" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="170437:170993" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="171086:171529" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="171269:171454" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="171295:171367" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="171380:171446" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="171535:172084" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="172179:172725" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="172350:172695" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="172390:172656" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="172731:173192" ph="///Returns the minimum value in a generic sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="173294:174026" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="173506:173705" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="173552:173679" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="173766:173954" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="173792:173873" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="173886:173946" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="174032:174813" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Int32&quot;  ... " />
+                <marker date="1547755838218" expanded="true" signature="174940:175010" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="175016:175779" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="175908:175979" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="175985:176766" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Int64&quot;  ... " />
+                <marker date="1547755838218" expanded="true" signature="176895:176966" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="176972:177735" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="177879:177951" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="177957:178739" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Single&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="178883:178955" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="178961:179727" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="179873:179946" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="179952:180734" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Double&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="180880:180953" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="180959:181725" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="181873:181947" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="181953:182736" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Decimal ... " />
+                <marker date="1547755838218" expanded="true" signature="182884:182958" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="182964:183733" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="183883:183958" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="183964:184712" ph="///Invokes a transform function on each element of a generic sequence and returns the minimum resulting value. ... " />
+                <marker date="1547755838218" expanded="true" signature="184869:184952" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="184958:185510" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="185595:186018" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="185758:185943" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="185784:185856" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="185869:185935" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="186024:186566" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="186653:187179" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="186812:187149" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="186852:187110" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="187185:187737" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="187824:188249" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="187989:188174" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="188015:188087" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="188100:188166" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="188255:188797" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="188886:189417" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="189048:189387" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="189088:189348" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="189423:189977" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="190068:190499" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="190235:190427" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="190261:190344" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="190357:190419" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="190505:191050" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="191143:191786" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="191311:191756" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="191351:191748" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="191395:191705" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="191792:192346" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="192435:192914" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="192605:192839" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="192631:192752" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="192765:192831" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="192920:193465" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="193556:194211" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="193721:194181" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="193761:194173" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="193805:194130" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="194217:194773" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="194866:195309" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="195049:195234" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="195075:195147" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="195160:195226" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="195315:195865" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="195960:196506" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="196131:196476" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="196171:196437" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="196512:196973" ph="///Returns the maximum value in a generic sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="197075:197807" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197287:197486" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197333:197460" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197547:197735" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197573:197654" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197667:197727" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="197813:198594" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Int32&quot;  ... " />
+                <marker date="1547755838218" expanded="true" signature="198721:198791" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="198797:199560" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="199689:199760" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="199766:200547" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Int64&quot;  ... " />
+                <marker date="1547755838218" expanded="true" signature="200676:200747" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="200753:201516" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="201660:201732" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="201738:202520" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Single&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="202664:202736" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="202742:203508" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="203654:203727" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="203733:204515" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Double&quot; ... " />
+                <marker date="1547755838218" expanded="true" signature="204661:204734" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="204740:205506" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="205654:205728" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="205734:206517" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Decimal ... " />
+                <marker date="1547755838218" expanded="true" signature="206665:206739" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="206745:207514" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
+                <marker date="1547755838218" expanded="true" signature="207664:207739" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="207745:208493" ph="///Invokes a transform function on each element of a generic sequence and returns the maximum resulting value. ... " />
+                <marker date="1547755838218" expanded="true" signature="208650:208733" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="208739:209284" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="209376:209726" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="209536:209621" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="209732:210441" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="210535:210978" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="210700:210864" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="210739:210856" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="210984:211529" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="211622:211966" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="211783:211861" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="211972:212681" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="212776:213213" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="212942:213099" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="212981:213091" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="213219:213766" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="213859:214203" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="214025:214100" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="214209:214760" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="214855:215290" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="215026:215180" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="215065:215172" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="215296:215843" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="215938:216267" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="216105:216171" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="216273:216824" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="216921:217343" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="217093:217238" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="217132:217230" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="217349:217898" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="217995:218337" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="218174:218240" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="218343:219058" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
+                <marker date="1547755838218" expanded="true" signature="219157:219594" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="219341:219486" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="219380:219478" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="219600:220584" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invoking a tra ... " />
+                <marker date="1547755838218" expanded="true" signature="220731:220805" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="220811:221790" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invok ... " />
+                <marker date="1547755838218" expanded="true" signature="221939:222014" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="222020:222984" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invoking a tra ... " />
+                <marker date="1547755838218" expanded="true" signature="223132:223207" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="223213:223867" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invok ... " />
+                <marker date="1547755838218" expanded="true" signature="224017:224093" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="224099:224924" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoking a tr ... " />
+                <marker date="1547755838218" expanded="true" signature="225072:225148" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="225154:225974" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invo ... " />
+                <marker date="1547755838218" expanded="true" signature="226124:226201" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="226207:227032" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoking a tr ... " />
+                <marker date="1547755838218" expanded="true" signature="227182:227259" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="227265:228085" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invo ... " />
+                <marker date="1547755838218" expanded="true" signature="228237:228315" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="228321:229319" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invoking a t ... " />
+                <marker date="1547755838218" expanded="true" signature="229471:229549" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="229555:230538" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by inv ... " />
+                <marker date="1547755838218" expanded="true" signature="230692:230771" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="230777:231314" ph="///Appends a value to the end of the sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="231433:231872" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="231878:232422" ph="///Adds a value to the beginning of the sequence. ... " />
+                <marker date="1547755838218" expanded="true" signature="232542:232983" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233113:234541" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233230:233308" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233338:233417" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233358:233409" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233515:233598" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233649:233981" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="233743:233835" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234240:234328" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234260:234320" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234375:234442" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234474:234535" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234624:236476" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="234863:234945" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235005:235145" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235183:235352" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235391:235948" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235427:235918" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235632:235861" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="235746:235847" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="236050:236207" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="236288:236470" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="236554:237977" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="236744:236826" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="236886:237021" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237060:237459" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237097:237429" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237157:237393" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237289:237381" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237561:237713" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="237794:237971" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238054:239665" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238277:238359" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238419:238553" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238592:239149" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238628:239119" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238833:239062" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="238947:239048" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="239251:239402" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="239483:239659" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="239818:242473" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240083:240165" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240225:240376" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240414:240608" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240460:240576" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240647:241101" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240683:241071" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="240888:241014" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="241206:241418" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="241499:241642" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="241676:241935" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="241972:242170" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="242215:242467" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="242339:242439" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="242571:244677" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="242921:243037" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243097:243267" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243305:243474" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243513:244111" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243549:244081" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243754:244024" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="243894:244010" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="244216:244447" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="244528:244671" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="244770:246452" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245071:245187" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245247:245412" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245451:245891" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245488:245861" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245548:245825" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245706:245813" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="245996:246222" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="246303:246446" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="246544:248415" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="246878:246994" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247054:247218" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247257:247855" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247293:247825" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247498:247768" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247638:247754" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="247960:248185" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="248266:248409" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="248565:250178" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="248743:248790" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="248834:248906" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249124:249319" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249172:249265" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249357:249548" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249402:249516" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249650:249802" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="249883:250026" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250273:254405" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250476:250556" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250616:250769" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250808:251466" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250844:251412" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="250934:251030" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="251287:251383" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="251552:252004" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="252091:252543" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="252582:252942" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="252985:253525" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="253195:253241" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="253254:253333" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="253571:253930" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="253984:254399" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="254102:254252" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="254492:260343" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="254979:255151" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="255211:255399" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="255438:256334" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="255474:256326" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="255651:255798" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="256420:256698" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="256785:257064" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="257103:257978" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258021:259093" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258351:258448" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258554:258619" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258632:258795" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258694:258785" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="258974:259063" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="259139:259794" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="259558:259759" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="259848:260337" ph="{...}" />
+                <marker date="1547755838218" expanded="true" signature="259966:260153" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -331,22 +1043,31 @@
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPlugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/99/5291e264/FileIOPermission.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/e5/87b522d0/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/PluginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Request.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Url.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Naviplugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Response.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/96/c0335370/Stream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/99/5291e264/FileIOPermission.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D42F0E0B-BFC7-4D33-B4B4-6DEEF693FD25/32/2509daa4/TcpListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/03/e81012ee/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB5.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/547928F2-4D1A-44B5-82A9-E85182625217/f9/71eb7f5c/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/e5/87b522d0/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/09/cc545155/Socket.cs" root0="SKIP_HIGHLIGHTING" />
@@ -355,24 +1076,18 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/b4/5d4eef20/SafeCloseSocket.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/a1/252804b6/UTF8Encoding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/d9/f81c8a9d/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IUrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/AbstractTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IUebungen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPluginManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/PluginManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Request.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Url.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Assert.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Naviplugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB6.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/07/d8c583ce/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Response.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/96/c0335370/Stream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/88/14e56ed0/Encoding.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -388,15 +1103,15 @@
         <option value="$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB5.cs" />
         <option value="$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB3.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Plugin.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Naviplugin.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Response.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Url.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Request.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Response.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Request.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Program.cs" />
       </list>
     </option>
@@ -427,10 +1142,30 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1 - Copy" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1 - Copy" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyWebServer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -552,7 +1287,9 @@
       <workItem from="1547748430921" duration="10424000" />
       <workItem from="1547759083845" duration="4662000" />
       <workItem from="1548200971740" duration="5209000" />
-      <workItem from="1548256364907" duration="1479000" />
+      <workItem from="1548256364907" duration="2121000" />
+      <workItem from="1548348827657" duration="4787000" />
+      <workItem from="1548415222555" duration="4038000" />
     </task>
     <task id="LOCAL-00001" summary="ub3 done!">
       <created>1541941693316</created>
@@ -610,11 +1347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546635446467</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="main done!">
+      <created>1548257860294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548257860294</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179437000" />
+    <option name="totallyTimeSpent" value="188904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,15 +1373,15 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947994" weight="0.27899343" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947994" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" sideWeight="0.50520056" side_tool="true" weight="0.12473348" />
       <window_info id="Favorites" order="2" sideWeight="0.5032538" side_tool="true" weight="0.0804904" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7691898" weight="0.32502708" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7308102" visible="true" weight="0.2708559" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89285713" weight="0.32502708" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.87526655" visible="true" weight="0.27193934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
@@ -649,7 +1393,7 @@
       <window_info anchor="bottom" id="TeamCity" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.10127932" side_tool="true" weight="0.2112676" />
-      <window_info anchor="bottom" auto_hide="true" id="Build" order="15" sideWeight="0.26918977" side_tool="true" weight="0.2708559" />
+      <window_info anchor="bottom" auto_hide="true" id="Build" order="15" sideWeight="0.12473348" side_tool="true" weight="0.27193934" />
       <window_info anchor="bottom" id="Performance Profiler" order="16" sideWeight="0.79744136" weight="0.32936078" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -735,7 +1479,8 @@
     <MESSAGE value="ub6 done v2 !&#10;fakeeeeee !" />
     <MESSAGE value="ub6 done v3 !&#10;fakeeeeee !" />
     <MESSAGE value="ub6 done  !" />
-    <option name="LAST_COMMIT_MESSAGE" value="ub6 done  !" />
+    <MESSAGE value="main done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="main done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,7 +1517,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24805C74-8F22-4F01-9284-DE0B0D2533C0/06/873d91ed/IRequest.cs" />
     <entry file="file://$USER_HOME$/.Rider2018.2/system/log/UnitTestLogs/d17bcf2c-4d04-4fc9-bfee-8b24672b9dd0___2018-11-01-22-04-51-318.log" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3E4200C-CDA7-4037-B5FC-8C34C9135930/e9/c1023846/IDictionary`2.cs" />
     <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/Properties/AssemblyInfo.cs">
@@ -834,28 +1578,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.Rider2018.3/system/log/UnitTestLogs/d3c88ec2-0cac-4ed6-9416-77d4776cd3d2___2019-01-04-15-40-41-842.log" />
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <marker date="1546612955888" expanded="false" signature="6:131" ph="..." />
-            <marker date="1546612955888" expanded="true" signature="151:1350" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="183:1348" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="222:242" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="292:352" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="414:475" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="513:566" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="612:668" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="715:772" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="848:961" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="1033:1149" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="1192:1250" ph="{...}" />
-            <marker date="1546612955888" expanded="true" signature="1289:1342" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB6.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1266,25 +1988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <marker date="1547754179382" expanded="false" signature="6:112" ph="..." />
-            <marker date="1547754179382" expanded="true" signature="135:1434" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="169:1432" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="184:480" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
-            <marker date="1547754179382" expanded="true" signature="525:575" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="584:789" ph="/// Called by the server when the plugin should handle the request. ... " />
-            <marker date="1547754179382" expanded="true" signature="835:1426" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="925:1353" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="1101:1208" ph="{...}" />
-            <marker date="1547754179382" expanded="true" signature="1229:1310" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Naviplugin.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1593,54 +2296,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Url.cs">
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="560">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <marker date="1547760668002" expanded="false" signature="6:112" ph="..." />
-            <marker date="1547760668002" expanded="true" signature="135:5521" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="165:5519" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="192:212" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="244:639" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="297:364" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="430:554" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="571:629" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="752:881" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="778:871" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="920:1681" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="962:1671" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1110:1657" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1174:1639" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1439:1617" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1716:1853" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1742:1843" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1931:4495" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="1957:4485" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2021:2090" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2111:4471" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2200:2698" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2331:2427" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2456:2676" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2773:3995" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2866:3394" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="2996:3101" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="3134:3368" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="3423:3973" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="3566:3674" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="3707:3947" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4020:4453" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4091:4186" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4215:4431" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4567:4644" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4676:4995" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4702:4985" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4804:4873" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="4894:4971" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="5027:5226" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="5053:5216" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="5260:5513" ph="{...}" />
-            <marker date="1547760668002" expanded="true" signature="5286:5503" ph="{...}" />
+            <marker date="1548355855537" expanded="false" signature="6:131" ph="..." />
+            <marker date="1548355855537" expanded="true" signature="151:1337" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="183:1335" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="222:242" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="292:352" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="414:475" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="513:566" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="612:668" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="715:772" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="848:961" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="1033:1149" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="1192:1237" ph="{...}" />
+            <marker date="1548355855537" expanded="true" signature="1276:1329" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1667,87 +2340,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Response.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        <state relative-caret-position="3484">
+          <caret line="224" column="42" selection-start-line="224" selection-start-column="42" selection-end-line="224" selection-end-column="42" />
           <folding>
-            <marker date="1547759971348" expanded="false" signature="6:128" ph="..." />
-            <marker date="1547759971348" expanded="true" signature="159:5155" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="199:5153" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="281:404" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
-            <marker date="1547759971348" expanded="true" signature="543:599" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="609:715" ph="/// Returns the content length or 0 if no content is set yet. ... " />
-            <marker date="1547759971348" expanded="true" signature="748:1067" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="774:1057" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="839:905" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="926:1026" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="1077:1359" ph="/// Gets or sets the content type of the response. ... " />
-            <marker date="1547759971348" expanded="true" signature="1393:1494" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="1504:1642" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
-            <marker date="1547759971348" expanded="true" signature="1708:2038" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="1734:1988" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="1785:1878" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="1899:1974" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2048:2140" ph="/// Returns the status code as string. (200 OK) ... " />
-            <marker date="1547759971348" expanded="true" signature="2169:2719" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2195:2709" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2248:2321" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2365:2445" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2489:2581" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2602:2695" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="2729:2922" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
-            <marker date="1547759971348" expanded="true" signature="2981:3205" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="3037:3109" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="3126:3195" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="3215:3335" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
-            <marker date="1547759971348" expanded="true" signature="3415:3567" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
-            <marker date="1547759971348" expanded="true" signature="3614:3670" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="3680:3797" ph="/// Sets a byte[] as content. ... " />
-            <marker date="1547759971348" expanded="true" signature="3844:3929" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="3939:4057" ph="/// Sets the stream as content. ... " />
-            <marker date="1547759971348" expanded="true" signature="4103:4226" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="4236:4369" ph="/// Sends the response to the network stream. ... " />
-            <marker date="1547759971348" expanded="true" signature="4410:5147" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="4477:4558" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="4576:5079" ph="{...}" />
-            <marker date="1547759971348" expanded="true" signature="4852:4963" ph="{...}" />
+            <marker date="1548355683156" expanded="false" signature="6:128" ph="..." />
+            <marker date="1548355683156" expanded="true" signature="159:7935" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="204:7933" ph="{...}" />
+            <marker date="1548355683156" expanded="false" signature="219:2985" ph="Types" />
+            <marker date="1548355683156" expanded="true" signature="368:2965" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
+            <marker date="1548355683156" expanded="true" signature="3323:3379" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
+            <marker date="1548355683156" expanded="true" signature="3528:3847" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3554:3837" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3619:3685" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3706:3806" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
+            <marker date="1548355683156" expanded="true" signature="4173:4274" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
+            <marker date="1548355683156" expanded="true" signature="4488:4818" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4514:4768" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4565:4658" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4679:4754" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
+            <marker date="1548355683156" expanded="true" signature="4949:5499" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="4975:5489" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5028:5101" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5145:5225" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5269:5361" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5382:5475" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
+            <marker date="1548355683156" expanded="true" signature="5761:5985" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5817:5889" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5906:5975" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
+            <marker date="1548355683156" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
+            <marker date="1548355683156" expanded="true" signature="6394:6450" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
+            <marker date="1548355683156" expanded="true" signature="6624:6709" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
+            <marker date="1548355683156" expanded="true" signature="6883:7006" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
+            <marker date="1548355683156" expanded="true" signature="7190:7927" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="7257:7338" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="7356:7859" ph="{...}" />
+            <marker date="1548355683156" expanded="true" signature="7632:7743" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/d9/f81c8a9d/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1534">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+          <folding>
+            <marker date="1548420041671" expanded="true" signature="0:354" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1548420041671" expanded="true" signature="398:3497" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="573:3495" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="855:1335" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1376:1456" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1392:1450" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1491:1566" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1507:1560" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1609:1681" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1625:1675" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1721:1797" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1737:1791" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1835:1913" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1851:1907" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="1919:2466" ph="///Creates an &lt;see cref=&quot;T:System.Runtime.ExceptionServices.ExceptionDispatchInfo&quot; /&gt; object that represents the  ... " />
+            <marker date="1548420041671" expanded="true" signature="2561:2756" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="2762:2936" ph="///Gets the exception that is represented by the current instance. ... " />
+            <marker date="1548420041671" expanded="true" signature="3002:3098" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="3043:3092" ph="{...}" />
+            <marker date="1548420041671" expanded="true" signature="3390:3491" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="267">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <marker date="1547763610497" expanded="false" signature="6:76" ph="..." />
-            <marker date="1547763610497" expanded="true" signature="99:2605" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="145:2603" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
-            <marker date="1547763610497" expanded="true" signature="501:755" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="587:644" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="661:717" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
-            <marker date="1547763610497" expanded="true" signature="1016:2597" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1067:2513" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1297:2135" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1339:1963" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1492:1902" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1701:1821" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="1989:2117" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="2156:2499" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="2198:2327" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="2353:2481" ph="{...}" />
-            <marker date="1547763610497" expanded="true" signature="2530:2587" ph="{...}" />
+            <marker date="1548355683170" expanded="false" signature="6:76" ph="..." />
+            <marker date="1548355683170" expanded="true" signature="99:2738" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="145:2736" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
+            <marker date="1548355683170" expanded="true" signature="501:755" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="587:644" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="661:717" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
+            <marker date="1548355683170" expanded="true" signature="1016:2730" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1067:2646" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1362:2268" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1404:2096" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1557:1967" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1766:1886" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2122:2250" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2289:2632" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2331:2460" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2486:2614" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2663:2720" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/547928F2-4D1A-44B5-82A9-E85182625217/f9/71eb7f5c/Enumerable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="215">
           <caret line="1673" column="6" selection-start-line="1673" selection-start-column="6" selection-end-line="1673" selection-end-column="6" />
           <folding>
             <marker date="1547755838218" expanded="true" signature="0:333" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1547755838218" expanded="false" signature="341:418" ph="..." />
             <marker date="1547755838218" expanded="true" signature="441:260349" ph="{...}" />
             <marker date="1547755838218" expanded="true" signature="719:260347" ph="{...}" />
             <marker date="1547755838218" expanded="true" signature="728:1430" ph="///Filters a sequence of values based on a predicate. ... " />
@@ -2425,83 +3130,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <marker date="1548363178889" expanded="false" signature="6:152" ph="..." />
+            <marker date="1548363178889" expanded="true" signature="175:1269" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="211:1267" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="262:444" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="353:408" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="491:1261" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="554:1177" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="588:1022" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="738:929" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="1058:1163" ph="{...}" />
+            <marker date="1548363178889" expanded="true" signature="1194:1251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Url.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <marker date="1547760668002" expanded="false" signature="6:112" ph="..." />
+            <marker date="1547760668002" expanded="true" signature="135:5521" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="165:5519" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="192:212" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="244:639" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="297:364" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="430:554" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="571:629" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="752:881" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="778:871" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="920:1681" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="962:1671" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1110:1657" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1174:1639" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1439:1617" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1716:1853" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1742:1843" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1931:4495" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="1957:4485" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2021:2090" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2111:4471" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2200:2698" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2331:2427" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2456:2676" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2773:3995" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2866:3394" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="2996:3101" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="3134:3368" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="3423:3973" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="3566:3674" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="3707:3947" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4020:4453" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4091:4186" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4215:4431" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4567:4644" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4676:4995" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4702:4985" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4804:4873" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="4894:4971" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="5027:5226" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="5053:5216" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="5260:5513" ph="{...}" />
+            <marker date="1547760668002" expanded="true" signature="5286:5503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="137">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
-            <marker date="1547761364189" expanded="false" signature="6:129" ph="..." />
-            <marker date="1547761364189" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
-            <marker date="1547761364189" expanded="true" signature="382:5129" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="420:5127" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="552:902" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="690:892" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="913:1093" ph="/// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not  ... " />
-            <marker date="1547761364189" expanded="true" signature="1122:1518" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1148:1508" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1334:1403" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1424:1494" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1529:1630" ph="/// Returns the request method in UPPERCASE. get -&gt; GET. ... " />
-            <marker date="1547761364189" expanded="true" signature="1659:2124" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1685:2114" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1779:1849" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="1936:2007" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2028:2100" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2134:2239" ph="/// Returns a URL object of the request. Never returns null. ... " />
-            <marker date="1547761364189" expanded="true" signature="2289:2425" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2315:2415" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2435:2560" ph="/// Returns the request header. Never returns null. All keys must be lower case. ... " />
-            <marker date="1547761364189" expanded="true" signature="2662:3105" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2688:3095" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2806:3050" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="2872:3032" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="3115:3210" ph="/// Returns the user agent from the request header ... " />
-            <marker date="1547761364189" expanded="true" signature="3242:3312" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="3322:3431" ph="/// Returns the number of header or 0, if no header where found. ... " />
-            <marker date="1547761364189" expanded="true" signature="3462:3524" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="3534:3632" ph="/// Returns the parsed content length request header. ... " />
-            <marker date="1547761364189" expanded="true" signature="3666:3741" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="3751:3867" ph="/// Returns the parsed content type request header. Never returns null. ... " />
-            <marker date="1547761364189" expanded="true" signature="3901:3973" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="3983:4112" ph="/// Returns the request content (body) stream or null if there is no content stream. ... " />
-            <marker date="1547761364189" expanded="true" signature="4149:4530" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4175:4520" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4227:4416" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4437:4506" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4540:4665" ph="/// Returns the request content (body) as string or null if there is no content. ... " />
-            <marker date="1547761364189" expanded="true" signature="4701:4769" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4779:4904" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
-            <marker date="1547761364189" expanded="true" signature="4939:5121" ph="{...}" />
-            <marker date="1547761364189" expanded="true" signature="4965:5111" ph="{...}" />
+            <marker date="1548421380072" expanded="false" signature="6:129" ph="..." />
+            <marker date="1548421380072" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
+            <marker date="1548421380072" expanded="true" signature="382:5365" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="420:5363" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="552:817" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="688:807" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="828:1008" ph="/// Returns true if the request is valid. A request is valid, if method and url could be parsed. A header is not  ... " />
+            <marker date="1548421380072" expanded="true" signature="1037:1754" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1063:1744" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1097:1623" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1287:1368" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1416:1498" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1523:1605" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1659:1729" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1765:1866" ph="/// Returns the request method in UPPERCASE. get -&gt; GET. ... " />
+            <marker date="1548421380072" expanded="true" signature="1895:2360" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="1921:2350" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2015:2085" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2172:2243" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2264:2336" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2370:2475" ph="/// Returns a URL object of the request. Never returns null. ... " />
+            <marker date="1548421380072" expanded="true" signature="2525:2661" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2551:2651" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2671:2796" ph="/// Returns the request header. Never returns null. All keys must be lower case. ... " />
+            <marker date="1548421380072" expanded="true" signature="2898:3341" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="2924:3331" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3042:3286" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3108:3268" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3351:3446" ph="/// Returns the user agent from the request header ... " />
+            <marker date="1548421380072" expanded="true" signature="3478:3548" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3558:3667" ph="/// Returns the number of header or 0, if no header where found. ... " />
+            <marker date="1548421380072" expanded="true" signature="3698:3760" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3770:3868" ph="/// Returns the parsed content length request header. ... " />
+            <marker date="1548421380072" expanded="true" signature="3902:3977" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="3987:4103" ph="/// Returns the parsed content type request header. Never returns null. ... " />
+            <marker date="1548421380072" expanded="true" signature="4137:4209" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="4219:4348" ph="/// Returns the request content (body) stream or null if there is no content stream. ... " />
+            <marker date="1548421380072" expanded="true" signature="4385:4766" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="4411:4756" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="4463:4652" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="4673:4742" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="4776:4901" ph="/// Returns the request content (body) as string or null if there is no content. ... " />
+            <marker date="1548421380072" expanded="true" signature="4937:5005" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="5015:5140" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
+            <marker date="1548421380072" expanded="true" signature="5175:5357" ph="{...}" />
+            <marker date="1548421380072" expanded="true" signature="5201:5347" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="-123">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
-            <marker date="1548257590698" expanded="false" signature="6:227" ph="..." />
-            <marker date="1548257590698" expanded="true" signature="250:3459" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="270:3457" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="354:729" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="469:691" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="572:677" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="792:1653" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="916:1543" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1240:1352" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1404:1529" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1560:1643" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1715:2125" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1741:1833" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="1865:1953" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="2198:2512" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="2233:2502" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="2554:3451" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="2621:3088" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="3126:3214" ph="{...}" />
-            <marker date="1548257590698" expanded="true" signature="3328:3441" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="6:173" ph="..." />
+            <marker date="1548421701114" expanded="true" signature="196:2257" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="216:2255" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="300:675" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="415:637" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="518:623" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="713:2165" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="866:2155" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="1276:2023" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="1507:1651" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="1676:1973" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="1779:1907" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="2044:2141" ph="{...}" />
+            <marker date="1548421701114" expanded="true" signature="2207:2249" ph="{...}" />
           </folding>
         </state>
       </provider>

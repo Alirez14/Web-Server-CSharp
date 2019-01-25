@@ -30,11 +30,11 @@ namespace MyWebServer
 
             read = new StreamReader(input);
 
-            while (!read.EndOfStream)
+            while ( read.Peek()>-1)
             {
                 url.Add(read.ReadLine());
                 reqheader += url.Last() + "\n";
-                if ((Method == "GET") && (string.IsNullOrEmpty(url.Last()))) break;
+
             }
         }
 
@@ -48,15 +48,27 @@ namespace MyWebServer
         {
             get
             {
-                if (url.First().Contains("GET /") || url.First().Contains("get /") || url.First().Contains("post /") ||
-                    url.First().Contains("POST /"))
+                try
                 {
-                    return true;
+                    if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
+                        url.First().Contains("POST"))
+                    {
+                        return true;
+                    }
+                    else if (url.First()==null)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        return false;
+                    }
                 }
-                else
+                catch (Exception e)
                 {
                     return false;
                 }
+
             }
         }
 

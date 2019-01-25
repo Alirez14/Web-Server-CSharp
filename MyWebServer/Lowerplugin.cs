@@ -1,52 +1,57 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Text;
 using BIF.SWE1.Interfaces;
+using System.IO;
 
 namespace MyWebServer
 {
-    class Lowerplugin : IPlugin
+    class ToLowerPlugin : IPlugin
     {
-        /// <summary>
-        /// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with the highest score will execute the request.
-        /// </summary>
-        /// <param name="req"></param>
-        /// <returns>A score between 0 and 1</returns>
         public float CanHandle(IRequest req)
         {
-    
+            if (req.Method == "POST" && req.ContentString.Contains("TO LOWER:"))
+            {
+                return 1f;
+            }
+
             return 0.0f;
         }
-        /// <summary>
-        /// Called by the server when the plugin should handle the request.
-        /// </summary>
-        /// <param name="req"></param>
-        /// <returns>A new response object.</returns>
+
         public IResponse Handle(IRequest req)
         {
-            var resp = new Response();
+           
 
             if (CanHandle(req) != 0.0f)
             {
-                var url = req.Url;
-                string rawurl = url.RawUrl;
-                resp.StatusCode = 200;
-                if (rawurl == String.Empty)
+                try
                 {
-                    resp.SetContent("Bitte geben Sie einen Text ein");
+                    string tolow = req.ContentString.ToLower();
+
+                    var resp = new Response()
+                    {
+                        StatusCode = 200,
+                        ContentType = Response.Typepmap[".html"],
+                        content = "<body>"+tolow+"</body>"
+
+                    };
+                    
+                  
+
+                    return resp;
                 }
-                else
+                catch (Exception e)
                 {
-                    resp.SetContent(rawurl);
+                    Console.WriteLine(e);
+                    throw;
                 }
-                return resp;
             }
-
-
-            resp.StatusCode = 404;
-            return resp;
-
+            else
+            {
+                return null;
+            }
         }
     }
 }

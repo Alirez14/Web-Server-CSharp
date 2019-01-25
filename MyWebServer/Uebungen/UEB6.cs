@@ -54,7 +54,7 @@ namespace Uebungen
 
         public IPlugin GetToLowerPlugin()
         {
-            return new Lowerplugin();
+            return null;
         }
 
         public string GetToLowerUrl()

@@ -42,6 +42,7 @@ namespace MyWebServer
                 string path = req.Url.Path;
                 path = path.Replace("/", "\\");
                 path = path.Substring(1);
+                string type = path.Substring(path.IndexOf('.'));
                 var resp = new Response();
                 if (File.Exists(path))
                 {
@@ -60,6 +61,7 @@ namespace MyWebServer
                             resp.SetContent(content);
                         }
 
+                        resp.contenttype = Response.Typepmap[type];
 
                         return resp;
                     }
