@@ -1,0 +1,41 @@
+<!Doctype html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+</head>
+
+<script>
+
+function loadDoc() {
+    var input = document.getElementById("input").value;
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST","http://127.0.0.1:8080",true);
+ 
+  xhttp.send(input);
+}
+</script>
+
+<body>
+
+<form   style="position: absolute;top: 50%;left: 50%">
+
+    <input id="input" type="text"  >
+    <p id="demo">Your Text:</p>
+    <input  type="button" onclick="loadDoc()" value="submit">
+
+
+</form>
+
+
+
+</body>

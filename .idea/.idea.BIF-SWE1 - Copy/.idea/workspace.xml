@@ -25,8 +25,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3cb6797-dcdf-48ef-ad94-e15bd6af2e88" name="Default Changelist" comment="back to old main ! satic file works but still no post req">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebServer/Request.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Request.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <marker date="1548421701114" expanded="false" signature="6:173" ph="..." />
                 <marker date="1548421701114" expanded="true" signature="196:2257" ph="{...}" />
@@ -103,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+            <state relative-caret-position="754">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <marker date="1548423384335" expanded="false" signature="6:129" ph="..." />
                 <marker date="1548423384335" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
@@ -236,51 +234,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Response.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3614">
-              <caret line="224" column="42" selection-start-line="224" selection-start-column="42" selection-end-line="224" selection-end-column="42" />
+            <state relative-caret-position="49">
+              <caret line="243" column="16" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
               <folding>
-                <marker date="1548355683156" expanded="false" signature="6:128" ph="..." />
-                <marker date="1548355683156" expanded="true" signature="159:7935" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="204:7933" ph="{...}" />
-                <marker date="1548355683156" expanded="false" signature="219:2985" ph="Types" />
-                <marker date="1548355683156" expanded="true" signature="368:2965" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
-                <marker date="1548355683156" expanded="true" signature="3323:3379" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
-                <marker date="1548355683156" expanded="true" signature="3528:3847" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3554:3837" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3619:3685" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3706:3806" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
-                <marker date="1548355683156" expanded="true" signature="4173:4274" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
-                <marker date="1548355683156" expanded="true" signature="4488:4818" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4514:4768" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4565:4658" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4679:4754" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
-                <marker date="1548355683156" expanded="true" signature="4949:5499" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="4975:5489" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5028:5101" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5145:5225" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5269:5361" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5382:5475" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
-                <marker date="1548355683156" expanded="true" signature="5761:5985" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5817:5889" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5906:5975" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
-                <marker date="1548355683156" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
-                <marker date="1548355683156" expanded="true" signature="6394:6450" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
-                <marker date="1548355683156" expanded="true" signature="6624:6709" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
-                <marker date="1548355683156" expanded="true" signature="6883:7006" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
-                <marker date="1548355683156" expanded="true" signature="7190:7927" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="7257:7338" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="7356:7859" ph="{...}" />
-                <marker date="1548355683156" expanded="true" signature="7632:7743" ph="{...}" />
+                <marker date="1548531957822" expanded="false" signature="6:128" ph="..." />
+                <marker date="1548531957822" expanded="true" signature="159:7935" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="204:7933" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="219:2985" ph="Types" />
+                <marker date="1548531957822" expanded="true" signature="368:2965" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
+                <marker date="1548531957822" expanded="true" signature="3323:3379" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
+                <marker date="1548531957822" expanded="true" signature="3528:3847" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3554:3837" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3619:3685" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3706:3806" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
+                <marker date="1548531957822" expanded="true" signature="4173:4274" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
+                <marker date="1548531957822" expanded="true" signature="4488:4818" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4514:4768" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4565:4658" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4679:4754" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
+                <marker date="1548531957822" expanded="true" signature="4949:5499" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="4975:5489" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5028:5101" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5145:5225" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5269:5361" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5382:5475" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
+                <marker date="1548531957822" expanded="true" signature="5761:5985" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5817:5889" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5906:5975" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
+                <marker date="1548531957822" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
+                <marker date="1548531957822" expanded="true" signature="6394:6450" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
+                <marker date="1548531957822" expanded="true" signature="6624:6709" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
+                <marker date="1548531957822" expanded="true" signature="6883:7006" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
+                <marker date="1548531957822" expanded="true" signature="7190:7927" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="7257:7338" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="7356:7859" ph="{...}" />
+                <marker date="1548531957822" expanded="true" signature="7632:7743" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,8 +287,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-591">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="160">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
               <folding>
                 <marker date="1548355683170" expanded="false" signature="6:76" ph="..." />
                 <marker date="1548355683170" expanded="true" signature="99:2738" ph="{...}" />
@@ -353,22 +351,31 @@
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPlugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/99/5291e264/FileIOPermission.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/e5/87b522d0/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/PluginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Request.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Url.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Naviplugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWebServer/Response.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/96/c0335370/Stream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/99/5291e264/FileIOPermission.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D42F0E0B-BFC7-4D33-B4B4-6DEEF693FD25/32/2509daa4/TcpListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/1e/c4c0a613/NetworkStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/03/e81012ee/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB5.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/547928F2-4D1A-44B5-82A9-E85182625217/f9/71eb7f5c/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/e5/87b522d0/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/09/cc545155/Socket.cs" root0="SKIP_HIGHLIGHTING" />
@@ -382,20 +389,12 @@
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/AbstractTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IUebungen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/IPluginManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/PluginManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Request.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Url.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Assert.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Naviplugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB6.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/07/d8c583ce/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyWebServer/Response.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/96/c0335370/Stream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42073FCF-9EFD-4A92-A6F0-A4CC94099FE3/88/14e56ed0/Encoding.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -415,12 +414,12 @@
         <option value="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Naviplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Url.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Response.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Program.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Request.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Lowerplugin.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Response.cs" />
       </list>
     </option>
   </component>
@@ -430,7 +429,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -450,25 +449,10 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BIF-SWE1 - Copy" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -594,6 +578,7 @@
       <workItem from="1548348827657" duration="4787000" />
       <workItem from="1548415222555" duration="4175000" />
       <workItem from="1548422162897" duration="1683000" />
+      <workItem from="1548528301809" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="ub3 done!">
       <created>1541941693316</created>
@@ -669,7 +654,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190724000" />
+    <option name="totallyTimeSpent" value="194235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,8 +666,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947994" weight="0.21225382" />
       <window_info id="Structure" order="1" sideWeight="0.50520056" side_tool="true" weight="0.12473348" />
@@ -692,7 +676,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89285713" weight="0.32502708" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.87473345" visible="true" weight="0.27193934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8271335" visible="true" weight="0.27461708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
@@ -704,7 +688,7 @@
       <window_info anchor="bottom" id="TeamCity" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.10127932" side_tool="true" weight="0.2112676" />
-      <window_info anchor="bottom" auto_hide="true" id="Build" order="15" sideWeight="0.12526652" side_tool="true" weight="0.27193934" />
+      <window_info anchor="bottom" auto_hide="true" id="Build" order="15" sideWeight="0.17286652" side_tool="true" weight="0.27461708" />
       <window_info anchor="bottom" id="Performance Profiler" order="16" sideWeight="0.79744136" weight="0.32936078" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -827,6 +811,19 @@
           </properties>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MyWebServer/Program.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/MyWebServer/Program.cs" initialLine="46">
+            <startOffsets>
+              <option value="1239" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1276" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints">
@@ -842,7 +839,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.Rider2018.2/system/log/UnitTestLogs/d17bcf2c-4d04-4fc9-bfee-8b24672b9dd0___2018-11-01-22-04-51-318.log" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3E4200C-CDA7-4037-B5FC-8C34C9135930/e9/c1023846/IDictionary`2.cs" />
     <entry file="file://$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.Interfaces/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1360,13 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/03/e81012ee/ThrowHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -2428,61 +2417,244 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <marker date="1548423556167" expanded="false" signature="6:152" ph="..." />
+            <marker date="1548423556167" expanded="true" signature="175:1512" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="211:1510" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="262:443" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="352:407" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="490:1504" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="553:1420" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="587:1265" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="737:1172" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="1301:1406" ph="{...}" />
+            <marker date="1548423556167" expanded="true" signature="1437:1494" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Response.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3614">
-          <caret line="224" column="42" selection-start-line="224" selection-start-column="42" selection-end-line="224" selection-end-column="42" />
+        <state relative-caret-position="49">
+          <caret line="243" column="16" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
           <folding>
-            <marker date="1548355683156" expanded="false" signature="6:128" ph="..." />
-            <marker date="1548355683156" expanded="true" signature="159:7935" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="204:7933" ph="{...}" />
-            <marker date="1548355683156" expanded="false" signature="219:2985" ph="Types" />
-            <marker date="1548355683156" expanded="true" signature="368:2965" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
-            <marker date="1548355683156" expanded="true" signature="3323:3379" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
-            <marker date="1548355683156" expanded="true" signature="3528:3847" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3554:3837" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3619:3685" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3706:3806" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
-            <marker date="1548355683156" expanded="true" signature="4173:4274" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
-            <marker date="1548355683156" expanded="true" signature="4488:4818" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4514:4768" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4565:4658" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4679:4754" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
-            <marker date="1548355683156" expanded="true" signature="4949:5499" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="4975:5489" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5028:5101" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5145:5225" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5269:5361" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5382:5475" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
-            <marker date="1548355683156" expanded="true" signature="5761:5985" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5817:5889" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5906:5975" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
-            <marker date="1548355683156" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
-            <marker date="1548355683156" expanded="true" signature="6394:6450" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
-            <marker date="1548355683156" expanded="true" signature="6624:6709" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
-            <marker date="1548355683156" expanded="true" signature="6883:7006" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
-            <marker date="1548355683156" expanded="true" signature="7190:7927" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="7257:7338" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="7356:7859" ph="{...}" />
-            <marker date="1548355683156" expanded="true" signature="7632:7743" ph="{...}" />
+            <marker date="1548531957822" expanded="false" signature="6:128" ph="..." />
+            <marker date="1548531957822" expanded="true" signature="159:7935" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="204:7933" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="219:2985" ph="Types" />
+            <marker date="1548531957822" expanded="true" signature="368:2965" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3061:3184" ph="/// Returns a writable dictionary of the response headers. Never returns null. ... " />
+            <marker date="1548531957822" expanded="true" signature="3323:3379" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3389:3495" ph="/// Returns the content length or 0 if no content is set yet. ... " />
+            <marker date="1548531957822" expanded="true" signature="3528:3847" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3554:3837" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3619:3685" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3706:3806" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="3857:4139" ph="/// Gets or sets the content type of the response. ... " />
+            <marker date="1548531957822" expanded="true" signature="4173:4274" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4284:4422" ph="/// Gets or sets the current status code. An Exceptions is thrown, if no status code was set. ... " />
+            <marker date="1548531957822" expanded="true" signature="4488:4818" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4514:4768" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4565:4658" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4679:4754" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4828:4920" ph="/// Returns the status code as string. (200 OK) ... " />
+            <marker date="1548531957822" expanded="true" signature="4949:5499" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="4975:5489" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5028:5101" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5145:5225" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5269:5361" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5382:5475" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5509:5702" ph="/// Adds or replaces a response header in the headers dictionary. ... " />
+            <marker date="1548531957822" expanded="true" signature="5761:5985" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5817:5889" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5906:5975" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="5995:6115" ph="/// Gets or sets the Server response header. Defaults to &quot;BIF-SWE1-Server&quot;. ... " />
+            <marker date="1548531957822" expanded="true" signature="6195:6347" ph="/// Sets a string content. The content will be encoded in UTF-8. ... " />
+            <marker date="1548531957822" expanded="true" signature="6394:6450" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="6460:6577" ph="/// Sets a byte[] as content. ... " />
+            <marker date="1548531957822" expanded="true" signature="6624:6709" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="6719:6837" ph="/// Sets the stream as content. ... " />
+            <marker date="1548531957822" expanded="true" signature="6883:7006" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="7016:7149" ph="/// Sends the response to the network stream. ... " />
+            <marker date="1548531957822" expanded="true" signature="7190:7927" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="7257:7338" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="7356:7859" ph="{...}" />
+            <marker date="1548531957822" expanded="true" signature="7632:7743" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <marker date="1548355683170" expanded="false" signature="6:76" ph="..." />
+            <marker date="1548355683170" expanded="true" signature="99:2738" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="145:2736" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
+            <marker date="1548355683170" expanded="true" signature="501:755" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="587:644" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="661:717" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
+            <marker date="1548355683170" expanded="true" signature="1016:2730" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1067:2646" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1362:2268" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1404:2096" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1557:1967" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="1766:1886" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2122:2250" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2289:2632" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2331:2460" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2486:2614" ph="{...}" />
+            <marker date="1548355683170" expanded="true" signature="2663:2720" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/1e/c4c0a613/NetworkStream.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="419" column="10" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="10" />
+          <folding>
+            <marker date="1548531578172" expanded="true" signature="0:328" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1548531578172" expanded="false" signature="336:473" ph="..." />
+            <marker date="1548531578172" expanded="true" signature="503:41597" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="627:41595" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="949:993" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="999:1858" ph="///Creates a new instance of the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; class for the specified &lt;see c ... " />
+            <marker date="1548531578172" expanded="true" signature="1898:2054" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="2060:3260" ph="///Initializes a new instance of the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; class for the specified &lt;s ... " />
+            <marker date="1548531578172" expanded="true" signature="3317:3511" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="3585:3830" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="3836:4997" ph="///Creates a new instance of the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; class for the specified &lt;see c ... " />
+            <marker date="1548531578172" expanded="true" signature="5056:5198" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="5204:6690" ph="///Creates a new instance of the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; class for the specified &lt;see c ... " />
+            <marker date="1548531578172" expanded="true" signature="6766:6946" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="6952:7161" ph="///Gets the underlying &lt;see cref=&quot;T:System.Net.Sockets.Socket&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="7189:7263" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7205:7257" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7299:7541" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7315:7535" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7582:7926" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7816:7863" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7904:7920" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="7971:8058" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8064:8424" ph="///Gets or sets a value that indicates whether the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; can be read. ... " />
+            <marker date="1548531578172" expanded="true" signature="8452:8581" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8468:8516" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8526:8575" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8587:8893" ph="///Gets a value that indicates whether the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; is writable. ... " />
+            <marker date="1548531578172" expanded="true" signature="8922:9053" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8938:8987" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="8997:9047" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="9059:9369" ph="///Gets a value that indicates whether the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; supports reading. ... " />
+            <marker date="1548531578172" expanded="true" signature="9402:9472" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="9418:9466" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="9478:9849" ph="///Gets a value that indicates whether the stream supports seeking. This property is not currently supported.This ... " />
+            <marker date="1548531578172" expanded="true" signature="9882:9942" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="9898:9936" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="9948:10302" ph="///Gets a value that indicates whether the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; supports writing. ... " />
+            <marker date="1548531578172" expanded="true" signature="10336:10407" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="10352:10401" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="10413:10612" ph="///Indicates whether timeout properties are usable for &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="10648:10707" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="10664:10701" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="10713:11287" ph="///Gets or sets the amount of time that a read operation blocks waiting for data. ... " />
+            <marker date="1548531578172" expanded="true" signature="11323:11820" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="11339:11565" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="11575:11814" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="11826:12403" ph="///Gets or sets the amount of time that a write operation blocks waiting for data. ... " />
+            <marker date="1548531578172" expanded="true" signature="12440:12931" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="12456:12679" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="12689:12925" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="12937:13806" ph="///Gets a value that indicates whether data is available on the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; ... " />
+            <marker date="1548531578172" expanded="true" signature="13844:14237" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="13860:14231" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="14243:14597" ph="///Gets the length of the data available on the stream. This property is not currently supported and always throw ... " />
+            <marker date="1548531578172" expanded="true" signature="14629:14736" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="14645:14730" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="14742:15080" ph="///Gets or sets the current position in the stream. This property is not currently supported and always throws a  ... " />
+            <marker date="1548531578172" expanded="true" signature="15114:15316" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="15130:15215" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="15225:15310" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="15322:15793" ph="///Sets the current position of the stream to the given value. This method is not currently supported and always  ... " />
+            <marker date="1548531578172" expanded="true" signature="15855:15934" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="16005:16661" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="16372:16655" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="16691:16914" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="16973:17331" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="17337:18978" ph="///Reads data from the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="19054:20180" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="19812:19905" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="19932:20174" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="20186:21679" ph="///Writes data to the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="21747:22867" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="22508:22591" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="22618:22861" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="22873:23304" ph="///Closes the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; after waiting the specified time to allow data to ... " />
+            <marker date="1548531578172" expanded="true" signature="23339:23497" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="23503:23852" ph="///Releases the unmanaged resources used by the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt; and optionally  ... " />
+            <marker date="1548531578172" expanded="true" signature="23904:24448" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24047:24411" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24153:24403" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24252:24393" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24583:24622" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24651:24824" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24667:24818" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="24830:26834" ph="///Begins an asynchronous read from the &lt;see cref=&quot;T:System.Net.Sockets.NetworkStream&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="27057:28205" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="27815:27930" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="27957:28199" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="28362:29141" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="28809:28930" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="28957:29135" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="29147:29946" ph="///Handles the end of an asynchronous read. ... " />
+            <marker date="1548531578172" expanded="true" signature="30004:30752" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="30408:30477" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="30504:30746" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="30758:32701" ph="///Begins an asynchronous write to a stream. ... " />
+            <marker date="1548531578172" expanded="true" signature="32925:34074" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="33686:33798" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="33825:34068" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="34232:35076" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="34682:34800" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="34827:35070" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="35082:35828" ph="///Handles the end of an asynchronous write. ... " />
+            <marker date="1548531578172" expanded="true" signature="35888:36628" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="36293:36352" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="36379:36622" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="36697:37352" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="36998:37076" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="37103:37346" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="37491:38175" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="37792:37899" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="37926:38169" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="38320:39010" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="38621:38734" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="38761:39004" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="39080:39732" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="39389:39456" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="39483:39726" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="39863:39875" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="39881:40240" ph="///Flushes data from the stream as an asynchronous operation. ... " />
+            <marker date="1548531578172" expanded="true" signature="40313:40358" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="40364:40653" ph="///Sets the length of the stream. This method always throws a &lt;see cref=&quot;T:System.NotSupportedException&quot; /&gt;. ... " />
+            <marker date="1548531578172" expanded="true" signature="40700:40779" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="40868:41591" ph="{...}" />
+            <marker date="1548531578172" expanded="true" signature="41128:41301" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+        <state relative-caret-position="754">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <marker date="1548423384335" expanded="false" signature="6:129" ph="..." />
             <marker date="1548423384335" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
@@ -2534,58 +2706,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2979110A-DCF4-4908-8C79-E7203BD2BF18/03/e81012ee/ThrowHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="212">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
-            <marker date="1548355683170" expanded="false" signature="6:76" ph="..." />
-            <marker date="1548355683170" expanded="true" signature="99:2738" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="145:2736" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="160:456" ph="/// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with ... " />
-            <marker date="1548355683170" expanded="true" signature="501:755" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="587:644" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="661:717" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="765:970" ph="/// Called by the server when the plugin should handle the request. ... " />
-            <marker date="1548355683170" expanded="true" signature="1016:2730" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="1067:2646" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="1362:2268" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="1404:2096" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="1557:1967" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="1766:1886" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="2122:2250" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="2289:2632" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="2331:2460" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="2486:2614" ph="{...}" />
-            <marker date="1548355683170" expanded="true" signature="2663:2720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Lowerplugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding>
-            <marker date="1548423556167" expanded="false" signature="6:152" ph="..." />
-            <marker date="1548423556167" expanded="true" signature="175:1512" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="211:1510" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="262:443" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="352:407" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="490:1504" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="553:1420" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="587:1265" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="737:1172" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="1301:1406" ph="{...}" />
-            <marker date="1548423556167" expanded="true" signature="1437:1494" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="0:318" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1547755158535" expanded="false" signature="326:412" ph="..." />
+            <marker date="1547755158535" expanded="true" signature="430:11092" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="468:11090" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="532:665" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="755:890" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="984:1123" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="1177:1229" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="1306:1423" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="1541:1697" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="1778:1868" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="1955:2051" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="2179:2508" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="2593:2718" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="2800:2922" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="2999:3116" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="3197:3318" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="3405:3532" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="3634:3769" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="3886:4026" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="4098:5840" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="4128:5834" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="5912:11086" ph="{...}" />
+            <marker date="1547755158535" expanded="true" signature="5942:11080" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="186">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <marker date="1548421701114" expanded="false" signature="6:173" ph="..." />
             <marker date="1548421701114" expanded="true" signature="196:2257" ph="{...}" />
