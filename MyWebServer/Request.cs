@@ -23,19 +23,36 @@ namespace MyWebServer
         public List<string> url = new List<string>();
 
 
-        public Request(Stream input)
+        public  Request(Stream input)
         {
-            
-            StreamReader read;
-
-            read = new StreamReader(input);
-
-            while ( read.Peek()>-1)
+            try
             {
-                url.Add(read.ReadLine());
-                reqheader += url.Last() + "\n";
+                StreamReader read = new StreamReader(input);
+                string line;
+                do
+                {
+                    line = read.ReadLine();
+                    url.Add(line);
+                    Console.WriteLine(line);
+                    reqheader += url.Last();
+                    
+                } while (!string.IsNullOrEmpty(line));
+
+                if (ContentLength>0)
+                {
+                    
+                    
+                }
 
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
+
+
         }
 
 
@@ -50,15 +67,16 @@ namespace MyWebServer
             {
                 try
                 {
-                    if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
+                    if (url.First() == null)
+                    {
+                        return false;
+                    }
+                  else  if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
                         url.First().Contains("POST"))
                     {
                         return true;
                     }
-                    else if (url.First() == null)
-                    {
-                        return false;
-                    }
+
                     else
                     {
                         return false;
@@ -155,7 +173,20 @@ namespace MyWebServer
 
         public int ContentLength
         {
-            get { return url.LastOrDefault().Length; }
+
+            get
+            {
+                try
+                {
+                    return Convert.ToInt32(Headers["contetlength"]) ;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+               
+            }
         }
 
         /// <summary>
