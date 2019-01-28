@@ -19,6 +19,7 @@ namespace MyWebServer
 {
     public class Request : IRequest
     {
+        private string content;
         public string reqheader;
         public List<string> url = new List<string>();
 
@@ -38,11 +39,17 @@ namespace MyWebServer
                     
                 } while (!string.IsNullOrEmpty(line));
 
-                if (ContentLength>0)
+                
+                if (Method=="POST"&&ContentLength>0)
                 {
                     
-                    
+                    char [] buf = new char[ContentLength];
+                    read.Read(buf, 0, ContentLength);
+                    content = new string(buf);
+                    Console.WriteLine("content:"+content);
                 }
+                return;
+                
 
             }
             catch (Exception e)
@@ -178,7 +185,7 @@ namespace MyWebServer
             {
                 try
                 {
-                    return Convert.ToInt32(Headers["contetlength"]) ;
+                    return Convert.ToInt32(Headers["content-length"]) ;
                 }
                 catch (Exception e)
                 {
@@ -207,7 +214,7 @@ namespace MyWebServer
             {
                 if (Method == "POST")
                 {
-                    byte[] s = UTF8Encoding.UTF8.GetBytes(url.Last());
+                    byte[] s = UTF8Encoding.UTF8.GetBytes(content);
                     Stream b = new MemoryStream(s);
                     return b;
                 }
@@ -223,7 +230,7 @@ namespace MyWebServer
         /// </summary>
         public string ContentString
         {
-            get { return url.LastOrDefault(); }
+            get { return content ; }
         }
 
         /// <summary>
@@ -233,7 +240,7 @@ namespace MyWebServer
         {
             get
             {
-                byte[] byteArray = UTF8Encoding.UTF8.GetBytes(url.LastOrDefault());
+                byte[] byteArray = UTF8Encoding.UTF8.GetBytes(content);
                 return byteArray;
             }
         }
