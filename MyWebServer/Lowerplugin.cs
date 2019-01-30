@@ -34,7 +34,7 @@ namespace MyWebServer
                     {
                         StatusCode = 200,
                         ContentType = Response.Typepmap[".html"],
-                        content = "<!DOCTYPE html> <html> <head><title>Test</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><script type=\"text/javascript\">function codeAddress() { alert('"+tolow+"');}window.onload = codeAddress; </script></head><body> </body></html>"
+                        content = tolow
 
                     };
                     
