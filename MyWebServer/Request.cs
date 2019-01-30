@@ -24,7 +24,7 @@ namespace MyWebServer
         public List<string> url = new List<string>();
 
 
-        public  Request(Stream input)
+        public Request(Stream input)
         {
             try
             {
@@ -36,20 +36,18 @@ namespace MyWebServer
                     url.Add(line);
                     Console.WriteLine(line);
                     reqheader += url.Last();
-                    
+
                 } while (!string.IsNullOrEmpty(line));
 
-                
-                if (Method=="POST"&&ContentLength>0)
+
+                if (Method == "POST" && ContentLength > 0)
                 {
-                    
-                    char [] buf = new char[ContentLength];
+
+                    char[] buf = new char[ContentLength];
                     read.Read(buf, 0, ContentLength);
                     content = new string(buf);
-                    Console.WriteLine("content:"+content);
+                    Console.WriteLine("content:" + content);
                 }
-                return;
-                
 
             }
             catch (Exception e)
@@ -78,8 +76,8 @@ namespace MyWebServer
                     {
                         return false;
                     }
-                  else  if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
-                        url.First().Contains("POST"))
+                    else if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
+                         url.First().Contains("POST"))
                     {
                         return true;
                     }
@@ -185,14 +183,14 @@ namespace MyWebServer
             {
                 try
                 {
-                    return Convert.ToInt32(Headers["content-length"]) ;
+                    return Convert.ToInt32(Headers["content-length"]);
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e);
                     throw;
                 }
-               
+
             }
         }
 
@@ -230,7 +228,7 @@ namespace MyWebServer
         /// </summary>
         public string ContentString
         {
-            get { return content ; }
+            get { return content; }
         }
 
         /// <summary>

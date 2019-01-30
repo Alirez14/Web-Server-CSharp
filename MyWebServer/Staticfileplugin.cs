@@ -19,7 +19,7 @@ namespace MyWebServer
 
             if (req.Url.Path.Contains('.'))
             {
-                handel = 1f;
+                handel = 0.9f;
             }
             else
             {
@@ -37,7 +37,6 @@ namespace MyWebServer
         public IResponse Handle(IRequest req)
         {
             if (CanHandle(req) != 0.0f)
-
             {
                 string path = req.Url.Path;
                 path = path.Replace("/", "\\");
