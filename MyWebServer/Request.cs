@@ -105,17 +105,26 @@ namespace MyWebServer
         {
             get
             {
-                if (url.First().Contains("GET") || url.First().Contains("get"))
+                if (!string.IsNullOrEmpty(url.First()))
                 {
-                    return "GET";
-                }
-                else if (url.First().Contains("POST") || url.First().Contains("post"))
-                {
-                    return "POST";
+
+
+                    if (url.First().Contains("GET") || url.First().Contains("get"))
+                    {
+                        return "GET";
+                    }
+                    else if (url.First().Contains("POST") || url.First().Contains("post"))
+                    {
+                        return "POST";
+                    }
+                    else
+                    {
+                        return "error";
+                    }
                 }
                 else
                 {
-                    return "error";
+                    return null;
                 }
             }
         }
