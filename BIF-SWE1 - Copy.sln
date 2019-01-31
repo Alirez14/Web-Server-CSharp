@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebServer", "MyWebServer\MyWebServer.csproj", "{105A430E-499F-4549-99FE-FC6B23C9C976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIF-SWE1.Interfaces", "..\..\FH\BIF-3\SWE\unit-tests\BIF-SWE1\CS\BIF-SWE1.Interfaces\BIF-SWE1.Interfaces.csproj", "{27C44945-CB10-48BF-AD69-457D496B32A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIF-SWE1.Interfaces", "..\unit-tests\BIF-SWE1\CS\BIF-SWE1.Interfaces\BIF-SWE1.Interfaces.csproj", "{27C44945-CB10-48BF-AD69-457D496B32A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIF-SWE1.UnitTests", "..\..\FH\BIF-3\SWE\unit-tests\BIF-SWE1\CS\BIF-SWE1.UnitTests\BIF-SWE1.UnitTests.csproj", "{6B6F4CDB-461C-4C8D-A5D5-BC2BDBC57D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIF-SWE1.UnitTests", "..\unit-tests\BIF-SWE1\CS\BIF-SWE1.UnitTests\BIF-SWE1.UnitTests.csproj", "{6B6F4CDB-461C-4C8D-A5D5-BC2BDBC57D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
