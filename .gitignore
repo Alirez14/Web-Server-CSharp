@@ -4,3 +4,4 @@ obj
 deploy/
 packages/
 /MyWebServer/*.user
+*.vs
