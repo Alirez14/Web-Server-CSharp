@@ -37,21 +37,24 @@ namespace MyWebServer
             {
                 while ( reader.Read())
                 {
+
                     if ((reader.Name == "node" || reader.Name == "way") && reader.NodeType == XmlNodeType.Element)
                     {
-                        using (var childtag = reader.ReadSubtree())
+                        string id = reader.GetAttribute("id");
+                        using (XmlReader childtag = reader.ReadSubtree())
                         {
+                            
                             while (childtag.Read())
                             {
                                 if (childtag.Name == "tag" && reader.NodeType == XmlNodeType.Element)
                                 {
                                     string key = childtag.GetAttribute("k");
                                     string value = childtag.GetAttribute("v");
-                                    string id = reader.GetAttribute("id");
+                                   
                                     if (value.Contains(req) )
                                     {
                                         adress.Add("place with key : " + key + " and value :" + value +
-                                                   "is in place id: " +
+                                                   "is in Germany place id: " +
                                                    id);
                                     }
                                 }
@@ -59,6 +62,7 @@ namespace MyWebServer
                         }
                     }
                 }
+                
             }
 
             return adress;
@@ -85,7 +89,7 @@ namespace MyWebServer
                       string cont = string.Empty;
                       foreach (string s in result)
                       {
-                          cont += s + "</br>";
+                          cont += s + "\n";
                       }
 
                        resp = new Response()
