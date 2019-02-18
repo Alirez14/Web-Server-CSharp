@@ -9,7 +9,6 @@ using System.IO;
 using System.Globalization;
 using System.Reflection;
 using System.Runtime.Remoting.Messaging;
-using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
@@ -82,7 +81,7 @@ namespace MyWebServer
                 #region Connection
 
                 var con = new SqlConnection(
-                    @"Data Source=DESKTOP-6JC714Q\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
+                    @"Data Source=(local)\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
                 var command = new SqlCommand("GetTemp", con);
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@DATE", date);
@@ -98,10 +97,10 @@ namespace MyWebServer
                     con.Open();
                 }
 
-                if (File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml"))
+                if (File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml"))
                 {
 
-                    File.Delete(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml");
+                    File.Delete(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
                 }
 
                 XmlDocument xml = new XmlDocument();
@@ -133,7 +132,7 @@ namespace MyWebServer
 
                     root.AppendChild(weather);
 
-                    xml.Save(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml");
+                    xml.Save(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
 
                 }
 
@@ -167,7 +166,7 @@ namespace MyWebServer
                             }
 
                             List<string> xmlToString = new List<string>();
-                            using (XmlTextReader xmlReader = new XmlTextReader(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml"))
+                            using (XmlTextReader xmlReader = new XmlTextReader(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml"))
                             {
                                 xmlReader.WhitespaceHandling = WhitespaceHandling.None;
                                 xmlReader.MoveToContent();
@@ -214,7 +213,7 @@ namespace MyWebServer
 
                 else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml"))
                 {
-                    var xmlDoc = XElement.Load(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml");
+                    var xmlDoc = XElement.Load(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
                     content += xmlDoc;
                     resp.SetContent(content);
                     resp.ContentType = "text/xml";
