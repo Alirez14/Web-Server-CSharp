@@ -14,12 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lower.html">
+        <entry file="file://$PROJECT_DIR$/navi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="434">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,6 +31,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lower.html" />
+        <option value="$PROJECT_DIR$/navi.html" />
       </list>
     </option>
   </component>
@@ -41,8 +42,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="91" />
+    <option name="y" value="467" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -54,7 +55,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/navi.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
@@ -70,10 +74,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JS DEBUGGER" type="JavascriptDebugType">
+  <component name="RunManager" selected="JavaScript Debug.navi.html">
+    <configuration default="true" type="EMBER_TEST_CONFIGURATION" factoryName="Ember test configuration factory">
+      <option name="ENVIRONMENT" value="test" />
+      <option name="CONFIG_FILE" value="" />
+      <option name="HOST" value="" />
+      <option name="TEST_PORT" value="" />
+      <option name="FILTER" value="" />
+      <option name="FILTER_OPTION" value="ALL" />
+      <option name="MODULE" value="" />
+      <option name="WATCHER" value="" />
+      <option name="TESTEM_DEBUG" value="" />
+      <option name="TEST_PAGE" value="" />
+      <option name="PATH" value="" />
+      <option name="QUERY" value="" />
+      <option name="REPORTER" value="" />
+      <option name="LAUNCH" value="" />
+      <option name="LAUNCH_OPTION" value="DEFAULT" />
       <method v="2" />
     </configuration>
+    <configuration name="debugger" type="JavascriptDebugType" uri="http://127.0.0.1:63348">
+      <method v="2" />
+    </configuration>
+    <configuration name="navi.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/$PROJECT_DIR$/navi.html" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.debugger" />
+      <item itemvalue="JavaScript Debug.navi.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.navi.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,11 +130,14 @@
       <updated>1548356455202</updated>
       <workItem from="1548356458161" duration="4256000" />
       <workItem from="1548529076595" duration="5140000" />
+      <workItem from="1549576759276" duration="13000" />
+      <workItem from="1549750620993" duration="8005000" />
+      <workItem from="1549792741110" duration="4695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9396000" />
+    <option name="totallyTimeSpent" value="22109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -102,13 +148,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -119,12 +165,25 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="http://gc.kis.v2.scr.kaspersky-labs.com/20196762-B77A-7240-B486-5285BA4E517E/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lower.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

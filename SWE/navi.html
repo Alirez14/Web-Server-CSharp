@@ -1,27 +1,99 @@
 <!Doctype html>
 
 <head>
-    <title>Embedded SENSOR CLOUD </title> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -
-    <link rel = "stylesheet" type = "text/css" href = "style.css" >  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>webserver</title>
 
-    <link rel="icon" href="#">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+
+
+    <!-- jQuery library -->
+
+    <!-- Popper JS -->
+
+
+    <!-- Latest compiled JavaScript -->
+
+
 </head>
-<body>
-    <ul>
-        <h2>WELCOME TO EMBEDDED SENSOUR CLOUD</h2>
-        <li><a href="navi.html"><h4>Navi Plugin</h4></a></li>
-        <li><a href ="temp.html"><h4>Temperatur Plugin</h4></a></li>
-        <li><a href = "lower.html"><h4>Tolower Plugin</h4></a></li>
-        <li><a href = "index.html"><h4>Home</h4></a></li>
-    </ul> 
 
-    <div id = "nav">
-        <h4>Street:</h4> 
-        <input type = "text" name = "navi"> <br> <br>
-        <input type = "submit" name = "Search" value = "Search">
-    </div>
+<script>
+    var list = [];
+    var index = 0;
+
+
+
+    function loadDoc() {
+        const input = "street=" + document.getElementById("input").value;
+        const xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var result = this.responseText;
+                var templist = result.split("\n");
+                var lent = list.length;
+
+                var i = 0;
+                var tempstring = "";
+                for (var x in templist) {
+                    tempstring += templist[x] + "<br>";
+                    i++;
+                    if (i == 5) {
+                        list.push(tempstring);
+                        tempstring = "";
+                        i = 0;
+
+
+                    }
+
+                }
+                document.getElementById("demo").innerHTML = list[index];
+
+
+            }
+        };
+        xhttp.open("POST", "http://localhost:8080/C:/Users/Alirez/Desktop/swe/lower.html", true);
+
+        xhttp.send(input);
+    }
+
+    function prev() {
+        if (index > 0) {
+            index--;
+            document.getElementById("demo").innerHTML = list[index];
+        }
+
+    }
+
+    function next() {
+
+        if (index < list.length) {
+            index++;
+            document.getElementById("demo").innerHTML = list[index];
+        }
+
+    }
+</script>
+
+<body>
+<div style="position: absolute;top: 50%;left: 50%">
+
+
+    <textarea id="input" type="text"></textarea>
+    <br>
+    <br>
+
+    <input type="button" onclick="loadDoc()" value="submit">
+    <br>
+    <p id="demo"></p>
+    <br>
+    <button id="prev" onclick="prev()" type="button">Previous</button>
+    <button id="next" onclick="next()" type="button">Next</button>
+
+</div>
+
 
 </body>
-

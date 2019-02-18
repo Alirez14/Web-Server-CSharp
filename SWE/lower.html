@@ -12,14 +12,14 @@
 <script>
 
 function loadDoc() {
-    var input = document.getElementById("input").value;
+    var input = "message="+document.getElementById("input").value;
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("POST","http://127.0.0.1:8080",true);
+  xhttp.open("POST","http://localhost:8080/C:/Users/Alirez/Desktop/swe/lower.html",true);
  
   xhttp.send(input);
 }
@@ -29,7 +29,7 @@ function loadDoc() {
 
 <form   style="position: absolute;top: 50%;left: 50%">
 
-    <input id="input" type="text"  >
+    <textarea  id="input" type="text"></textarea> 
     <p id="demo">Your Text:</p>
     <input  type="button" onclick="loadDoc()" value="submit">
 
