@@ -81,7 +81,7 @@ namespace MyWebServer
                 #region Connection
 
                 var con = new SqlConnection(
-                    @"Data Source=(local)\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
+                    @"Data Source=(local)\\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
                 var command = new SqlCommand("GetTemp", con);
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@DATE", date);
