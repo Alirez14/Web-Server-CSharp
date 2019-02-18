@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Data;
 using System.Linq;
 using System.Text;
@@ -80,11 +81,16 @@ namespace MyWebServer
 
                 #region Connection
 
+
                 var con = new SqlConnection(
-                    @"Data Source=(local)\\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
+                    @"Data Source=(local)\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
+
+                con.Open();
                 var command = new SqlCommand("GetTemp", con);
+                command.CommandTimeout = 180000;
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@DATE", date);
+                var reader = command.ExecuteReader();
 
                 #endregion
 
@@ -92,19 +98,13 @@ namespace MyWebServer
 
                 #region SaveXml
 
-                if (con.State == ConnectionState.Closed)
-                {
-                    con.Open();
-                }
-
-                if (File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml"))
+                if (File.Exists(@"..\SWE\temp.xml"))
                 {
 
-                    File.Delete(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
+                    File.Delete(@"..\SWE\temp.xml");
                 }
 
                 XmlDocument xml = new XmlDocument();
-                var reader = command.ExecuteReader();
                 if (reader.HasRows)
                 {
                     XmlNode root = xml.CreateElement("Temperatur");
@@ -132,7 +132,7 @@ namespace MyWebServer
 
                     root.AppendChild(weather);
 
-                    xml.Save(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
+                    xml.Save(@"..\SWE\temp.xml");
 
                 }
 
@@ -140,6 +140,7 @@ namespace MyWebServer
                 {
                     resp.StatusCode = 404;
                     resp.SetContent("No Data has been found");
+                    con.Close();
                     return resp;
                 }
                 #endregion
@@ -166,7 +167,7 @@ namespace MyWebServer
                             }
 
                             List<string> xmlToString = new List<string>();
-                            using (XmlTextReader xmlReader = new XmlTextReader(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml"))
+                            using (XmlTextReader xmlReader = new XmlTextReader(@"..\SWE\temp.xml"))
                             {
                                 xmlReader.WhitespaceHandling = WhitespaceHandling.None;
                                 xmlReader.MoveToContent();
@@ -196,11 +197,13 @@ namespace MyWebServer
                             else
                             {
                                 resp.SetContent("Not Found");
+                                con.Close();
                                 return resp;
                             }
 
                             resp.ContentType = type;
                             resp.SetContent(content);
+                            con.Close();
                             return resp;
                         }
                     }
@@ -211,19 +214,21 @@ namespace MyWebServer
                     }
                 }
 
-                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\Website\temp.xml"))
+                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"..\SWE\temp.xml"))
                 {
-                    var xmlDoc = XElement.Load(@"C:\Users\sina_\OneDrive\Desktop\sina\swemerged\SWE\temp.xml");
+                    var xmlDoc = XElement.Load(@"..\SWE\temp.xml");
                     content += xmlDoc;
                     resp.SetContent(content);
                     resp.ContentType = "text/xml";
                     resp.StatusCode = 200;
+                    con.Close();
                     return resp;
                 }
                 else
                 {
                     resp.StatusCode = 200;
                     resp.SetContent("Data Has not been Found, Pick another date");
+                    con.Close();
                     return resp;
                 }
 
