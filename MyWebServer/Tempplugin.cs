@@ -9,7 +9,6 @@ using System.IO;
 using System.Globalization;
 using System.Reflection;
 using System.Runtime.Remoting.Messaging;
-using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
@@ -82,7 +81,7 @@ namespace MyWebServer
                 #region Connection
 
                 var con = new SqlConnection(
-                    @"Data Source=DESKTOP-6JC714Q\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
+                    @"Data Source=(local)\\SQLEXPRESS;Initial Catalog=dotnet;Integrated Security=True");
                 var command = new SqlCommand("GetTemp", con);
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@DATE", date);

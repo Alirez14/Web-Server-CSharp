@@ -25,32 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3cb6797-dcdf-48ef-ad94-e15bd6af2e88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/lower.html" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/lower.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/navi.html" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/navi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWE/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SWE/temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="1672">
+              <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
               <folding>
                 <marker date="1550486373783" expanded="false" signature="6:129" ph="..." />
                 <marker date="1550486373783" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
@@ -242,27 +217,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="3268">
+              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
               <folding>
-                <marker date="1548842253235" expanded="false" signature="6:177" ph="..." />
-                <marker date="1548842253235" expanded="true" signature="200:3033" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="233:3031" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="284:436" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="345:400" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="483:3025" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="775:2989" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="1491:1669" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="1551:1651" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="1690:1853" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="1893:2975" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="1935:2803" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="2088:2649" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="2297:2417" ph="{...}" />
-                <marker date="1548842253235" expanded="true" signature="2829:2957" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="6:367" ph="..." />
+                <marker date="1550487973858" expanded="true" signature="390:7988" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="423:7986" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="474:741" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="535:590" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="650:705" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="788:7980" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="874:7920" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="951:1566" ph="FindUrl" />
+                <marker date="1550487973858" expanded="true" signature="1066:1337" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="1401:1538" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="1618:1990" ph="FindPath" />
+                <marker date="1550487973858" expanded="true" signature="1777:1962" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="2051:2441" ph="Connection" />
+                <marker date="1550487973858" expanded="true" signature="2497:4301" ph="SaveXml" />
+                <marker date="1550487973858" expanded="true" signature="2570:2638" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="2738:2874" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="3018:4077" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="3306:3913" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="4099:4274" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="4529:7177" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="4572:7005" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="4725:6983" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="4936:5056" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="5278:5924" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="5566:5894" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="5663:5789" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="5981:6607" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="6641:6808" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="7052:7159" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="7327:7689" ph="{...}" />
+                <marker date="1550487973858" expanded="true" signature="7710:7905" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -528,7 +520,6 @@
         <option value="$PROJECT_DIR$/../unit-tests/BIF-SWE1/CS/BIF-SWE1.UnitTests/UEB3.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Plugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB3.cs" />
-        <option value="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Url.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Staticfileplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Uebungen/UEB6.cs" />
@@ -537,6 +528,7 @@
         <option value="$PROJECT_DIR$/MyWebServer/Naviplugin.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Program.cs" />
         <option value="$PROJECT_DIR$/MyWebServer/Request.cs" />
+        <option value="$PROJECT_DIR$/MyWebServer/Tempplugin.cs" />
       </list>
     </option>
   </component>
@@ -572,6 +564,20 @@
     <panes>
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1 - Copy" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BIF-SWE1 - Copy" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyWebServer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
@@ -713,7 +719,7 @@
       <workItem from="1549624233471" duration="8223000" />
       <workItem from="1549743805018" duration="4123000" />
       <workItem from="1549794511264" duration="3135000" />
-      <workItem from="1550486227353" duration="497000" />
+      <workItem from="1550486227353" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="ub3 done!">
       <created>1541941693316</created>
@@ -824,7 +830,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243563000" />
+    <option name="totallyTimeSpent" value="244478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -839,7 +845,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947994" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4947994" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" sideWeight="0.50520056" side_tool="true" weight="0.12473348" />
       <window_info id="Favorites" order="2" sideWeight="0.5032538" side_tool="true" weight="0.0804904" />
       <window_info id="Image Layers" order="3" />
@@ -2680,30 +2686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <marker date="1548842253235" expanded="false" signature="6:177" ph="..." />
-            <marker date="1548842253235" expanded="true" signature="200:3033" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="233:3031" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="284:436" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="345:400" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="483:3025" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="775:2989" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="1491:1669" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="1551:1651" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="1690:1853" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="1893:2975" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="1935:2803" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="2088:2649" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="2297:2417" ph="{...}" />
-            <marker date="1548842253235" expanded="true" signature="2829:2957" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Url.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2812">
@@ -2882,8 +2864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebServer/Request.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="1672">
+          <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
           <folding>
             <marker date="1550486373783" expanded="false" signature="6:129" ph="..." />
             <marker date="1550486373783" expanded="true" signature="131:360" ph="/* GET / HTTP/1.1 ... */" />
@@ -2939,6 +2921,47 @@
             <marker date="1550486373783" expanded="true" signature="6335:6460" ph="/// Returns the request content (body) as byte[] or null if there is no content. ... " />
             <marker date="1550486373783" expanded="true" signature="6495:6665" ph="{...}" />
             <marker date="1550486373783" expanded="true" signature="6521:6655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebServer/Tempplugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3268">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <marker date="1550487973858" expanded="true" signature="6:367" ph="..." />
+            <marker date="1550487973858" expanded="true" signature="390:7988" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="423:7986" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="474:741" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="535:590" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="650:705" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="788:7980" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="874:7920" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="951:1566" ph="FindUrl" />
+            <marker date="1550487973858" expanded="true" signature="1066:1337" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="1401:1538" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="1618:1990" ph="FindPath" />
+            <marker date="1550487973858" expanded="true" signature="1777:1962" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="2051:2441" ph="Connection" />
+            <marker date="1550487973858" expanded="true" signature="2497:4301" ph="SaveXml" />
+            <marker date="1550487973858" expanded="true" signature="2570:2638" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="2738:2874" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="3018:4077" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="3306:3913" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="4099:4274" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="4529:7177" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="4572:7005" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="4725:6983" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="4936:5056" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="5278:5924" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="5566:5894" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="5663:5789" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="5981:6607" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="6641:6808" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="7052:7159" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="7327:7689" ph="{...}" />
+            <marker date="1550487973858" expanded="true" signature="7710:7905" ph="{...}" />
           </folding>
         </state>
       </provider>
