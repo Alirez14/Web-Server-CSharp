@@ -33,6 +33,10 @@ namespace MyWebServer
                 do
                 {
                     line = read.ReadLine();
+                    if (line != null && line.Contains("%20"))
+                    {
+                        line = line.Replace("%20", " ");
+                    }
                     url.Add(line);
                     Console.WriteLine(line);
                     reqheader += url.Last();

@@ -23,12 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3cb6797-dcdf-48ef-ad94-e15bd6af2e88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BIF-SWE1 - Copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIF-SWE1 - Copy.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/BIF-SWE1 - Copy.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebServer/Naviplugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Naviplugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebServer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebServer/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="b3cb6797-dcdf-48ef-ad94-e15bd6af2e88" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +190,7 @@
         <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
+              <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding>
                 <marker date="1549743984921" expanded="false" signature="6:226" ph="..." />
                 <marker date="1549743984921" expanded="true" signature="249:2658" ph="{...}" />
@@ -688,7 +683,7 @@
       <workItem from="1549623733610" duration="467000" />
       <workItem from="1549624233471" duration="8223000" />
       <workItem from="1549743805018" duration="4123000" />
-      <workItem from="1549794511264" duration="2507000" />
+      <workItem from="1549794511264" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="ub3 done!">
       <created>1541941693316</created>
@@ -781,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548966010738</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="navi and multi thread finish !">
+      <created>1549815274066</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549815274067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242438000" />
+    <option name="totallyTimeSpent" value="243066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +800,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947994" visible="true" weight="0.118336886" />
       <window_info id="Structure" order="1" sideWeight="0.50520056" side_tool="true" weight="0.12473348" />
@@ -808,7 +809,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89285713" weight="0.32502708" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.85714287" visible="true" weight="0.27410617" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.85714287" weight="0.27410617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
@@ -911,7 +912,8 @@
     <MESSAGE value="request ok!" />
     <MESSAGE value="request done!" />
     <MESSAGE value="navi half done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="navi half done!" />
+    <MESSAGE value="navi and multi thread finish !" />
+    <option name="LAST_COMMIT_MESSAGE" value="navi and multi thread finish !" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2879,7 +2881,7 @@
     <entry file="file://$PROJECT_DIR$/MyWebServer/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
+          <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
             <marker date="1549743984921" expanded="false" signature="6:226" ph="..." />
             <marker date="1549743984921" expanded="true" signature="249:2658" ph="{...}" />
