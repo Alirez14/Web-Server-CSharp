@@ -38,16 +38,28 @@ namespace MyWebServer
         {
             if (CanHandle(req) != 0.0f)
             {
+
+                //find the path 
+                #region finding the path 
                 string path = req.Url.Path;
                 path = path.Replace("/", "\\");
                 path = path.Substring(1);
+                #endregion
+
+                //Type of the file 
                 string type = path.Substring(path.IndexOf('.'));
+
                 var resp = new Response();
+
+                //Check if the file exist in System
                 if (File.Exists(path))
                 {
                     try
                     {
+                        //200 means the page exist
                         resp.StatusCode = 200;
+
+                        //reading data from the file
                         using (FileStream fs = new FileStream(path, FileMode.Open))
                         {
                             string content = string.Empty;
@@ -74,6 +86,7 @@ namespace MyWebServer
                 {
                     try
                     {
+                        //Page did not found
                         resp.StatusCode = 404;
 
                         return resp;

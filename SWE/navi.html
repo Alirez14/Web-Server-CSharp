@@ -81,7 +81,6 @@
 </script>
 
 <body>
-
     <ul>
         <h2>WELCOME TO EMBEDDED SENSOUR CLOUD</h2>
         <li><a href="navi.html"><h4>Navi Plugin</h4></a></li>
@@ -90,19 +89,17 @@
         <li><a href = "index.html"><h4>Home</h4></a></li>
     </ul> 
 
-    <div style="position: absolute;top: 50%;left: 50%">
-
-
-        <textarea id="input" type="text"></textarea>
-        <br>
-        <br>
-
-        <input type="button" onclick="loadDoc()" value="submit">
-        <br>
-        <p id="demo"></p>
-        <br>
-        <button id="prev" onclick="prev()" type="button">Previous</button>
-        <button id="next" onclick="next()" type="button">Next</button>
-
-    </div>
+    <div id = "temp">
+        <div class="container">
+            <textarea id="input" type="text"></textarea>
+            <br>
+            <br>
+            <input type="button" onclick="loadDoc()" value="submit">
+            <br>
+            <p id="demo"></p>
+            <br>
+            <button id="prev" onclick="prev()" type="button">Previous</button>
+            <button id="next" onclick="next()" type="button">Next</button>
+        </div>
+    </div>  
 </body>

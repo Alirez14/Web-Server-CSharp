@@ -28,7 +28,6 @@ function loadDoc() {
 </script>
 
 <body>
-
     <ul>
       <h2>WELCOME TO EMBEDDED SENSOUR CLOUD</h2>
       <li><a href="navi.html"><h4>Navi Plugin</h4></a></li>
@@ -36,15 +35,14 @@ function loadDoc() {
       <li><a href = "lower.html"><h4>Tolower Plugin</h4></a></li>
       <li><a href = "index.html"><h4>Home</h4></a></li>
     </ul>   
-    <form   style="position: absolute;top: 50%;left: 50%">
 
-        <textarea  id="input" type="text"></textarea> 
-        <p id="demo">Your Text:</p>
-        <input  type="button" onclick="loadDoc()" value="submit">
-
-
-    </form>
-
-
-
+    <div id = "temp">
+      <div class="container">
+        <form>
+            <textarea  id="input" type="text"></textarea> 
+            <p id="demo" >Your Text:</p>
+            <input  type="button" onclick="loadDoc()" value="submit">
+        </form>
+      </div>
+    </div>
 </body>

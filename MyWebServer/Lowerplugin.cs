@@ -28,6 +28,7 @@ namespace MyWebServer
             {
                 try
                 {
+                    //convert Uppercase chars to lowercase 
                     string tolow = req.ContentString.ToLower();
 
                     var resp = new Response()

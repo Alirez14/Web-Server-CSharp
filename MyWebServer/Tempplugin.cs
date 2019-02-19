@@ -26,6 +26,8 @@ namespace MyWebServer
                 return 1f;
             }
 
+            //REST Interface 
+
             if (req.Url.RawUrl.Contains("GetTemperature"))
             {
                 return 1f;
