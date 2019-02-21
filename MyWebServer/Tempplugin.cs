@@ -16,7 +16,7 @@ using System.Xml.Xsl;
 
 namespace MyWebServer
 {
-    class Tempplugin : IPlugin
+    public class Tempplugin : IPlugin
     {
         public float CanHandle(IRequest req)
         {
@@ -52,7 +52,17 @@ namespace MyWebServer
                     string[] split = req.Url.RawUrl.Split('?');
                     string[] getContent = split[1].Split('&');
                     string[] dateSplit = getContent[0].Split('=');
-                    date = dateSplit[1];
+
+                    if (dateSplit[1] != String.Empty)
+                    {
+                        date = dateSplit[1];
+                    }
+                    else
+                    {
+                        resp.StatusCode = 400;
+                        resp.SetContent("Please Select the date");
+                        return resp;
+                    }
                 }
 
                 if (req.Url.RawUrl.Contains("GetTemperature"))
@@ -91,7 +101,10 @@ namespace MyWebServer
                 var command = new SqlCommand("GetTemp", con);
                 command.CommandTimeout = 180000;
                 command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue("@DATE", date);
+                if (date != String.Empty || String.IsNullOrEmpty(date))
+                {
+                    command.Parameters.AddWithValue("@DATE", date);
+                }
                 var reader = command.ExecuteReader();
 
                 #endregion

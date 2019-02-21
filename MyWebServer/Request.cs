@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace MyWebServer
         public string reqheader;
         public List<string> url = new List<string>();
 
-
+     
         public Request(Stream input)
         {
             try
