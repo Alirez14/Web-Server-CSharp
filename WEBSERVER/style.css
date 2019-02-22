@@ -1,0 +1,36 @@
+header{
+    background-color:  	#2F4F4F;
+    padding: 50px;
+}
+
+h1{
+    font-size: 30pt;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+#name
+{
+    color:white;
+    text-align: center;
+}
+
+p{
+    font-size: 13pt;
+}
+
+li{
+    font-size: 13pt;
+}
+
+body{
+    margin: 5px;
+}
+#titel
+{
+    border: solid 2px black;
+    padding: 6px;
+    text-align: center;
+    background-color:  	#B0C4DE;
+}

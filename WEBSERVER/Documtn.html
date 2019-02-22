@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+<head>
+    <title>My Web Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>My Web Server</h1> <p id = "name">Sina Barakati, Alireza Esbati</p></header>
+<div id = "body">
+
+    <div id = "usage">
+    <h2 id = "titel">How to use it?</h3>
+            <p>In case to connect to the server we need to use our localhost with port number 8080 <a href="">(https://localhost:8080)</a>. After connecting to the server the client type the URL in the browser (for example: https://localhost:8080/C:/index.html) and the server gets that request from the client and base on what the client asks for, it handles the request and send the response back to the browser.</p>
+        </div>
+
+    <h2 id = "titel">Solution Description:</h2>
+        <div id = "solution">
+            <p>The web server has 3 main tasks:</p>
+                <ol>
+                    <li><p></p>Convert each character, which has been written in Capital, of the text to lower case</li>
+                    <li>Client can write the name of one random street and the server will send the location of the given street back to the client.</li>
+                    <li>Inform the client about the temperature of Vienna in the past 10 years (2009 – 2019)</li>
+                </ol>
+
+            <p>The server includes two classes. One for getting the request from the client (Class Request) and the other one is the response of the specific request (Class Response).</p>
+
+            <ol>
+                <!-- first -->
+                <li><b>To lower plugin:</b>for this plugin we needed to use Java-script and Ajax in case to send the response to the browser.
+                    The client write the text in a text box and by clicking on the submit button the LoadDoc() Method will call and after converting the capital written chars to lower the new POST request with specific URL address will send to the server through Ajax and the server will read all the content of the converted text and send it back as a response to the web browser.
+                    </li>
+                <br>
+                <!-- second -->
+                <li><b>Navi Plugin:</b></li>
+                <br>
+                <!-- third -->
+                <li><b>Temperature Plugin:</b>The temperature data for the last 10 years of Vienna 
+                    is stored in a databank. They are two ways to get the data from server, first is to use REST interface and the second is using the website. 
+                    <br >
+                    <br >
+                    <ul>
+                        <li><b>Using the Website:</b> The client is able to pick a specific date from the website and by clicking on the search button the server will connect to the databank and look for the given date in the database. If the data exists in database the server get all the results and send it to the web browser. If there are more than one result the client is able to scroll the result using two buttons “Next” and “Previous”, which required us to use javascript and Ajax again. 
+                        </li>
+                        <br>
+                        <li><b>Using REST interface:</b> by typing <a href="">“localhost:8080/GetTemperature/(datetime in ‘yyyy-mm-dd’ format)” </a> in the URL the server will connect to the databank and will send the data in XML format to the browser. 
+                        </li>
+                    </ul>
+                </li>
+                <br>
+            </ol>
+        </div>
+
+    <h2 id = "titel">What we are proud of: </h2>
+        <div>
+            <ol>
+                <li>Clean Code</li>
+                <li>Best Performance</li>
+                <li>Great Teamwork</li>
+            </ol>
+       </div>
+
+    <h2 id = "titel">What would we do differently next time:</h2>
+        <div id = "proud">
+            <p>If we decide to write another server side program we would use Web API.NET. because this frame work has much more ability to build such a program. 
+            Another thing is that we would communicate more with our professor. At the beginning so many things was unclear for us and it took us so much time to understand the Exercise.
+            </p>
+        </div>
+</div>
+</body>
+</html>
