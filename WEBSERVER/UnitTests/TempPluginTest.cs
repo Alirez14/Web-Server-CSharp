@@ -14,7 +14,7 @@ namespace UnitTests
     {
 
         [TestMethod]
-        public void PluginManager_Should_Select_Tempplugin()
+        public void Plugin_Manager_Should_Select_Tempplugin()
         {
             //Arrange
             var stream = new RequestStream().ValidRequest("temp.html?date=&submit=ok");

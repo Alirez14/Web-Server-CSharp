@@ -113,10 +113,10 @@ namespace MyWebServer
 
                 #region SaveXml
 
-                if (File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
+                if (File.Exists(@"temp.xml"))
                 {
 
-                    File.Delete(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
+                    File.Delete(@"temp.xml");
                 }
 
                 XmlDocument xml = new XmlDocument();
@@ -147,7 +147,7 @@ namespace MyWebServer
 
                     root.AppendChild(weather);
 
-                    xml.Save(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
+                    xml.Save(@"temp.xml");
 
                 }
 
@@ -182,7 +182,7 @@ namespace MyWebServer
                             }
 
                             List<string> xmlToString = new List<string>();
-                            using (XmlTextReader xmlReader = new XmlTextReader(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
+                            using (XmlTextReader xmlReader = new XmlTextReader(@"temp.xml"))
                             {
                                 xmlReader.WhitespaceHandling = WhitespaceHandling.None;
                                 xmlReader.MoveToContent();
@@ -229,9 +229,9 @@ namespace MyWebServer
                     }
                 }
 
-                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
+                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"temp.xml"))
                 {
-                    var xmlDoc = XElement.Load(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
+                    var xmlDoc = XElement.Load(@"temp.xml");
                     content += xmlDoc;
                     resp.SetContent(content);
                     resp.ContentType = "text/xml";

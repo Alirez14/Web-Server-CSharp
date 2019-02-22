@@ -8,7 +8,7 @@ using System.IO;
 
 namespace MyWebServer
 {
-    class ToLowerPlugin : IPlugin
+    public class ToLowerPlugin : IPlugin
     {
         public float CanHandle(IRequest req)
         {
@@ -22,7 +22,7 @@ namespace MyWebServer
 
         public IResponse Handle(IRequest req)
         {
-           
+
 
             if (CanHandle(req) != 0.0f)
             {
@@ -38,8 +38,8 @@ namespace MyWebServer
                         content = tolow
 
                     };
-                    
-                  
+
+
 
                     return resp;
                 }

@@ -9,7 +9,7 @@ using Microsoft.SqlServer.Server;
 
 namespace MyWebServer
 {
-    class Naviplugin : IPlugin
+    public class Naviplugin : IPlugin
     {
         /// <summary>
         /// Returns a score between 0 and 1 to indicate that the plugin is willing to handle the request. The plugin with the highest score will execute the request.
@@ -31,38 +31,45 @@ namespace MyWebServer
         {
             List<string> adress = new List<string>();
 
-
-            using (XmlReader reader =
-                XmlReader.Create(@"C:\Users\Alirez\Desktop\SWE\brandenburg\brandenburg-latest.osm"))
+            try
             {
-                while ( reader.Read())
+                using (XmlReader reader =
+                    XmlReader.Create(@"C:\Users\Alirez\Desktop\SWE\brandenburg\brandenburg-latest.osm"))
                 {
-
-                    if ((reader.Name == "node" || reader.Name == "way") && reader.NodeType == XmlNodeType.Element)
+                    while (reader.Read())
                     {
-                        string id = reader.GetAttribute("id");
-                        using (XmlReader childtag = reader.ReadSubtree())
+
+                        if ((reader.Name == "node" || reader.Name == "way") && reader.NodeType == XmlNodeType.Element)
                         {
-                            
-                            while (childtag.Read())
+                            string id = reader.GetAttribute("id");
+                            using (XmlReader childtag = reader.ReadSubtree())
                             {
-                                if (childtag.Name == "tag" && reader.NodeType == XmlNodeType.Element)
+
+                                while (childtag.Read())
                                 {
-                                    string key = childtag.GetAttribute("k");
-                                    string value = childtag.GetAttribute("v");
-                                   
-                                    if (value.Contains(req) )
+                                    if (childtag.Name == "tag" && reader.NodeType == XmlNodeType.Element)
                                     {
-                                        adress.Add("place with key : " + key + " and value :" + value +
-                                                   "is in Germany place id: " +
-                                                   id);
+                                        string key = childtag.GetAttribute("k");
+                                        string value = childtag.GetAttribute("v");
+
+                                        if (value.Contains(req))
+                                        {
+                                            adress.Add("place with key : " + key + " and value :" + value +
+                                                       "is in Germany place id: " +
+                                                       id);
+                                        }
                                     }
                                 }
                             }
                         }
                     }
+
                 }
-                
+            }
+
+            catch (Exception e)
+            {
+                throw e;
             }
 
             return adress;
@@ -77,51 +84,51 @@ namespace MyWebServer
         {
             try
             {
-               
+
                 if (CanHandle(req) != 0.0f)
                 {
                     Response resp;
                     string adress = req.ContentString;
                     adress = adress.Substring(7);
-                  var result =  TestReader(adress);
-                  if (result.Any())
-                  {
-                      string cont = string.Empty;
-                      foreach (string s in result)
-                      {
-                          cont += s + "\n";
-                      }
+                    var result = TestReader(adress);
+                    if (result.Any())
+                    {
+                        string cont = string.Empty;
+                        foreach (string s in result)
+                        {
+                            cont += s + "\n";
+                        }
 
-                       resp = new Response()
-                      {
-                          StatusCode = 200,
-                          ContentType = Response.Typepmap[".html"],
-                          content = cont
-
-
-                      };
-                  }
-                  else
-                  {
-                       resp = new Response()
-                      {
-                          StatusCode = 200,
-                          ContentType = Response.Typepmap[".html"],
-                          content = "no data found"
+                        resp = new Response()
+                        {
+                            StatusCode = 200,
+                            ContentType = Response.Typepmap[".html"],
+                            content = cont
 
 
-                      };
-                  }
+                        };
+                    }
+                    else
+                    {
+                        resp = new Response()
+                        {
+                            StatusCode = 200,
+                            ContentType = Response.Typepmap[".html"],
+                            content = "no data found"
 
 
-                  return resp;
+                        };
+                    }
+
+
+                    return resp;
                 }
                 else
                 {
                     return null;
                 }
-               
-              
+
+
             }
             catch (Exception e)
             {
