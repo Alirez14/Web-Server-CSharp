@@ -11,9 +11,9 @@ using System.Threading;
 
 namespace MyWebServer
 {
-    class Program
+    public class Program
     {
-        private static IPlugin SelectPlugin(IPluginManager mgr, IRequest req)
+        public static IPlugin SelectPlugin(IPluginManager mgr, IRequest req)
         {
             IPlugin plugin = null;
             float max = 0;

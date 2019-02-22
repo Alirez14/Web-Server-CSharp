@@ -60,7 +60,7 @@ namespace MyWebServer
                     else
                     {
                         resp.StatusCode = 400;
-                        resp.SetContent("Please Select the date");
+                        resp.SetContent("Please Select the Date");
                         return resp;
                     }
                 }
@@ -113,10 +113,10 @@ namespace MyWebServer
 
                 #region SaveXml
 
-                if (File.Exists(@"..\SWE\temp.xml"))
+                if (File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
                 {
 
-                    File.Delete(@"..\SWE\temp.xml");
+                    File.Delete(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
                 }
 
                 XmlDocument xml = new XmlDocument();
@@ -147,7 +147,7 @@ namespace MyWebServer
 
                     root.AppendChild(weather);
 
-                    xml.Save(@"..\SWE\temp.xml");
+                    xml.Save(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
 
                 }
 
@@ -182,7 +182,7 @@ namespace MyWebServer
                             }
 
                             List<string> xmlToString = new List<string>();
-                            using (XmlTextReader xmlReader = new XmlTextReader(@"..\SWE\temp.xml"))
+                            using (XmlTextReader xmlReader = new XmlTextReader(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
                             {
                                 xmlReader.WhitespaceHandling = WhitespaceHandling.None;
                                 xmlReader.MoveToContent();
@@ -216,7 +216,7 @@ namespace MyWebServer
                                 return resp;
                             }
 
-                            resp.ContentType = type;
+                            resp.ContentType = "text/html";
                             resp.SetContent(content);
                             con.Close();
                             return resp;
@@ -229,9 +229,9 @@ namespace MyWebServer
                     }
                 }
 
-                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"..\SWE\temp.xml"))
+                else if (req.Url.RawUrl.Contains("GetTemperature") && File.Exists(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml"))
                 {
-                    var xmlDoc = XElement.Load(@"..\SWE\temp.xml");
+                    var xmlDoc = XElement.Load(@"C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\WEBSERVER\SWE\temp.xml");
                     content += xmlDoc;
                     resp.SetContent(content);
                     resp.ContentType = "text/xml";

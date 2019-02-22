@@ -24,7 +24,7 @@ namespace MyWebServer
         public string reqheader;
         public List<string> url = new List<string>();
 
-     
+
         public Request(Stream input)
         {
             try
@@ -77,10 +77,16 @@ namespace MyWebServer
             {
                 try
                 {
-                    if (url.First() == null)
+                    if (url.First() == "GET  HTTP/1.1")
                     {
                         return false;
                     }
+
+                    else if (url.First() == null)
+                    {
+                        return false;
+                    }
+
                     else if (url.First().Contains("GET") || url.First().Contains("get") || url.First().Contains("post") ||
                          url.First().Contains("POST"))
                     {
@@ -124,13 +130,12 @@ namespace MyWebServer
                     }
                     else
                     {
-                        return "error";
+                        return null;
                     }
                 }
-                else
-                {
-                    return null;
-                }
+
+                return null;
+
             }
         }
 

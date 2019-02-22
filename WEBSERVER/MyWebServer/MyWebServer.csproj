@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BIF-SWE1.Interfaces">
-      <HintPath>..\Libs\BIF-SWE1.Interfaces.dll</HintPath>
+      <HintPath>..\..\BIF-SWE1\CS\BIF-SWE1.Interfaces\bin\Debug\BIF-SWE1.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
