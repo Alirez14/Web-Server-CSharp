@@ -14,3 +14,7 @@ C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\BIF-SWE1\CS\BIF-SWE1.Interfaces\obj
 C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\BIF-SWE1\CS\BIF-SWE1.Interfaces\obj\Debug\BIF-SWE1.Interfaces.csproj.CopyComplete
 C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\BIF-SWE1\CS\BIF-SWE1.Interfaces\obj\Debug\BIF-SWE1.Interfaces.dll
 C:\Users\sina_\OneDrive\Desktop\sina\SWEPROJ\BIF-SWE1\CS\BIF-SWE1.Interfaces\obj\Debug\BIF-SWE1.Interfaces.pdb
+C:\Users\Alirez\OneDrive\FH\PR\Csharp\SWE1-CS\BIF-SWE1\CS\BIF-SWE1.Interfaces\bin\Debug\nunit.framework.dll
+C:\Users\Alirez\OneDrive\FH\PR\Csharp\SWE1-CS\BIF-SWE1\CS\BIF-SWE1.Interfaces\bin\Debug\nunit.framework.pdb
+C:\Users\Alirez\OneDrive\FH\PR\Csharp\SWE1-CS\BIF-SWE1\CS\BIF-SWE1.Interfaces\bin\Debug\nunit.framework.xml
+C:\Users\Alirez\OneDrive\FH\PR\Csharp\SWE1-CS\BIF-SWE1\CS\BIF-SWE1.Interfaces\obj\Debug\BIF-SWE1.Interfaces.csproj.CopyComplete
