@@ -1,6 +1,0 @@
-Unit Tests plan: 
-
-5 for Temperatur 
-5 for Request 
-5 for Response 
-2 for to Lower 
